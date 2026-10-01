@@ -17,14 +17,16 @@ import { fileURLToPath } from 'node:url';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const PUBLIC = join(ROOT, 'public');
 
-const NAVY = '#0B2545';
-const NAVY_600 = '#13315C';
-const AMBER = '#F59E0B';
+const NAVY = '#14296B';
+const NAVY_600 = '#1E3A8F';
+const AMBER = '#38B0E8'; // brand accent (sky blue)
 const STEEL = '#8DA9C4';
 const STEEL_300 = '#B7C9DC';
 const INK = '#0F172A';
 const LINE = '#E2E8F0';
 const SURFACE = '#F8FAFC';
+const PEAK = '#3860B8'; // Alliance emblem — dark blue
+const SWOOSH = '#38B0E8'; // Alliance emblem — light blue
 
 /* ── Helpers ───────────────────────────────────────────────────────── */
 
@@ -48,12 +50,12 @@ function hexPattern(stroke, opacity, id) {
 }
 
 const GRADIENTS = [
-  ['#13315C', '#0B2545'],
-  ['#8DA9C4', '#4A6E94'],
-  ['#B45309', '#7C2D12'],
-  ['#134E4A', '#0B2545'],
-  ['#3B5B7E', '#16283F'],
-  ['#6B4E16', '#0B2545'],
+  ['#2A4CAD', '#14296B'],
+  ['#38B0E8', '#1B6FA8'],
+  ['#1E3A8F', '#0F1E4D'],
+  ['#4A76D4', '#223E8F'],
+  ['#5AB6E8', '#2A6FA5'],
+  ['#8DA9C4', '#3A5A82'],
 ];
 
 function gradient(id, seed) {
@@ -94,28 +96,31 @@ function write(relPath, content) {
 
 /* ── Brand marks ───────────────────────────────────────────────────── */
 
-function logoIcon(size = 48, hexFill = NAVY, hexStroke = AMBER, fFill = '#FFFFFF') {
-  const r = size * 0.44;
+/** Alliance Solutions "A" emblem (traced from the brand mark). ViewBox 0 0 100 62. */
+const EMBLEMA = `<path d="M52 0 L78 62 L71 62 L52 26 L35 34 Z" fill="${PEAK}"/>
+<path d="M5 28 C18 26 32 25 46 27 C62 29.5 78 40 86 62 C79 45 69 38 53 36.2 C47 35.6 41 35.6 36 36 L32.5 62 L21 62 L24 33.5 C16 31.6 9 29.8 5 28 Z" fill="${SWOOSH}"/>`;
+
+function logoIcon(size = 48) {
+  const scale = size / 100;
+  const pad = (size - 62 * scale) / 2;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${size} ${size}">
-  <polygon points="${hexPoints(size / 2, size / 2, r)}" fill="${hexFill}" stroke="${hexStroke}" stroke-width="${size * 0.05}"/>
-  <text x="${size / 2}" y="${size * 0.665}" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="${size * 0.5}" fill="${fFill}">F</text>
+  <g transform="translate(0 ${pad.toFixed(2)}) scale(${scale.toFixed(4)})">${EMBLEMA}</g>
 </svg>`;
 }
 
-function wordmark(textFill, subFill, hexFill, hexStroke, fFill) {
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 48">
-  <polygon points="${hexPoints(24, 24, 20)}" fill="${hexFill}" stroke="${hexStroke}" stroke-width="2.4"/>
-  <text x="24" y="31.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="24" fill="${fFill}">F</text>
-  <text x="52" y="26" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="19" letter-spacing="2.5" fill="${textFill}">FERROX</text>
-  <text x="53" y="40" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="7.5" letter-spacing="2.6" fill="${subFill}">INDUSTRIAL SUPPLY CO.</text>
+function wordmark(textFill) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 48">
+  <g transform="translate(0 4.5) scale(0.625)">${EMBLEMA}</g>
+  <text x="70" y="21.5" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="16.5" letter-spacing="2.2" fill="${textFill}">ALLIANCE</text>
+  <text x="70" y="40" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="16.5" letter-spacing="2.2" fill="${textFill}">SOLUTIONS</text>
 </svg>`;
 }
 
 console.log('Brand assets');
-write('favicon.svg', logoIcon(48, NAVY, AMBER, '#FFFFFF'));
-write('images/logo-icon.svg', logoIcon(48, NAVY, AMBER, '#FFFFFF'));
-write('images/logo-light.svg', wordmark('#FFFFFF', STEEL, NAVY, AMBER, '#FFFFFF'));
-write('images/logo-dark.svg', wordmark(NAVY, '#64748B', NAVY, AMBER, '#FFFFFF'));
+write('favicon.svg', logoIcon(48));
+write('images/logo-icon.svg', logoIcon(48));
+write('images/logo-light.svg', wordmark('#FFFFFF'));
+write('images/logo-dark.svg', wordmark(NAVY_600));
 
 /* ── OG image ──────────────────────────────────────────────────────── */
 
@@ -129,25 +134,20 @@ write(
   ${hexPattern('#FFFFFF', 0.1, 'p')}
   <rect width="1200" height="630" fill="url(#og)"/>
   <rect width="1200" height="630" fill="url(#p)"/>
-  <circle cx="1020" cy="80" r="260" fill="${AMBER}" opacity="0.14"/>
+  <circle cx="1020" cy="80" r="260" fill="${SWOOSH}" opacity="0.16"/>
   <circle cx="120" cy="590" r="220" fill="${STEEL}" opacity="0.15"/>
-  <polygon points="${hexPoints(200, 268, 92)}" fill="none" stroke="${AMBER}" stroke-width="7"/>
-  <text x="200" y="302" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="98" fill="#FFFFFF">F</text>
-  <text x="340" y="255" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="64" letter-spacing="6" fill="#FFFFFF">FERROX</text>
-  <text x="343" y="305" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="26" letter-spacing="9" fill="${STEEL}">INDUSTRIAL SUPPLY CO.</text>
-  <rect x="343" y="336" width="64" height="5" fill="${AMBER}"/>
-  <text x="340" y="392" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="30" fill="${STEEL_300}">Materials. Components. Reliability.</text>
+  <g transform="translate(110 190) scale(3.1)">${EMBLEMA}</g>
+  <text x="440" y="255" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="64" letter-spacing="6" fill="#FFFFFF">ALLIANCE</text>
+  <text x="440" y="330" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="64" letter-spacing="6" fill="#FFFFFF">SOLUTIONS</text>
+  <rect x="443" y="362" width="64" height="5" fill="${SWOOSH}"/>
+  <text x="440" y="418" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="30" fill="${STEEL_300}">Supply. Service. Solutions.</text>
   <text x="600" y="560" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" letter-spacing="2" fill="${STEEL}">Chemicals · Paints · Fasteners · Steel · PTFE · Instruments · Oils</text>
 </svg>`
 );
 
 /* ── Team avatars ──────────────────────────────────────────────────── */
 
-const TEAM = [
-  { file: 'images/team/founder.svg', name: 'Muhammad Ahmed Khan', role: 'Founder & CEO' },
-  { file: 'images/team/sara.svg', name: 'Sara Malik', role: 'Sales Manager' },
-  { file: 'images/team/usman.svg', name: 'Usman Tariq', role: 'Technical Support Lead' },
-];
+const TEAM = [{ file: 'images/team/founder.svg', name: 'Nadeem Mumtaz', role: 'Founder & CEO' }];
 
 console.log('Team avatars');
 for (const member of TEAM) {

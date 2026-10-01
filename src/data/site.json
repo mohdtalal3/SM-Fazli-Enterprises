@@ -1,9 +1,9 @@
 {
-  "siteName": "Ferrox Industrial Supply Co.",
+  "siteName": "Alliance Solutions",
   "siteUrl": "https://www.example.com",
-  "defaultTitle": "Ferrox Industrial Supply Co. | Industrial Materials & Components",
-  "defaultDescription": "Supplier of industrial chemicals, paints, fasteners, stainless steel, PTFE, rubber, oils and more. 1,500+ products, one trusted partner. Request a bulk quote today.",
-  "ogImage": "/images/og-default.svg",
+  "defaultTitle": "Alliance Solutions | Industrial Materials & Components",
+  "defaultDescription": "Alliance Solutions supplies industrial chemicals, paints, fasteners, stainless steel, PTFE, rubber, oils and more — from Rawalpindi to plants and projects across Pakistan. Request a bulk quote today.",
+  "ogImage": "/images/og-default.png",
   "language": "en",
   "theme": {
     "defaultMode": "light",
@@ -11,8 +11,8 @@
   },
   "inquiry": {
     "method": ["whatsapp", "email"],
-    "whatsappNumber": "923000000000",
-    "email": "sales@ferroxindustrial.example",
+    "whatsappNumber": "923065369178",
+    "email": "alliancesolutions.as@gmail.com",
     "formEndpoint": ""
   },
   "features": {

@@ -1,9 +1,9 @@
 {
   "primary": {
-    "phone": "+92 300 0000000",
-    "whatsapp": "+92 300 0000000",
-    "email": "sales@ferroxindustrial.example",
-    "address": "Plot 24, Industrial Estate, Islamabad, Pakistan",
+    "phone": "+92 306 5369178",
+    "whatsapp": "+92 306 5369178",
+    "email": "alliancesolutions.as@gmail.com",
+    "address": "Office # 104, First Floor, Rania Mall, Bank Road Saddar, Rawalpindi",
     "hours": "Mon–Sat, 9:00 AM – 6:00 PM",
     "mapEmbedUrl": "",
     "mapLink": ""
@@ -12,19 +12,15 @@
     {
       "name": "Sales",
       "person": "Sales Desk",
-      "phone": "+92 300 0000001",
-      "email": "sales@ferroxindustrial.example"
+      "phone": "+92 306 5369178",
+      "email": "alliancesolutions.as@gmail.com"
     },
     {
-      "name": "Technical Support",
+      "name": "Support",
       "person": "Support Desk",
-      "phone": "+92 300 0000002",
-      "email": "support@ferroxindustrial.example"
+      "phone": "+92 319 9212972",
+      "email": "alliancesolutions.as@gmail.com"
     }
   ],
-  "socials": [
-    { "platform": "linkedin", "url": "#" },
-    { "platform": "facebook", "url": "#" },
-    { "platform": "instagram", "url": "#" }
-  ]
+  "socials": []
 }

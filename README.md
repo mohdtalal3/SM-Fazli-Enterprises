@@ -1,4 +1,4 @@
-# Ferrox Industrial Supply Co. — Website
+# Alliance Solutions — Website
 
 A production-quality, premium B2B industrial supplies website built with **Astro + Tailwind CSS v4 + TypeScript**.
 

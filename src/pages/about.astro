@@ -197,7 +197,7 @@ const contact = getContact();
         <div class="mt-10 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
           {team.map((member) => (
             <article class="card card-hover overflow-hidden" data-reveal>
-              <SmartImage src={member.photo} alt={member.name} icon="user" class="aspect-[4/3] w-full object-cover" />
+              <SmartImage src={member.photo} alt={member.name} icon="user" class="aspect-[4/3] w-full object-cover object-[50%_30%]" />
               <div class="p-5">
                 <h3 class="text-base font-bold text-ink">{member.name}</h3>
                 <p class="text-sm font-medium text-accent-600 dark:text-accent">{member.role}</p>

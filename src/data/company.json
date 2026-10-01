@@ -1,26 +1,24 @@
 {
-  "name": "Ferrox Industrial Supply Co.",
-  "shortName": "Ferrox",
-  "tagline": "Materials. Components. Reliability.",
+  "name": "Alliance Solutions",
+  "shortName": "Alliance",
+  "tagline": "Supply. Service. Solutions.",
   "logo": {
-    "light": "/images/logo-light.svg",
-    "dark": "/images/logo-dark.svg",
-    "icon": "/images/logo-icon.svg"
+    "light": "/images/logo-light.png",
+    "dark": "/images/logo-dark.png",
+    "icon": "/images/logo-icon.png"
   },
-  "foundedYear": 2009,
-  "about": "Ferrox Industrial Supply Co. is a trusted supplier of industrial materials and components, serving plants, workshops and projects across Pakistan since 2009. From bulk chemicals and protective coatings to precision fasteners, stainless steel and lab instruments, we keep production lines running with certified materials, honest lead times and technical support that answers the phone.",
+  "about": "Alliance Solutions is an industrial supplies company based in Rawalpindi, Pakistan, serving plants, workshops and projects nationwide. From bulk chemicals and protective coatings to fasteners, stainless steel and laboratory instruments, we keep production running with documented grades, honest lead times and a team that answers when you call.",
   "story": [
-    "Ferrox began in 2009 as a two-person trading desk supplying solvents and paints to textile mills in Punjab. Our founders had spent years on the procurement side and knew exactly where supply chains break: unclear specs, inconsistent batches and vendors who disappear after the first invoice.",
-    "So we built the company around the opposite habits — documented grades for every chemical, traceable batches, photographs before dispatch, and pricing that holds for the agreed quarter. Word travelled. Today Ferrox supplies more than 400 clients across textiles, food, pharma, construction, power and water utilities, with a 1,500+ line catalog and same-week dispatch from our Islamabad warehouse.",
-    "We remain deliberately boring in the best way: we answer quickly, we deliver what the purchase order says, and when something goes wrong we fix it before it becomes your problem."
+    "Alliance Solutions was built around a simple idea: industrial buyers deserve a supplier who picks up the phone, quotes clearly and delivers exactly what the purchase order says. From our office at Rania Mall, Bank Road, Rawalpindi, we supply everything from solvents and coatings to fasteners, steels, rubber and process instrumentation.",
+    "We keep the catalog deep — 1,500+ lines across sixteen categories — so our clients can consolidate purchasing with one dependable vendor instead of chasing a dozen. Every chemical ships with grade documentation, every fastener with the right specification, and every quote with a lead time we actually keep."
   ],
-  "mission": "To make industrial procurement effortless — certified materials, transparent pricing and dependable delivery, so our clients never lose a day of production to a supply problem.",
-  "vision": "To be the most trusted industrial supply partner in Pakistan, known for the same reliability at item number 1,500 as we were at item number one.",
+  "mission": "To make industrial procurement effortless for Pakistani businesses — certified materials, transparent pricing and dependable delivery from a single, accountable partner.",
+  "vision": "To become the most trusted industrial supply house in Pakistan, known for the same reliability on order number 5,000 as on order number one.",
   "stats": [
-    { "label": "Years of Experience", "value": 15, "suffix": "+" },
-    { "label": "Products Available", "value": 1500, "suffix": "+" },
-    { "label": "Happy Clients", "value": 400, "suffix": "+" },
-    { "label": "Projects Delivered", "value": 850, "suffix": "+" }
+    { "label": "Product Lines", "value": 1500, "suffix": "+" },
+    { "label": "Categories", "value": 16, "suffix": "" },
+    { "label": "Industries Served", "value": 8, "suffix": "+" },
+    { "label": "Cities Delivered", "value": 50, "suffix": "+" }
   ],
   "values": [
     {
@@ -35,7 +33,7 @@
     },
     {
       "title": "Long-Term Partnerships",
-      "description": "We build decade-long relationships, not one-off invoices. Most of our first clients in 2009 still buy from us today.",
+      "description": "We build lasting relationships, not one-off invoices. Our clients stay because quoting, delivery and documentation never become their problem.",
       "icon": "handshake"
     },
     {
@@ -57,12 +55,12 @@
     },
     {
       "title": "Fast Delivery",
-      "description": "Same-week dispatch from Islamabad on stocked lines, nationwide coverage via trusted logistics.",
+      "description": "Same-week dispatch from Rawalpindi on stocked lines, with nationwide coverage via trusted logistics.",
       "icon": "truck"
     },
     {
       "title": "Technical Support",
-      "description": "Engineers on staff to help you select grades, coatings and components that fit the application.",
+      "description": "Engineers on hand to help you select grades, coatings and components that fit the application.",
       "icon": "headset"
     },
     {
@@ -76,40 +74,6 @@
       "icon": "coins"
     }
   ],
-  "milestones": [
-    {
-      "year": 2009,
-      "title": "Company founded",
-      "description": "Ferrox opens in Islamabad as a specialist supplier of solvents and industrial paints."
-    },
-    {
-      "year": 2012,
-      "title": "First annual supply contract",
-      "description": "Signed a 12-month chemical supply agreement with a major municipal water authority."
-    },
-    {
-      "year": 2016,
-      "title": "Warehouse expansion",
-      "description": "Moved to a dedicated 8,000 sq ft warehouse with segregated chemical storage."
-    },
-    {
-      "year": 2019,
-      "title": "1,000th product line",
-      "description": "Catalog grows past a thousand active lines across 12 categories."
-    },
-    {
-      "year": 2022,
-      "title": "ISO 9001:2015 certified",
-      "description": "Quality management system certified across procurement, storage and dispatch."
-    },
-    {
-      "year": 2024,
-      "title": "400+ active clients",
-      "description": "Serving clients in textiles, pharma, food, construction, power and water utilities."
-    }
-  ],
-  "certifications": [
-    { "name": "ISO 9001:2015", "image": "/images/certs/iso-9001-2015.svg" },
-    { "name": "ISO 14001:2015", "image": "/images/certs/iso-14001-2015.svg" }
-  ]
+  "milestones": [],
+  "certifications": []
 }

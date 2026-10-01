@@ -1,11 +1,12 @@
 ---
 import { Icon } from 'astro-icon/components';
-import { getSite } from '../../lib/data';
+import { getSite, getCompany } from '../../lib/data';
 
 const site = getSite();
+const company = getCompany();
 const waNumber = site.inquiry.whatsappNumber.replace(/\D/g, '');
 const waHref = waNumber
-  ? `https://wa.me/${waNumber}?text=${encodeURIComponent('Hello Ferrox, I have an inquiry.')}`
+  ? `https://wa.me/${waNumber}?text=${encodeURIComponent(`Hello ${company.shortName || company.name}, I have an inquiry.`)}`
   : '';
 ---
 

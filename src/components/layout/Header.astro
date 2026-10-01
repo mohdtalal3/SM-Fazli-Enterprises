@@ -26,7 +26,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
 const isActive = (href: string) => (href === '/' ? currentPath === '/' : currentPath === href || currentPath.startsWith(`${href}/`));
 
 const whatsAppHref = site.inquiry.whatsappNumber
-  ? `https://wa.me/${site.inquiry.whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent('Hello Ferrox, I have an inquiry.')}`
+  ? `https://wa.me/${site.inquiry.whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(`Hello ${company.shortName || company.name}, I have an inquiry.`)}`
   : '';
 ---
 
@@ -34,13 +34,17 @@ const whatsAppHref = site.inquiry.whatsappNumber
   <Container>
     <div class="flex h-16 items-center justify-between gap-3 lg:h-[4.5rem]">
       <!-- Logo -->
-      <a href="/" class="flex shrink-0 items-center gap-2.5" aria-label={`${company.name} — Home`}>
+      <a href="/" class="flex shrink-0 items-center" aria-label={`${company.name} — Home`}>
         {
-          company.logo.icon && (
-            <img src={company.logo.icon} alt="" width="36" height="36" class="h-9 w-9" loading="eager" />
+          company.logo.dark && (
+            <img src={company.logo.dark} alt={company.name} width="264" height="60" class="h-11 w-auto dark:hidden" loading="eager" />
           )
         }
-        <span class="font-display text-lg font-bold tracking-tight text-ink">{company.shortName || company.name}</span>
+        {
+          company.logo.light && (
+            <img src={company.logo.light} alt="" width="264" height="60" class="hidden h-11 w-auto dark:block" loading="eager" />
+          )
+        }
       </a>
 
       <!-- Desktop nav -->
@@ -163,11 +167,17 @@ const whatsAppHref = site.inquiry.whatsappNumber
     aria-label="Menu"
   >
     <div class="flex h-16 shrink-0 items-center justify-between border-b border-line px-4">
-      <span class="flex items-center gap-2.5">
+      <span class="flex items-center">
         {
-          company.logo.icon && <img src={company.logo.icon} alt="" width="32" height="32" class="h-8 w-8" loading="eager" />
+          company.logo.dark && (
+            <img src={company.logo.dark} alt={company.name} width="264" height="60" class="h-9 w-auto dark:hidden" loading="eager" />
+          )
         }
-        <span class="font-display text-base font-bold text-ink">{company.shortName || company.name}</span>
+        {
+          company.logo.light && (
+            <img src={company.logo.light} alt="" width="264" height="60" class="hidden h-9 w-auto dark:block" loading="eager" />
+          )
+        }
       </span>
       <button
         type="button"

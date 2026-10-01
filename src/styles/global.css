@@ -9,11 +9,11 @@
   --font-display: 'Sora Variable', var(--font-sans);
 
   /* Brand palette (identical in light & dark) */
-  --color-primary: #0b2545;
-  --color-primary-600: #13315c;
-  --color-primary-700: #0a1d38;
-  --color-accent: #f59e0b;
-  --color-accent-600: #d97706;
+  --color-primary: #1e3a8f;
+  --color-primary-600: #2a4cad;
+  --color-primary-700: #14296b;
+  --color-accent: #38b0e8;
+  --color-accent-600: #1b87c6;
   --color-steel: #8da9c4;
   --color-steel-300: #b7c9dc;
 
@@ -134,9 +134,12 @@
     @apply -translate-y-1 border-accent/50 shadow-pop;
   }
 
-  /* Eyebrow label with amber dash */
+  /* Eyebrow label with accent dash */
   .eyebrow {
     @apply inline-flex items-center gap-2.5 text-xs font-bold tracking-[0.18em] uppercase;
+    color: var(--color-accent-600);
+  }
+  .dark .eyebrow {
     color: var(--color-accent);
   }
   .eyebrow::before {
