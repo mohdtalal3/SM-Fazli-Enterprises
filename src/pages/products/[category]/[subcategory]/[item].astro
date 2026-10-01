@@ -58,7 +58,7 @@ const fallbackCopy = `${item.name} supplied by ${company.name} with documented g
   jsonLd={productJsonLd({ item, category, subcategory, url })}
 >
   <Container>
-    <div class="grid gap-10 lg:grid-cols-[1fr_1.1fr]">
+    <div class="grid gap-6 sm:gap-10 lg:grid-cols-[1fr_1.1fr]">
       <!-- Gallery -->
       <div data-reveal>
         <div
@@ -237,7 +237,7 @@ const fallbackCopy = `${item.name} supplied by ${company.name} with documented g
     <!-- Related products -->
     {
       related.length > 0 && (
-        <section class="mt-16">
+        <section class="mt-12 sm:mt-16">
           <div class="flex items-end justify-between gap-4">
             <h2 class="font-display text-xl font-bold tracking-tight text-ink sm:text-2xl">More in {subcategory.name}</h2>
             <a
@@ -248,7 +248,7 @@ const fallbackCopy = `${item.name} supplied by ${company.name} with documented g
               <Icon name="lucide:arrow-right" class="h-4 w-4" />
             </a>
           </div>
-          <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="mt-6 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
             {related.map((rel) => (
               <ProductCard item={rel} category={category} subcategory={subcategory} showSub={false} />
             ))}

@@ -8,7 +8,7 @@ import { getCategories, countItems } from '../../lib/data';
 const categories = getCategories();
 ---
 
-<section class="py-16 md:py-24">
+<section class="py-12 sm:py-16 md:py-24">
   <Container>
     <div class="flex flex-wrap items-end justify-between gap-6">
       <SectionHeading
@@ -22,7 +22,7 @@ const categories = getCategories();
       </a>
     </div>
 
-    <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    <div class="mt-10 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3 xl:grid-cols-4">
       {categories.map((category) => <CategoryCard category={category} count={countItems(category)} />)}
     </div>
   </Container>

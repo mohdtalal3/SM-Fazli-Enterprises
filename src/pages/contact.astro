@@ -113,7 +113,7 @@ const details = [
         <p class="mt-1 text-sm text-muted">For quotes with a product list, use the <a href="/quote" class="font-semibold text-accent-600 hover:underline dark:text-accent">inquiry list</a> instead.</p>
 
         <form id="contact-form" class="mt-6 space-y-4" novalidate>
-          <div class="grid gap-4 sm:grid-cols-2">
+          <div class="grid grid-cols-2 gap-3 sm:gap-4">
             <div>
               <label for="c-name" class="label">Name *</label>
               <input id="c-name" name="name" type="text" required class="input" placeholder="Your full name" autocomplete="name" />
@@ -123,7 +123,7 @@ const details = [
               <input id="c-company" name="company" type="text" class="input" placeholder="Company name" autocomplete="organization" />
             </div>
           </div>
-          <div class="grid gap-4 sm:grid-cols-2">
+          <div class="grid grid-cols-2 gap-3 sm:gap-4">
             <div>
               <label for="c-email" class="label">Email *</label>
               <input id="c-email" name="email" type="email" required class="input" placeholder="you@company.com" autocomplete="email" />

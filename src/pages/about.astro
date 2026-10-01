@@ -67,7 +67,7 @@ const contact = getContact();
     company.values.length > 0 && (
       <Container class="mt-20">
         <SectionHeading align="center" eyebrow="Our Values" title="How we work" />
-        <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="mt-10 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
           {company.values.map((value) => (
             <div class="card card-hover p-6 text-center" data-reveal>
               {value.icon && (
@@ -194,7 +194,7 @@ const contact = getContact();
     team.length > 0 && (
       <Container class="mt-20">
         <SectionHeading eyebrow="Our Team" title="The people behind the promises" description="Small team, short lines of communication — you always talk to someone who can actually help." />
-        <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="mt-10 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
           {team.map((member) => (
             <article class="card card-hover overflow-hidden" data-reveal>
               <SmartImage src={member.photo} alt={member.name} icon="user" class="aspect-[4/3] w-full object-cover" />

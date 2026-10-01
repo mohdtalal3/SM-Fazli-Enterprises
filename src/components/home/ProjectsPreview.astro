@@ -10,7 +10,7 @@ const projects = getFeaturedProjects(3);
 
 {
   projects.length > 0 && (
-    <section class="py-16 md:py-24">
+    <section class="py-12 sm:py-16 md:py-24">
       <Container>
         <div class="flex flex-wrap items-end justify-between gap-6">
           <SectionHeading
@@ -23,7 +23,7 @@ const projects = getFeaturedProjects(3);
             <Icon name="lucide:arrow-right" class="h-4 w-4" />
           </a>
         </div>
-        <div class="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div class="mt-10 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
           {projects.map((project) => (
             <ProjectCard project={project} />
           ))}

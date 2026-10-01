@@ -76,7 +76,7 @@ const siblingBase = `/products/${category.slug}`;
       </div>
     </div>
 
-    <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    <div class="mt-6 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3 xl:grid-cols-4">
       {
         subcategory.items.map((item) => (
           <ProductCard item={item} category={category} subcategory={subcategory} showSub={false} />
@@ -89,7 +89,7 @@ const siblingBase = `/products/${category.slug}`;
     </p>
 
     <!-- Subcategory CTA -->
-    <div class="mt-16 flex flex-col items-center justify-between gap-4 rounded-2xl border border-line bg-card p-6 sm:flex-row sm:p-8" data-reveal>
+    <div class="mt-12 sm:mt-16 flex flex-col items-center justify-between gap-4 rounded-2xl border border-line bg-card p-6 sm:flex-row sm:p-8" data-reveal>
       <div>
         <h2 class="font-display text-xl font-bold text-ink">Buying {subcategory.name.toLowerCase()} in bulk?</h2>
         <p class="mt-1 text-sm text-muted">Volume pricing and scheduled deliveries available across Pakistan.</p>

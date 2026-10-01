@@ -136,7 +136,7 @@ const fallbackRelated = related.length ? related : getProjects().filter((p) => p
       project.gallery.length > 0 && (
         <section class="mt-12" data-reveal>
           <h2 class="font-display text-xl font-bold tracking-tight text-ink">Gallery</h2>
-          <div class="mt-5 grid gap-4 sm:grid-cols-2">
+          <div class="mt-5 grid grid-cols-2 gap-3 sm:gap-4">
             {project.gallery.map((image, i) => (
               <button
                 type="button"
@@ -176,9 +176,9 @@ const fallbackRelated = related.length ? related : getProjects().filter((p) => p
     <!-- Related projects -->
     {
       fallbackRelated.length > 0 && (
-        <section class="mt-16">
+        <section class="mt-12 sm:mt-16">
           <h2 class="font-display text-xl font-bold tracking-tight text-ink sm:text-2xl">More projects</h2>
-          <div class="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div class="mt-6 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
             {fallbackRelated.map((rel) => (
               <ProjectCard project={rel} />
             ))}
@@ -188,7 +188,7 @@ const fallbackRelated = related.length ? related : getProjects().filter((p) => p
     }
 
     <!-- CTA -->
-    <div class="mt-16 flex flex-col items-center justify-between gap-4 rounded-2xl border border-line bg-card p-6 sm:flex-row sm:p-8" data-reveal>
+    <div class="mt-12 sm:mt-16 flex flex-col items-center justify-between gap-4 rounded-2xl border border-line bg-card p-6 sm:flex-row sm:p-8" data-reveal>
       <div>
         <h2 class="font-display text-xl font-bold text-ink">Planning a similar project?</h2>
         <p class="mt-1 text-sm text-muted">Tell us the scope — we will build the supply plan around it.</p>

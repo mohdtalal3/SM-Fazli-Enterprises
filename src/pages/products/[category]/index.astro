@@ -79,7 +79,7 @@ const totalItems = countItems(category);
             </span>
           </div>
           {sub.description && <p class="mt-1.5 max-w-2xl text-sm text-muted">{sub.description}</p>}
-          <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div class="mt-5 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3 xl:grid-cols-4">
             {sub.items.map((item) => (
               <ProductCard item={item} category={category} subcategory={sub} showSub={false} />
             ))}
@@ -93,7 +93,7 @@ const totalItems = countItems(category);
     </p>
 
     <!-- Category CTA -->
-    <div class="relative mt-16 overflow-hidden rounded-2xl bg-primary px-6 py-12 text-center text-white sm:px-12" data-reveal>
+    <div class="relative mt-12 sm:mt-16 overflow-hidden rounded-2xl bg-primary px-6 py-12 text-center text-white sm:px-12" data-reveal>
       <div class="hex-bg absolute inset-0 opacity-60" aria-hidden="true" />
       <div class="relative mx-auto max-w-xl">
         <h2 class="font-display text-2xl font-bold sm:text-3xl">Need a quote for {category.name}?</h2>

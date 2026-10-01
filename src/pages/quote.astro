@@ -53,7 +53,7 @@ const waDigits = site.inquiry.whatsappNumber.replace(/\D/g, '');
         <p class="mt-1 text-sm text-muted">Tell us who you are — we reply within one business day.</p>
 
         <form id="quote-form" class="mt-5 space-y-4" novalidate>
-          <div class="grid gap-4 sm:grid-cols-2">
+          <div class="grid grid-cols-2 gap-3 sm:gap-4">
             <div>
               <label for="q-name" class="label">Name *</label>
               <input id="q-name" name="name" type="text" required class="input" placeholder="Your full name" autocomplete="name" />
@@ -63,7 +63,7 @@ const waDigits = site.inquiry.whatsappNumber.replace(/\D/g, '');
               <input id="q-company" name="company" type="text" class="input" placeholder="Company name" autocomplete="organization" />
             </div>
           </div>
-          <div class="grid gap-4 sm:grid-cols-2">
+          <div class="grid grid-cols-2 gap-3 sm:gap-4">
             <div>
               <label for="q-phone" class="label">Phone</label>
               <input id="q-phone" name="phone" type="tel" class="input" placeholder="+92 3xx xxxxxxx" autocomplete="tel" />
