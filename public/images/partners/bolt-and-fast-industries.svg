@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120">
+  <rect width="320" height="120" rx="14" fill="#F8FAFC"/>
+  <rect x="0.5" y="0.5" width="319" height="119" rx="13.5" fill="none" stroke="#E2E8F0"/>
+  <rect x="24" y="36" width="48" height="48" rx="10" fill="#6B4E16"/>
+  <text x="48" y="68" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="22" fill="#FFFFFF">BF</text>
+  <text x="88" y="57" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="21" fill="#0F172A">Bolt &amp;</text><text x="88" y="82" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="21" fill="#0F172A">Fast Industries</text>
+</svg>

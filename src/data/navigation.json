@@ -1,0 +1,42 @@
+{
+  "header": [
+    { "label": "Home", "href": "/" },
+    { "label": "Products", "href": "/products", "megaMenu": "products" },
+    { "label": "Projects", "href": "/projects" },
+    { "label": "About", "href": "/about" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "cta": { "label": "Request a Quote", "href": "/quote" },
+  "footerColumns": [
+    {
+      "title": "Company",
+      "links": [
+        { "label": "About Us", "href": "/about" },
+        { "label": "Projects", "href": "/projects" },
+        { "label": "Contact", "href": "/contact" },
+        { "label": "Request a Quote", "href": "/quote" }
+      ]
+    },
+    {
+      "title": "Top Categories",
+      "links": [
+        { "label": "Chemicals", "href": "/products/chemicals" },
+        { "label": "Paints & Coatings", "href": "/products/paints" },
+        { "label": "Fasteners", "href": "/products/fasteners" },
+        { "label": "Stainless Steel", "href": "/products/stainless-steel" },
+        { "label": "Industrial Oils", "href": "/products/industrial-oils" },
+        { "label": "All Products", "href": "/products" }
+      ]
+    },
+    {
+      "title": "Support",
+      "links": [
+        { "label": "Contact Sales", "href": "/contact" },
+        { "label": "Technical Support", "href": "/contact" },
+        { "label": "WhatsApp Us", "href": "https://wa.me/923000000000" },
+        { "label": "Browse Catalog", "href": "/products" }
+      ]
+    }
+  ],
+  "legalLinks": []
+}

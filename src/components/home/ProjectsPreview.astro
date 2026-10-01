@@ -1,0 +1,34 @@
+---
+import { Icon } from 'astro-icon/components';
+import Container from '../ui/Container.astro';
+import SectionHeading from '../ui/SectionHeading.astro';
+import ProjectCard from '../projects/ProjectCard.astro';
+import { getFeaturedProjects } from '../../lib/data';
+
+const projects = getFeaturedProjects(3);
+---
+
+{
+  projects.length > 0 && (
+    <section class="py-16 md:py-24">
+      <Container>
+        <div class="flex flex-wrap items-end justify-between gap-6">
+          <SectionHeading
+            eyebrow="Projects"
+            title="Recent work, measurable results"
+            description="A sample of the supply programs and projects we deliver for plants and contractors."
+          />
+          <a href="/projects" class="btn btn-outline" data-reveal style="--rd:2">
+            All Projects
+            <Icon name="lucide:arrow-right" class="h-4 w-4" />
+          </a>
+        </div>
+        <div class="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          {projects.map((project) => (
+            <ProjectCard project={project} />
+          ))}
+        </div>
+      </Container>
+    </section>
+  )
+}

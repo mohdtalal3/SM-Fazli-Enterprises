@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="og" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#13315C"/><stop offset="1" stop-color="#0B2545"/></linearGradient>
+  </defs>
+  <defs><pattern id="p" width="56" height="64" patternUnits="userSpaceOnUse"><path d="M28 1 53 15.5v29L28 59 3 44.5v-29z" fill="none" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1"/></pattern></defs>
+  <rect width="1200" height="630" fill="url(#og)"/>
+  <rect width="1200" height="630" fill="url(#p)"/>
+  <circle cx="1020" cy="80" r="260" fill="#F59E0B" opacity="0.14"/>
+  <circle cx="120" cy="590" r="220" fill="#8DA9C4" opacity="0.15"/>
+  <polygon points="200.00,176.00 279.67,222.00 279.67,314.00 200.00,360.00 120.33,314.00 120.33,222.00" fill="none" stroke="#F59E0B" stroke-width="7"/>
+  <text x="200" y="302" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="98" fill="#FFFFFF">F</text>
+  <text x="340" y="255" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="64" letter-spacing="6" fill="#FFFFFF">FERROX</text>
+  <text x="343" y="305" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="26" letter-spacing="9" fill="#8DA9C4">INDUSTRIAL SUPPLY CO.</text>
+  <rect x="343" y="336" width="64" height="5" fill="#F59E0B"/>
+  <text x="340" y="392" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="30" fill="#B7C9DC">Materials. Components. Reliability.</text>
+  <text x="600" y="560" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" letter-spacing="2" fill="#8DA9C4">Chemicals · Paints · Fasteners · Steel · PTFE · Instruments · Oils</text>
+</svg>

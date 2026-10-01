@@ -1,0 +1,17 @@
+{
+  "name": "Ferrox Industrial Supply Co.",
+  "short_name": "Ferrox",
+  "description": "Industrial materials and components supplier — chemicals, paints, fasteners, steel, PTFE, instruments and oils.",
+  "start_url": "/",
+  "display": "minimal-ui",
+  "background_color": "#0B2545",
+  "theme_color": "#0B2545",
+  "icons": [
+    {
+      "src": "/images/logo-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

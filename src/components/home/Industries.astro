@@ -1,0 +1,37 @@
+---
+import { Icon } from 'astro-icon/components';
+import Container from '../ui/Container.astro';
+import SectionHeading from '../ui/SectionHeading.astro';
+import { getIndustries } from '../../lib/data';
+
+const industries = getIndustries();
+---
+
+{
+  industries.length > 0 && (
+    <section class="border-y border-line bg-card py-16 md:py-20">
+      <Container>
+        <SectionHeading
+          align="center"
+          eyebrow="Industries Served"
+          title="Wherever production happens"
+          description="Eight core industries rely on Ferrox for consumables, components and coatings."
+        />
+        <div class="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-8">
+          {industries.map((industry) => (
+            <div
+              class="group flex flex-col items-center gap-2.5 rounded-xl border border-line bg-surface p-4 text-center transition hover:-translate-y-1 hover:border-accent/60"
+              title={industry.description}
+              data-reveal
+            >
+              <span class="grid h-11 w-11 place-items-center rounded-full bg-accent/10 text-accent-600 transition group-hover:bg-accent group-hover:text-primary dark:text-accent">
+                {industry.icon && <Icon name={`lucide:${industry.icon}`} class="h-5 w-5" />}
+              </span>
+              <span class="text-xs leading-tight font-semibold text-ink">{industry.name}</span>
+            </div>
+          ))}
+        </div>
+      </Container>
+    </section>
+  )
+}

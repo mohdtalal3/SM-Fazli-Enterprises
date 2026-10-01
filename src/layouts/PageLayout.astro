@@ -1,0 +1,45 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Container from '../components/ui/Container.astro';
+import Breadcrumbs from '../components/ui/Breadcrumbs.astro';
+import { breadcrumbJsonLd } from '../lib/seo';
+
+export interface Crumb {
+  name: string;
+  url?: string;
+}
+
+interface Props {
+  title: string;
+  /** The on-page H1. Defaults to `title` (use when the document title carries a site suffix). */
+  heading?: string;
+  description?: string;
+  breadcrumbs: Crumb[];
+  eyebrow?: string;
+  lead?: string;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const { title, heading, description, breadcrumbs, eyebrow, lead, jsonLd } = Astro.props;
+
+const jsonLdBlocks = [
+  breadcrumbJsonLd(breadcrumbs),
+  ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []),
+];
+---
+
+<BaseLayout title={title} description={description} jsonLd={jsonLdBlocks}>
+  <section class="border-b border-line bg-gradient-to-b from-card to-surface">
+    <Container class="pt-8 pb-12 md:pt-10 md:pb-14">
+      <Breadcrumbs items={breadcrumbs} />
+      {eyebrow && <p class="eyebrow mb-3 mt-5">{eyebrow}</p>}
+      <h1 class="text-3xl font-bold tracking-tight text-ink sm:text-4xl lg:text-[2.6rem]">{heading ?? title}</h1>
+      {lead && <p class="mt-4 max-w-3xl text-base leading-relaxed text-muted md:text-lg">{lead}</p>}
+      <slot name="header-extra" />
+    </Container>
+  </section>
+
+  <div class="pt-10 pb-20 md:pt-14 md:pb-24">
+    <slot />
+  </div>
+</BaseLayout>

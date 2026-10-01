@@ -1,0 +1,276 @@
+---
+import { Icon } from 'astro-icon/components';
+import PageLayout from '../../../../layouts/PageLayout.astro';
+import Container from '../../../../components/ui/Container.astro';
+import ProductCard from '../../../../components/products/ProductCard.astro';
+import AddToInquiry from '../../../../components/ui/AddToInquiry.astro';
+import { getCompany, getSite, getCategories, productUrl } from '../../../../lib/data';
+import { productJsonLd } from '../../../../lib/seo';
+import { buildWhatsAppLink } from '../../../../lib/inquiry';
+import type { Category, Subcategory, Item } from '../../../../lib/schemas';
+
+interface Props {
+  category: Category;
+  subcategory: Subcategory;
+  item: Item;
+}
+
+const company = getCompany();
+const site = getSite();
+
+export function getStaticPaths() {
+  return getCategories().flatMap((category) =>
+    category.subcategories.flatMap((subcategory) =>
+      subcategory.items.map((item) => ({
+        params: { category: category.slug, subcategory: subcategory.slug, item: item.slug },
+        props: { category, subcategory, item },
+      }))
+    )
+  );
+}
+
+const { category, subcategory, item } = Astro.props as Props;
+const url = productUrl(category.slug, subcategory.slug, item.slug);
+const related = subcategory.items.filter((i) => i.slug !== item.slug).slice(0, 4);
+const specEntries = Object.entries(item.specs);
+const whatsappHref = site.inquiry.whatsappNumber
+  ? buildWhatsAppLink(site.inquiry.whatsappNumber, `Hello ${company.shortName}, I'm interested in ${item.name} (${category.name} › ${subcategory.name}). Please share pricing and availability.`)
+  : '';
+
+const fallbackCopy = `${item.name} supplied by ${company.name} with documented grades and batch traceability. Request a quote for packaging options, sizes and current lead times.`;
+---
+
+<PageLayout
+  title={`${item.name} — ${subcategory.name} | ${company.name}`} heading={item.name}
+  description={
+    item.shortDescription ||
+    item.description ||
+    `${item.name} in ${subcategory.name} (${category.name}) supplied by ${company.name}. Request a quote.`
+  }
+  breadcrumbs={[
+    { name: 'Products', url: '/products' },
+    { name: category.name, url: `/products/${category.slug}` },
+    { name: subcategory.name, url: `/products/${category.slug}/${subcategory.slug}` },
+    { name: item.name },
+  ]}
+  eyebrow={subcategory.name}
+  lead={item.shortDescription || fallbackCopy}
+  jsonLd={productJsonLd({ item, category, subcategory, url })}
+>
+  <Container>
+    <div class="grid gap-10 lg:grid-cols-[1fr_1.1fr]">
+      <!-- Gallery -->
+      <div data-reveal>
+        <div
+          class="relative aspect-[4/3] overflow-hidden rounded-2xl border border-line bg-gradient-to-br from-steel/25 via-surface to-steel/10"
+        >
+          {
+            item.images.length > 0 ? (
+              <img
+                id="gallery-main"
+                src={item.images[0]}
+                alt={item.name}
+                class="h-full w-full object-cover"
+                loading="eager"
+                decoding="async"
+              />
+            ) : (
+              <div class="absolute inset-0 grid place-items-center">
+                <div class="flex flex-col items-center gap-4 text-center">
+                  <span class="grid h-24 w-24 place-items-center rounded-2xl bg-card/80 text-accent-600 shadow-card dark:text-accent">
+                    <Icon name={`lucide:${category.icon || 'package'}`} class="h-12 w-12" />
+                  </span>
+                  <span class="max-w-[16rem] text-sm font-medium text-muted">{item.name}</span>
+                  <span class="text-[11px] font-semibold tracking-widest text-muted/70 uppercase">
+                    Product image on request
+                  </span>
+                </div>
+              </div>
+            )
+          }
+        </div>
+
+        {
+          item.images.length > 1 && (
+            <div class="mt-3 flex gap-2 overflow-x-auto pb-1">
+              {item.images.map((src, i) => (
+                <button
+                  type="button"
+                  class:list={[
+                    'h-16 w-16 shrink-0 overflow-hidden rounded-lg border-2 transition',
+                    i === 0 ? 'border-accent' : 'border-line hover:border-accent/50',
+                  ]}
+                  data-gallery-thumb
+                  data-src={src}
+                  aria-label={`View image ${i + 1}`}
+                >
+                  <img src={src} alt="" class="h-full w-full object-cover" loading="lazy" />
+                </button>
+              ))}
+            </div>
+          )
+        }
+
+        <div class="mt-5 flex flex-wrap gap-2">
+          <a href={`/products/${category.slug}`} class="chip">
+            <Icon name={`lucide:${category.icon || 'package'}`} class="h-3.5 w-3.5" />
+            {category.name}
+          </a>
+          <a href={`/products/${category.slug}/${subcategory.slug}`} class="chip">{subcategory.name}</a>
+          <button type="button" class="chip no-print cursor-pointer" onclick="window.print()">
+            <Icon name="lucide:printer" class="h-3.5 w-3.5" />
+            Print
+          </button>
+        </div>
+
+        {
+          item.description && (
+            <div class="mt-8">
+              <h2 class="text-lg font-bold text-ink">About this item</h2>
+              <p class="mt-2.5 leading-relaxed text-muted">{item.description}</p>
+            </div>
+          )
+        }
+      </div>
+
+      <!-- Info & actions -->
+      <div class="space-y-6" data-reveal style="--rd:1">
+        <!-- CTAs -->
+        <div class="card space-y-3 p-5">
+          {
+            site.features.inquiryList && (
+              <AddToInquiry
+                item={{ slug: item.slug, name: item.name, category: category.name, subcategory: subcategory.name, url }}
+                variant="accent"
+                class="w-full"
+                label="Add to Inquiry"
+              />
+            )
+          }
+          <a href={`/quote?add=${item.slug}`} class="btn btn-primary w-full">
+            Request a Quote
+            <Icon name="lucide:arrow-right" class="h-4 w-4" />
+          </a>
+          {
+            whatsappHref && (
+              <a href={whatsappHref} target="_blank" rel="noopener" class="btn btn-whatsapp w-full">
+                <Icon name="whatsapp" class="h-4 w-4" />
+                WhatsApp this item
+              </a>
+            )
+          }
+          {
+            item.datasheet && (
+              <a href={item.datasheet} class="btn btn-outline w-full" download>
+                <Icon name="lucide:download" class="h-4 w-4" />
+                Download datasheet
+              </a>
+            )
+          }
+          <p class="pt-1 text-center text-xs text-muted">Typical response time: within 1 business day.</p>
+        </div>
+
+        <!-- Specifications -->
+        {
+          specEntries.length > 0 && (
+            <div class="card overflow-hidden">
+              <h2 class="border-b border-line bg-surface px-5 py-3.5 font-display text-sm font-bold tracking-wide text-ink uppercase">
+                Specifications
+              </h2>
+              <table class="spec-table">
+                <tbody>
+                  {specEntries.map(([key, value]) => (
+                    <tr>
+                      <th scope="row">{key}</th>
+                      <td>{value}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )
+        }
+
+        <!-- Variants -->
+        {
+          item.variants.length > 0 && (
+            <div class="card p-5">
+              <h2 class="text-sm font-bold tracking-wide text-ink uppercase">Options & Grades</h2>
+              <div class="mt-3 flex flex-wrap gap-2">
+                {item.variants.map((variant) => (
+                  <span class="chip cursor-default">{variant}</span>
+                ))}
+              </div>
+            </div>
+          )
+        }
+
+        <!-- Applications -->
+        {
+          item.applications.length > 0 && (
+            <div class="card p-5">
+              <h2 class="text-sm font-bold tracking-wide text-ink uppercase">Typical Applications</h2>
+              <ul class="mt-3 space-y-2">
+                {item.applications.map((application) => (
+                  <li class="flex items-start gap-2.5 text-sm text-muted">
+                    <Icon name="lucide:check" class="mt-0.5 h-4 w-4 shrink-0 text-accent" />
+                    {application}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        }
+
+        <!-- Packaging / quote note -->
+        {
+          specEntries.length === 0 && item.variants.length === 0 && item.applications.length === 0 && (
+            <div class="card p-5">
+              <h2 class="text-sm font-bold tracking-wide text-ink uppercase">Grades & Packaging</h2>
+              <p class="mt-2.5 text-sm leading-relaxed text-muted">{fallbackCopy}</p>
+            </div>
+          )
+        }
+      </div>
+    </div>
+
+    <!-- Related products -->
+    {
+      related.length > 0 && (
+        <section class="mt-16">
+          <div class="flex items-end justify-between gap-4">
+            <h2 class="font-display text-xl font-bold tracking-tight text-ink sm:text-2xl">More in {subcategory.name}</h2>
+            <a
+              href={`/products/${category.slug}/${subcategory.slug}`}
+              class="inline-flex shrink-0 items-center gap-1 text-sm font-semibold text-accent-600 hover:text-accent dark:text-accent"
+            >
+              View all
+              <Icon name="lucide:arrow-right" class="h-4 w-4" />
+            </a>
+          </div>
+          <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {related.map((rel) => (
+              <ProductCard item={rel} category={category} subcategory={subcategory} showSub={false} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+  </Container>
+</PageLayout>
+
+<script>
+  const main = document.getElementById('gallery-main') as HTMLImageElement | null;
+  document.querySelectorAll<HTMLElement>('[data-gallery-thumb]').forEach((thumb) => {
+    thumb.addEventListener('click', () => {
+      const src = thumb.dataset.src;
+      if (main && src) main.src = src;
+      document.querySelectorAll<HTMLElement>('[data-gallery-thumb]').forEach((t) => {
+        t.classList.remove('border-accent');
+        t.classList.add('border-line');
+      });
+      thumb.classList.remove('border-line');
+      thumb.classList.add('border-accent');
+    });
+  });
+</script>

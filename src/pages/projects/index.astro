@@ -1,0 +1,153 @@
+---
+import { Icon } from 'astro-icon/components';
+import PageLayout from '../../layouts/PageLayout.astro';
+import Container from '../../components/ui/Container.astro';
+import SectionHeading from '../../components/ui/SectionHeading.astro';
+import ProjectCard from '../../components/projects/ProjectCard.astro';
+import { getCompany, getProjects, getPartnersByType } from '../../lib/data';
+import { publicFileExists } from '../../lib/images';
+
+const company = getCompany();
+const projects = getProjects();
+const partnersByType = getPartnersByType();
+
+const industries = [...new Set(projects.map((p) => p.industry).filter(Boolean))].sort();
+const years = [...new Set(projects.map((p) => p.year).filter(Boolean))].sort((a, b) => b - a);
+
+const typeLabels: Record<string, string> = {
+  client: 'Clients',
+  supplier: 'Suppliers',
+  brand: 'Brands We Stock',
+  partner: 'Partners',
+};
+---
+
+<PageLayout
+  title={`Projects | ${company.name}`} heading="Projects"
+  description="Supply programs and projects delivered by Ferrox — chemicals, coatings, instruments, fasteners and more, with measurable results."
+  breadcrumbs={[{ name: 'Projects' }]}
+  eyebrow="Portfolio"
+  lead="A selection of the supply programs we run for plants, mills, laboratories and contractors — with the results that mattered to the client."
+>
+  <Container>
+    <!-- Filters -->
+    <div class="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between" data-reveal>
+      <div class="flex flex-wrap items-center gap-2" role="group" aria-label="Filter by industry">
+        <button type="button" class="chip is-active" data-filter-industry="all">All industries</button>
+        {industries.map((industry) => <button type="button" class="chip" data-filter-industry={industry}>{industry}</button>)}
+      </div>
+      <div class="flex flex-wrap items-center gap-2" role="group" aria-label="Filter by year">
+        <button type="button" class="chip is-active" data-filter-year="all">All years</button>
+        {years.map((year) => <button type="button" class="chip" data-filter-year={String(year)}>{year}</button>)}
+      </div>
+    </div>
+
+    <p class="mt-6 text-sm text-muted" id="project-count">
+      {projects.length} {projects.length === 1 ? 'project' : 'projects'}
+    </p>
+
+    <div class="mt-4 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+      {
+        projects.map((project) => (
+          <div
+            data-project
+            data-industry={project.industry}
+            data-year={String(project.year)}
+          >
+            <ProjectCard project={project} />
+          </div>
+        ))
+      }
+    </div>
+
+    <p id="project-empty" hidden class="mt-12 text-center text-sm text-muted">
+      No projects match those filters yet.
+    </p>
+  </Container>
+
+  <!-- Partners & clients -->
+  <Container class="mt-24">
+    <SectionHeading
+      eyebrow="Partners & Clients"
+      title="Companies we work with"
+      description="Long-term clients, vetted suppliers and the brands we keep on our shelves."
+    />
+    {
+      Object.entries(partnersByType)
+        .filter(([, list]) => list.length > 0)
+        .map(([type, list]) => (
+          <div class="mt-10">
+            <h3 class="text-xs font-bold tracking-[0.18em] text-muted uppercase">{typeLabels[type] ?? type}</h3>
+            <div class="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+              {list.map((partner) => (
+                <div class="card card-hover flex items-center gap-3.5 p-4" data-reveal>
+                  <span class="grid h-12 w-12 shrink-0 place-items-center overflow-hidden rounded-lg bg-surface">
+                    {publicFileExists(partner.logo) ? (
+                      <img src={partner.logo} alt="" class="h-7 w-7 object-contain" loading="lazy" />
+                    ) : (
+                      <span class="font-display text-sm font-bold text-accent-600 dark:text-accent">
+                        {partner.name.slice(0, 2).toUpperCase()}
+                      </span>
+                    )}
+                  </span>
+                  <span class="min-w-0">
+                    <span class="block truncate text-sm font-semibold text-ink">{partner.name}</span>
+                    {partner.website && partner.website !== '#' ? (
+                      <a
+                        href={partner.website}
+                        target="_blank"
+                        rel="noopener"
+                        class="inline-flex items-center gap-1 text-xs text-accent-600 hover:underline dark:text-accent"
+                      >
+                        Website <Icon name="lucide:external-link" class="h-3 w-3" />
+                      </a>
+                    ) : (
+                      <span class="text-xs text-muted capitalize">{partner.type}</span>
+                    )}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))
+    }
+  </Container>
+</PageLayout>
+
+<script>
+  const industryChips = Array.from(document.querySelectorAll<HTMLElement>('[data-filter-industry]'));
+  const yearChips = Array.from(document.querySelectorAll<HTMLElement>('[data-filter-year]'));
+  const cards = Array.from(document.querySelectorAll<HTMLElement>('[data-project]'));
+  const emptyMsg = document.getElementById('project-empty');
+  const countEl = document.getElementById('project-count');
+
+  let industry = 'all';
+  let year = 'all';
+
+  function apply(): void {
+    let visible = 0;
+    for (const card of cards) {
+      const match =
+        (industry === 'all' || card.dataset.industry === industry) &&
+        (year === 'all' || card.dataset.year === year);
+      card.classList.toggle('hidden', !match);
+      if (match) visible++;
+    }
+    if (emptyMsg) emptyMsg.hidden = visible > 0;
+    if (countEl) countEl.textContent = `${visible} ${visible === 1 ? 'project' : 'projects'}`;
+  }
+
+  function bind(chips: HTMLElement[], key: 'industry' | 'year'): void {
+    chips.forEach((chip) => {
+      chip.addEventListener('click', () => {
+        if (key === 'industry') industry = chip.dataset.filterIndustry ?? 'all';
+        else year = chip.dataset.filterYear ?? 'all';
+        chips.forEach((c) => c.classList.toggle('is-active', c === chip));
+        apply();
+      });
+    });
+  }
+
+  bind(industryChips, 'industry');
+  bind(yearChips, 'year');
+</script>

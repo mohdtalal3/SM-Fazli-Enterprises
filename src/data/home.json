@@ -1,0 +1,25 @@
+{
+  "sections": [
+    { "id": "hero", "enabled": true },
+    { "id": "stats", "enabled": true },
+    { "id": "categories", "enabled": true },
+    { "id": "featured", "enabled": true },
+    { "id": "why-us", "enabled": true },
+    { "id": "industries", "enabled": true },
+    { "id": "projects", "enabled": true },
+    { "id": "partners", "enabled": true },
+    { "id": "founder", "enabled": true },
+    { "id": "testimonials", "enabled": true },
+    { "id": "cta", "enabled": true }
+  ],
+  "hero": {
+    "eyebrow": "Serving Industry Since 2009",
+    "headline": "Industrial Materials You Can Rely On",
+    "subheadline": "From raw chemicals to precision components — 1,500+ products under one roof, delivered to plants and projects across Pakistan. Certified grades, honest lead times, one dependable vendor.",
+    "primaryCta": { "label": "Request a Quote", "href": "/quote" },
+    "secondaryCta": { "label": "Browse Products", "href": "/products" },
+    "searchPlaceholder": "Search chemicals, fasteners, steels, oils…",
+    "quickSearches": ["Hydraulic Oil", "SS 304 Sheets", "Hex Bolts", "PTFE Rods", "Epoxy Paint"],
+    "backgroundImage": ""
+  }
+}

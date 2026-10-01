@@ -1,0 +1,35 @@
+---
+import { Icon } from 'astro-icon/components';
+import Container from '../ui/Container.astro';
+import SectionHeading from '../ui/SectionHeading.astro';
+import { getCompany } from '../../lib/data';
+
+const items = getCompany().whyChooseUs;
+---
+
+{
+  items.length > 0 && (
+    <section class="py-16 md:py-24">
+      <Container>
+        <SectionHeading
+          eyebrow="Why Choose Us"
+          title="Supply you never have to chase"
+          description="Procurement teams stay with Ferrox because we make the boring parts — documentation, lead times, consistency — completely dependable."
+        />
+        <div class="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          {items.map((item) => (
+            <div class="card card-hover p-6" data-reveal>
+              {item.icon && (
+                <span class="grid h-11 w-11 place-items-center rounded-lg bg-accent/10 text-accent-600 dark:text-accent">
+                  <Icon name={`lucide:${item.icon}`} class="h-5 w-5" />
+                </span>
+              )}
+              <h3 class="mt-4 text-base font-bold text-ink">{item.title}</h3>
+              <p class="mt-2 text-sm leading-relaxed text-muted">{item.description}</p>
+            </div>
+          ))}
+        </div>
+      </Container>
+    </section>
+  )
+}

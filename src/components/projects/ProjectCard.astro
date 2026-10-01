@@ -1,0 +1,52 @@
+---
+import { Icon } from 'astro-icon/components';
+import SmartImage from '../ui/SmartImage.astro';
+import type { Project } from '../../lib/schemas';
+
+interface Props {
+  project: Project;
+}
+
+const { project } = Astro.props;
+---
+
+<a href={`/projects/${project.slug}`} class="card card-hover group flex flex-col overflow-hidden" data-reveal>
+  <div class="relative aspect-[16/10] overflow-hidden">
+    <SmartImage
+      src={project.cover}
+      alt={project.title}
+      icon="image"
+      class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+    />
+    {
+      project.year && (
+        <span class="absolute top-3 right-3 rounded-full bg-primary/85 px-2.5 py-1 text-[11px] font-semibold text-white backdrop-blur">
+          {project.year}
+        </span>
+      )
+    }
+  </div>
+
+  <div class="flex flex-1 flex-col gap-2 p-5">
+    {project.industry && <p class="text-[11px] font-semibold tracking-wide text-accent-600 uppercase dark:text-accent">{project.industry}</p>}
+    <h3 class="text-base leading-snug font-bold text-ink transition group-hover:text-accent-600 dark:group-hover:text-accent">
+      {project.title}
+    </h3>
+    <p class="line-clamp-2 text-sm leading-relaxed text-muted">{project.summary}</p>
+
+    <div class="mt-auto flex items-center justify-between gap-2 pt-3 text-xs text-muted">
+      {
+        project.client && (
+          <span class="inline-flex min-w-0 items-center gap-1.5">
+            <Icon name="lucide:briefcase" class="h-3.5 w-3.5 shrink-0" />
+            <span class="truncate">{project.client}</span>
+          </span>
+        )
+      }
+      <span class="inline-flex shrink-0 items-center gap-1 font-semibold text-accent-600 dark:text-accent">
+        View
+        <Icon name="lucide:arrow-right" class="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
+      </span>
+    </div>
+  </div>
+</a>

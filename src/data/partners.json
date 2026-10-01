@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Islamabad Steel Mills",
+    "type": "client",
+    "logo": "/images/partners/islamabad-steel-mills.svg",
+    "website": "",
+    "description": "Long-standing client for refractory-adjacent coatings, fasteners and maintenance oils.",
+    "featured": true
+  },
+  {
+    "name": "Northern Textile Mills",
+    "type": "client",
+    "logo": "/images/partners/northern-textile-mills.svg",
+    "website": "",
+    "description": "Annual supply program covering lubricants, dyes-adjacent chemicals and machine paints.",
+    "featured": true
+  },
+  {
+    "name": "PharmaTech Laboratories",
+    "type": "client",
+    "logo": "/images/partners/pharmatech-laboratories.svg",
+    "website": "",
+    "description": "QC laboratory instruments, glassware and water-treatment chemicals.",
+    "featured": true
+  },
+  {
+    "name": "AgroFoods Processing",
+    "type": "client",
+    "logo": "/images/partners/agrofoods-processing.svg",
+    "website": "",
+    "description": "Food-grade lubricants, cleaning chemicals and hygienic sealing products.",
+    "featured": true
+  },
+  {
+    "name": "PowerGen Utilities",
+    "type": "client",
+    "logo": "/images/partners/powergen-utilities.svg",
+    "website": "",
+    "description": "Fastener kits, transformer oils and specialty coatings for plant and field projects.",
+    "featured": true
+  },
+  {
+    "name": "Blue Arc Cement",
+    "type": "client",
+    "logo": "/images/partners/blue-arc-cement.svg",
+    "website": "",
+    "description": "Heavy-duty consumables: grinding media, anti-wear coatings and industrial rubber.",
+    "featured": false
+  },
+  {
+    "name": "ChemBridge Trading",
+    "type": "supplier",
+    "logo": "/images/partners/chembridge-trading.svg",
+    "website": "",
+    "description": "Import partner for solvents and specialty water-treatment chemicals.",
+    "featured": true
+  },
+  {
+    "name": "Bolt & Fast Industries",
+    "type": "supplier",
+    "logo": "/images/partners/bolt-and-fast-industries.svg",
+    "website": "",
+    "description": "Local manufacturing partner for standard and custom fasteners.",
+    "featured": true
+  },
+  {
+    "name": "Polymer Works",
+    "type": "supplier",
+    "logo": "/images/partners/polymer-works.svg",
+    "website": "",
+    "description": "Machined PTFE, rubber and composite components to specification.",
+    "featured": false
+  },
+  {
+    "name": "Example Tools GmbH",
+    "type": "brand",
+    "logo": "/images/partners/example-tools-gmbh.svg",
+    "website": "",
+    "description": "Authorized regional stockist for hand and power tool brands.",
+    "featured": true
+  },
+  {
+    "name": "Pak Safety Council",
+    "type": "partner",
+    "logo": "/images/partners/pak-safety-council.svg",
+    "website": "",
+    "description": "Training and compliance partner for chemical handling standards.",
+    "featured": false
+  }
+]

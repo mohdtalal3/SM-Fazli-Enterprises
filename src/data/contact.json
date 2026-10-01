@@ -1,0 +1,30 @@
+{
+  "primary": {
+    "phone": "+92 300 0000000",
+    "whatsapp": "+92 300 0000000",
+    "email": "sales@ferroxindustrial.example",
+    "address": "Plot 24, Industrial Estate, Islamabad, Pakistan",
+    "hours": "Mon–Sat, 9:00 AM – 6:00 PM",
+    "mapEmbedUrl": "",
+    "mapLink": ""
+  },
+  "departments": [
+    {
+      "name": "Sales",
+      "person": "Sales Desk",
+      "phone": "+92 300 0000001",
+      "email": "sales@ferroxindustrial.example"
+    },
+    {
+      "name": "Technical Support",
+      "person": "Support Desk",
+      "phone": "+92 300 0000002",
+      "email": "support@ferroxindustrial.example"
+    }
+  ],
+  "socials": [
+    { "platform": "linkedin", "url": "#" },
+    { "platform": "facebook", "url": "#" },
+    { "platform": "instagram", "url": "#" }
+  ]
+}

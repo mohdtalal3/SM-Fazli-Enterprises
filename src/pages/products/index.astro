@@ -1,0 +1,58 @@
+---
+import { Icon } from 'astro-icon/components';
+import PageLayout from '../../layouts/PageLayout.astro';
+import Container from '../../components/ui/Container.astro';
+import CategoryCard from '../../components/products/CategoryCard.astro';
+import { getSite, getCompany, getCategories, countItems, totalItemCount } from '../../lib/data';
+
+const site = getSite();
+const company = getCompany();
+const categories = getCategories();
+---
+
+<PageLayout
+  title={`Products | ${company.name}`} heading="Products"
+  description={site.defaultDescription}
+  breadcrumbs={[{ name: 'Products' }]}
+  eyebrow="Product Catalog"
+  lead="Browse 1,500+ industrial products across sixteen categories. Open any category to explore subcategories and items, or search the full catalog with Ctrl K."
+>
+  <Container>
+    <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between" data-reveal>
+      <p class="text-sm text-muted">
+        <span id="category-count">{categories.length} categories · {totalItemCount()} items</span>
+      </p>
+      <div class="relative w-full sm:max-w-xs">
+        <Icon name="lucide:search" class="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-muted" />
+        <input id="category-search" type="search" placeholder="Filter categories…" class="input pl-9" aria-label="Filter categories" />
+      </div>
+    </div>
+
+    <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      {categories.map((category) => <CategoryCard category={category} count={countItems(category)} />)}
+    </div>
+
+    <p id="category-empty" hidden class="mt-12 text-center text-sm text-muted">
+      No categories match your search.
+    </p>
+  </Container>
+</PageLayout>
+
+<script>
+  const input = document.getElementById('category-search') as HTMLInputElement | null;
+  const cards = Array.from(document.querySelectorAll<HTMLElement>('[data-category-name]'));
+  const emptyMsg = document.getElementById('category-empty');
+  const countEl = document.getElementById('category-count');
+
+  input?.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    let visible = 0;
+    for (const card of cards) {
+      const match = !q || (card.dataset.categoryName ?? '').includes(q);
+      card.classList.toggle('hidden', !match);
+      if (match) visible++;
+    }
+    if (emptyMsg) emptyMsg.hidden = visible > 0;
+    if (countEl) countEl.textContent = `${visible} matching ${visible === 1 ? 'category' : 'categories'}`;
+  });
+</script>

@@ -1,0 +1,247 @@
+---
+import { Icon } from 'astro-icon/components';
+import PageLayout from '../../layouts/PageLayout.astro';
+import Container from '../../components/ui/Container.astro';
+import SmartImage from '../../components/ui/SmartImage.astro';
+import ProjectCard from '../../components/projects/ProjectCard.astro';
+import { getCompany, getProjects } from '../../lib/data';
+import type { Project } from '../../lib/schemas';
+
+interface Props {
+  project: Project;
+}
+
+const company = getCompany();
+
+export function getStaticPaths() {
+  return getProjects().map((project) => ({
+    params: { slug: project.slug },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props as Props;
+const related = getProjects()
+  .filter((p) => p.slug !== project.slug && (!project.industry || p.industry === project.industry))
+  .slice(0, 3);
+const fallbackRelated = related.length ? related : getProjects().filter((p) => p.slug !== project.slug).slice(0, 3);
+---
+
+<PageLayout
+  title={`${project.title} | ${company.name}`} heading={project.title}
+  description={project.summary.slice(0, 155)}
+  breadcrumbs={[{ name: 'Projects', url: '/projects' }, { name: project.title }]}
+  eyebrow="Case Study"
+  lead={project.summary}
+>
+  <Container slot="header-extra">
+    <div class="mt-6 flex flex-wrap gap-2.5" data-reveal>
+      {
+        [
+          { icon: 'briefcase', label: project.client },
+          { icon: 'building-2', label: project.industry },
+          { icon: 'calendar', label: String(project.year || '') },
+          { icon: 'map-pin', label: project.location },
+        ]
+          .filter((meta) => meta.label)
+          .map((meta) => (
+            <span class="inline-flex items-center gap-2 rounded-full border border-line bg-card px-3.5 py-1.5 text-xs font-semibold text-muted">
+              <Icon name={`lucide:${meta.icon}`} class="h-3.5 w-3.5 text-accent" />
+              {meta.label}
+            </span>
+          ))
+      }
+    </div>
+  </Container>
+
+  <Container>
+    <!-- Cover -->
+    <div data-reveal>
+      <SmartImage
+        src={project.cover}
+        alt={project.title}
+        icon="image"
+        class="aspect-[21/9] w-full rounded-2xl border border-line object-cover"
+      />
+    </div>
+
+    <!-- Challenge / Solution / Results -->
+    <div class="mt-10 grid gap-4 lg:grid-cols-3">
+      {
+        project.challenge && (
+          <div class="card p-6" data-reveal>
+            <h2 class="flex items-center gap-2.5 font-display text-base font-bold text-ink">
+              <span class="grid h-9 w-9 place-items-center rounded-lg bg-red-500/10 text-red-500">
+                <Icon name="lucide:circle-help" class="h-4.5 w-4.5" />
+              </span>
+              The Challenge
+            </h2>
+            <p class="mt-3 text-sm leading-relaxed text-muted">{project.challenge}</p>
+          </div>
+        )
+      }
+      {
+        project.solution && (
+          <div class="card p-6" data-reveal style="--rd:1">
+            <h2 class="flex items-center gap-2.5 font-display text-base font-bold text-ink">
+              <span class="grid h-9 w-9 place-items-center rounded-lg bg-accent/10 text-accent-600 dark:text-accent">
+                <Icon name="lucide:wrench" class="h-4.5 w-4.5" />
+              </span>
+              Our Solution
+            </h2>
+            <p class="mt-3 text-sm leading-relaxed text-muted">{project.solution}</p>
+          </div>
+        )
+      }
+      {
+        project.results.length > 0 && (
+          <div class="card p-6" data-reveal style="--rd:2">
+            <h2 class="flex items-center gap-2.5 font-display text-base font-bold text-ink">
+              <span class="grid h-9 w-9 place-items-center rounded-lg bg-green-500/10 text-green-600 dark:text-green-400">
+                <Icon name="lucide:trending-up" class="h-4.5 w-4.5" />
+              </span>
+              Results
+            </h2>
+            <ul class="mt-3 space-y-2.5">
+              {project.results.map((result) => (
+                <li class="flex items-start gap-2.5 text-sm leading-relaxed text-muted">
+                  <Icon name="lucide:check" class="mt-0.5 h-4 w-4 shrink-0 text-green-600 dark:text-green-400" />
+                  {result}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )
+      }
+    </div>
+
+    <!-- Products supplied -->
+    {
+      project.productsSupplied.length > 0 && (
+        <div class="card mt-4 p-6" data-reveal>
+          <h2 class="text-xs font-bold tracking-[0.18em] text-muted uppercase">Products Supplied</h2>
+          <div class="mt-3.5 flex flex-wrap gap-2">
+            {project.productsSupplied.map((product) => (
+              <span class="rounded-full bg-accent/10 px-3.5 py-1.5 text-sm font-medium text-accent-600 dark:text-accent">
+                {product}
+              </span>
+            ))}
+          </div>
+        </div>
+      )
+    }
+
+    <!-- Gallery -->
+    {
+      project.gallery.length > 0 && (
+        <section class="mt-12" data-reveal>
+          <h2 class="font-display text-xl font-bold tracking-tight text-ink">Gallery</h2>
+          <div class="mt-5 grid gap-4 sm:grid-cols-2">
+            {project.gallery.map((image, i) => (
+              <button
+                type="button"
+                class="group cursor-zoom-in overflow-hidden rounded-xl border border-line"
+                data-lightbox-open
+                data-src={image.src}
+                data-alt={image.alt || project.title}
+                aria-label={`Open image ${i + 1}`}
+              >
+                <SmartImage
+                  src={image.src}
+                  alt={image.alt || project.title}
+                  icon="image"
+                  class="aspect-[16/10] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              </button>
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    <!-- Testimonial -->
+    {
+      project.testimonial && (
+        <figure class="relative mt-12 overflow-hidden rounded-2xl bg-primary p-8 text-white sm:p-10" data-reveal>
+          <div class="hex-bg absolute inset-0 opacity-60" aria-hidden="true" />
+          <div class="relative mx-auto max-w-2xl text-center">
+            <Icon name="lucide:quote" class="mx-auto h-8 w-8 text-accent" />
+            <blockquote class="mt-4 font-display text-lg leading-snug sm:text-xl">“{project.testimonial.quote}”</blockquote>
+            <figcaption class="mt-4 text-sm text-steel">{project.testimonial.author}</figcaption>
+          </div>
+        </figure>
+      )
+    }
+
+    <!-- Related projects -->
+    {
+      fallbackRelated.length > 0 && (
+        <section class="mt-16">
+          <h2 class="font-display text-xl font-bold tracking-tight text-ink sm:text-2xl">More projects</h2>
+          <div class="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {fallbackRelated.map((rel) => (
+              <ProjectCard project={rel} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    <!-- CTA -->
+    <div class="mt-16 flex flex-col items-center justify-between gap-4 rounded-2xl border border-line bg-card p-6 sm:flex-row sm:p-8" data-reveal>
+      <div>
+        <h2 class="font-display text-xl font-bold text-ink">Planning a similar project?</h2>
+        <p class="mt-1 text-sm text-muted">Tell us the scope — we will build the supply plan around it.</p>
+      </div>
+      <a href="/contact" class="btn btn-accent shrink-0">
+        Talk to Our Team
+        <Icon name="lucide:arrow-right" class="h-4 w-4" />
+      </a>
+    </div>
+  </Container>
+</PageLayout>
+
+<!-- Lightbox -->
+{
+  project.gallery.length > 0 && (
+    <div id="lightbox" hidden class="fixed inset-0 z-50 grid place-items-center bg-black/85 p-4 no-print" role="dialog" aria-modal="true" aria-label="Image gallery">
+      <button type="button" class="absolute top-4 right-4 grid h-10 w-10 cursor-pointer place-items-center rounded-full bg-white/10 text-white transition hover:bg-white/20" data-lightbox-close aria-label="Close gallery">
+        <Icon name="lucide:x" class="h-5 w-5" />
+      </button>
+      <figure class="max-h-full max-w-4xl">
+        <img id="lightbox-img" src="" alt="" class="max-h-[82vh] w-auto rounded-xl object-contain shadow-pop" />
+        <figcaption id="lightbox-caption" class="mt-3 text-center text-sm text-white/70"></figcaption>
+      </figure>
+    </div>
+  )
+}
+
+<script>
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img') as HTMLImageElement | null;
+  const lightboxCaption = document.getElementById('lightbox-caption');
+
+  function closeLightbox(): void {
+    if (!lightbox) return;
+    lightbox.hidden = true;
+    document.body.style.overflow = '';
+  }
+
+  document.addEventListener('click', (e) => {
+    const target = e.target as HTMLElement;
+    const opener = target.closest<HTMLElement>('[data-lightbox-open]');
+    if (opener && lightbox && lightboxImg) {
+      lightboxImg.src = opener.dataset.src ?? '';
+      if (lightboxCaption) lightboxCaption.textContent = opener.dataset.alt ?? '';
+      lightbox.hidden = false;
+      document.body.style.overflow = 'hidden';
+    }
+    if (target.closest('[data-lightbox-close]') || (lightbox && !lightbox.hidden && target === lightbox)) {
+      closeLightbox();
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+</script>

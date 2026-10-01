@@ -1,0 +1,39 @@
+{
+  "name": "ferrox-industrial-supply",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ferrox Industrial Supply Co. — B2B industrial supplies website built with Astro. All content editable via JSON.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "generate:products": "tsx scripts/generate-products-json.ts",
+    "generate:placeholders": "node scripts/generate-placeholders.mjs",
+    "images:fetch": "node scripts/fetch-product-images.mjs",
+    "images:apply": "node scripts/apply-product-images.mjs",
+    "images:ensure": "node scripts/ensure-product-images.mjs",
+    "images:fill": "node scripts/fill-sibling-images.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.2.0",
+    "@fontsource-variable/inter": "^5.1.0",
+    "@fontsource-variable/sora": "^5.1.0",
+    "astro": "^5.1.0",
+    "astro-icon": "^1.1.0",
+    "fuse.js": "^7.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.3",
+    "@iconify-json/lucide": "^1.1.0",
+    "@tailwindcss/vite": "^4.0.0",
+    "tailwindcss": "^4.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18.17.1"
+  }
+}

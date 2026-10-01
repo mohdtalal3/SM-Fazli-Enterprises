@@ -1,0 +1,61 @@
+---
+import { Icon } from 'astro-icon/components';
+import { getSite } from '../../lib/data';
+
+const site = getSite();
+const waNumber = site.inquiry.whatsappNumber.replace(/\D/g, '');
+const waHref = waNumber
+  ? `https://wa.me/${waNumber}?text=${encodeURIComponent('Hello Ferrox, I have an inquiry.')}`
+  : '';
+---
+
+<div class="no-print fixed right-4 bottom-4 z-40 flex flex-col items-end gap-3 md:right-6 md:bottom-6">
+  {
+    site.features.inquiryList && (
+      <a
+        href="/quote"
+        class="relative grid h-12 w-12 place-items-center rounded-full bg-primary text-white shadow-pop transition hover:-translate-y-0.5 hover:bg-primary-600 dark:bg-white dark:text-primary"
+        aria-label="View inquiry list"
+      >
+        <Icon name="lucide:clipboard-list" class="h-5 w-5" />
+        <span
+          data-inquiry-badge
+          hidden
+          class="absolute -top-1 -right-1 grid h-5 min-w-5 place-items-center rounded-full bg-accent px-1 text-[11px] font-bold text-primary"
+        >
+          0
+        </span>
+      </a>
+    )
+  }
+
+  {
+    site.features.floatingWhatsapp && waHref && (
+      <a
+        href={waHref}
+        target="_blank"
+        rel="noopener"
+        class="grid h-12 w-12 place-items-center rounded-full bg-[#25d366] text-white shadow-pop transition hover:-translate-y-0.5 hover:brightness-95"
+        aria-label="Chat with us on WhatsApp"
+      >
+        <Icon name="whatsapp" class="h-5 w-5" />
+      </a>
+    )
+  }
+</div>
+
+<script>
+  import { inquiryCount, INQUIRY_EVENT } from '../../lib/inquiry';
+
+  const badge = document.querySelector<HTMLElement>('[data-inquiry-badge]');
+
+  const update = () => {
+    if (!badge) return;
+    const count = inquiryCount();
+    badge.textContent = String(count);
+    badge.hidden = count === 0;
+  };
+
+  update();
+  window.addEventListener(INQUIRY_EVENT, update);
+</script>

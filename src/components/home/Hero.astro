@@ -1,0 +1,134 @@
+---
+import { Icon } from 'astro-icon/components';
+import Container from '../ui/Container.astro';
+import { getHome, getCategories } from '../../lib/data';
+
+const home = getHome();
+const hero = home.hero;
+const categories = getCategories();
+
+const trustPoints = [
+  { icon: 'badge-check', label: 'Certified grades' },
+  { icon: 'truck', label: 'Nationwide delivery' },
+  { icon: 'file-check', label: 'Full documentation' },
+];
+---
+
+<section class="relative overflow-hidden bg-primary text-white">
+  <div class="hex-bg absolute inset-0 opacity-60" aria-hidden="true"></div>
+  {
+    hero.backgroundImage && (
+      <img
+        src={hero.backgroundImage}
+        alt=""
+        class="absolute inset-0 h-full w-full object-cover opacity-20"
+        aria-hidden="true"
+      />
+    )
+  }
+  <div class="absolute -top-40 -right-32 h-[480px] w-[480px] rounded-full bg-accent/20 blur-[120px]" aria-hidden="true"></div>
+  <div class="absolute -bottom-48 -left-24 h-[420px] w-[420px] rounded-full bg-steel/20 blur-[110px]" aria-hidden="true"></div>
+
+  <Container class="relative py-20 lg:py-28">
+    <div class="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
+      <!-- Copy -->
+      <div data-reveal>
+        {
+          hero.eyebrow && (
+            <p class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3.5 py-1.5 text-xs font-semibold tracking-wide text-steel-300">
+              <span class="h-1.5 w-1.5 rounded-full bg-accent" />
+              {hero.eyebrow}
+            </p>
+          )
+        }
+        <h1 class="mt-5 max-w-xl font-display text-4xl leading-[1.08] font-bold tracking-tight sm:text-5xl lg:text-[3.4rem]">
+          {hero.headline}
+        </h1>
+        <p class="mt-5 max-w-xl text-base leading-relaxed text-steel-300 sm:text-lg">{hero.subheadline}</p>
+
+        <div class="mt-8 flex flex-wrap items-center gap-3">
+          <a href={hero.primaryCta.href} class="btn btn-accent btn-lg">
+            {hero.primaryCta.label}
+            <Icon name="lucide:arrow-right" class="h-4 w-4" />
+          </a>
+          <a href={hero.secondaryCta.href} class="btn btn-outline-invert btn-lg">{hero.secondaryCta.label}</a>
+        </div>
+
+        <div class="mt-9 flex flex-wrap items-center gap-x-6 gap-y-2.5 text-sm text-steel">
+          {
+            trustPoints.map((point) => (
+              <span class="inline-flex items-center gap-2">
+                <Icon name={`lucide:${point.icon}`} class="h-4 w-4 text-accent" />
+                {point.label}
+              </span>
+            ))
+          }
+        </div>
+      </div>
+
+      <!-- Search card -->
+      <div class="relative" data-reveal style="--rd:2">
+        <div class="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm sm:p-6">
+          <form id="hero-search" class="flex items-center gap-2 rounded-xl border border-white/15 bg-primary-700/60 px-4 py-3">
+            <Icon name="lucide:search" class="h-5 w-5 shrink-0 text-steel" />
+            <input
+              type="search"
+              name="q"
+              placeholder={hero.searchPlaceholder || 'Search products…'}
+              class="w-full bg-transparent text-sm text-white outline-none placeholder:text-steel"
+              aria-label="Search products"
+            />
+            <button type="submit" class="btn btn-accent btn-sm shrink-0">Search</button>
+          </form>
+
+          {
+            hero.quickSearches.length > 0 && (
+              <>
+                <p class="mt-5 text-[11px] font-bold tracking-[0.16em] text-steel uppercase">Popular</p>
+                <div class="mt-2.5 flex flex-wrap gap-2">
+                  {hero.quickSearches.map((q) => (
+                    <button
+                      type="button"
+                      class="cursor-pointer rounded-full border border-white/15 px-3 py-1.5 text-xs text-steel-300 transition hover:border-accent hover:text-accent"
+                      data-quick-search
+                    >
+                      {q}
+                    </button>
+                  ))}
+                </div>
+              </>
+            )
+          }
+
+          <div class="mt-6 grid grid-cols-2 gap-1 border-t border-white/10 pt-4 sm:grid-cols-4">
+            {
+              categories.slice(0, 4).map((c) => (
+                <a
+                  href={`/products/${c.slug}`}
+                  class="rounded-lg px-2 py-2 text-center text-xs text-steel-300 transition hover:bg-white/5 hover:text-accent"
+                >
+                  {c.menuLabel || c.name}
+                </a>
+              ))
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </Container>
+</section>
+
+<script>
+  const form = document.getElementById('hero-search');
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const input = form.querySelector<HTMLInputElement>('input[name="q"]');
+    window.dispatchEvent(new CustomEvent('search:open', { detail: input?.value ?? '' }));
+  });
+
+  document.querySelectorAll('[data-quick-search]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      window.dispatchEvent(new CustomEvent('search:open', { detail: (btn as HTMLElement).textContent?.trim() ?? '' }));
+    });
+  });
+</script>

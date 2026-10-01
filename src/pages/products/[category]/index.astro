@@ -1,0 +1,170 @@
+---
+import { Icon } from 'astro-icon/components';
+import PageLayout from '../../../layouts/PageLayout.astro';
+import Container from '../../../components/ui/Container.astro';
+import ProductCard from '../../../components/products/ProductCard.astro';
+import { getCompany, getCategories, countItems } from '../../../lib/data';
+import type { Category } from '../../../lib/schemas';
+
+interface Props {
+  category: Category;
+}
+
+const company = getCompany();
+
+export function getStaticPaths() {
+  return getCategories().map((category) => ({
+    params: { category: category.slug },
+    props: { category },
+  }));
+}
+
+const { category } = Astro.props as Props;
+const totalItems = countItems(category);
+---
+
+<PageLayout
+  title={`${category.name} — Products | ${company.name}`} heading={category.name}
+  description={category.description || `Browse ${category.name} supplied by ${company.name}.`}
+  breadcrumbs={[{ name: 'Products', url: '/products' }, { name: category.name }]}
+  eyebrow="Products"
+  lead={category.description}
+>
+  <Container slot="header-extra">
+    <div class="mt-6 flex flex-wrap items-center gap-2.5" data-reveal>
+      <span class="inline-flex items-center gap-2 rounded-full bg-accent/10 px-3.5 py-1.5 text-xs font-semibold text-accent-600 dark:text-accent">
+        <Icon name={`lucide:${category.icon || 'package'}`} class="h-3.5 w-3.5" />
+        {category.subcategories.length} subcategories
+      </span>
+      <span class="rounded-full border border-line px-3.5 py-1.5 text-xs font-semibold text-muted">{totalItems} items</span>
+    </div>
+  </Container>
+
+  <Container>
+    <!-- Sticky filter bar -->
+    <div class="sticky top-16 z-20 -mx-2 bg-surface/95 px-2 py-3 backdrop-blur">
+      <div class="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+        <div class="flex flex-wrap items-center gap-2" data-sub-chips role="group" aria-label="Filter by subcategory">
+          <button type="button" class="chip is-active" data-sub-chip="all">All</button>
+          {
+            category.subcategories.map((sub) => (
+              <button type="button" class="chip" data-sub-chip={sub.slug}>
+                {sub.name}
+                <span class="text-xs opacity-60">{sub.items.length}</span>
+              </button>
+            ))
+          }
+        </div>
+        <div class="relative w-full lg:w-64">
+          <Icon name="lucide:search" class="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-muted" />
+          <input
+            id="product-search"
+            type="search"
+            placeholder={`Search in ${category.name}…`}
+            class="input pl-9"
+            aria-label={`Search in ${category.name}`}
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Subcategory sections -->
+    {
+      category.subcategories.map((sub) => (
+        <section class="mt-12 scroll-mt-32 first:mt-8" data-sub-section={sub.slug} id={sub.slug}>
+          <div class="flex flex-wrap items-baseline justify-between gap-2">
+            <h2 class="text-xl font-bold tracking-tight text-ink">{sub.name}</h2>
+            <span class="text-sm text-muted" data-sub-count>
+              {sub.items.length} {sub.items.length === 1 ? 'item' : 'items'}
+            </span>
+          </div>
+          {sub.description && <p class="mt-1.5 max-w-2xl text-sm text-muted">{sub.description}</p>}
+          <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {sub.items.map((item) => (
+              <ProductCard item={item} category={category} subcategory={sub} showSub={false} />
+            ))}
+          </div>
+        </section>
+      ))
+    }
+
+    <p id="product-empty" hidden class="mt-12 text-center text-sm text-muted">
+      No items match your search in this category.
+    </p>
+
+    <!-- Category CTA -->
+    <div class="relative mt-16 overflow-hidden rounded-2xl bg-primary px-6 py-12 text-center text-white sm:px-12" data-reveal>
+      <div class="hex-bg absolute inset-0 opacity-60" aria-hidden="true" />
+      <div class="relative mx-auto max-w-xl">
+        <h2 class="font-display text-2xl font-bold sm:text-3xl">Need a quote for {category.name}?</h2>
+        <p class="mt-3 text-sm leading-relaxed text-steel-300 sm:text-base">
+          Send us your list or specification — pricing and lead times back within one business day.
+        </p>
+        <a href={`/quote?category=${category.slug}`} class="btn btn-accent btn-lg mt-6">Request a Quote</a>
+      </div>
+    </div>
+  </Container>
+</PageLayout>
+
+<script>
+  const chips = Array.from(document.querySelectorAll<HTMLElement>('[data-sub-chip]'));
+  const sections = Array.from(document.querySelectorAll<HTMLElement>('[data-sub-section]'));
+  const input = document.getElementById('product-search') as HTMLInputElement | null;
+  const emptyMsg = document.getElementById('product-empty');
+  let activeChip = 'all';
+
+  function applyChip(): void {
+    for (const section of sections) {
+      const match = activeChip === 'all' || section.dataset.subSection === activeChip;
+      section.classList.toggle('hidden', !match);
+    }
+  }
+
+  function applySearch(): void {
+    const q = (input?.value ?? '').trim().toLowerCase();
+    let anyVisible = false;
+    for (const section of sections) {
+      const cards = Array.from(section.querySelectorAll<HTMLElement>('[data-product-name]'));
+      let visible = 0;
+      for (const card of cards) {
+        const match = !q || (card.dataset.productName ?? '').includes(q);
+        card.classList.toggle('hidden', !match);
+        if (match) visible++;
+      }
+      section.classList.toggle('hidden', q ? visible === 0 : false);
+      const count = section.querySelector('[data-sub-count]');
+      if (count) count.textContent = q ? `${visible} found` : count.getAttribute('data-original') ?? count.textContent;
+      if (visible > 0) anyVisible = true;
+    }
+    if (q && emptyMsg) emptyMsg.hidden = anyVisible;
+    if (!q) {
+      if (emptyMsg) emptyMsg.hidden = true;
+      // restore original counts
+      for (const section of sections) {
+        const count = section.querySelector<HTMLElement>('[data-sub-count]');
+        if (count) {
+          const original = count.getAttribute('data-original');
+          if (original) count.textContent = original;
+        }
+      }
+      applyChip();
+    }
+  }
+
+  // remember original counts
+  for (const section of sections) {
+    const count = section.querySelector<HTMLElement>('[data-sub-count]');
+    if (count) count.setAttribute('data-original', count.textContent ?? '');
+  }
+
+  chips.forEach((chip) => {
+    chip.addEventListener('click', () => {
+      activeChip = chip.dataset.subChip ?? 'all';
+      chips.forEach((c) => c.classList.toggle('is-active', c === chip));
+      if (input) input.value = '';
+      applySearch();
+    });
+  });
+
+  input?.addEventListener('input', applySearch);
+</script>

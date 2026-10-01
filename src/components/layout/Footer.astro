@@ -1,0 +1,137 @@
+---
+import { Icon } from 'astro-icon/components';
+import Container from '../ui/Container.astro';
+import { getSite, getCompany, getContact, getNavigation } from '../../lib/data';
+
+const site = getSite();
+const company = getCompany();
+const contact = getContact();
+const navigation = getNavigation();
+
+const year = new Date().getFullYear();
+const legalLinks = navigation.legalLinks.filter((l) => l.href);
+---
+
+<footer class="no-print bg-primary text-white">
+  <Container class="py-14">
+    <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
+      <!-- Brand -->
+      <div>
+        {
+          company.logo.light && (
+            <img src={company.logo.light} alt={company.name} width="176" height="40" class="h-9 w-auto" loading="lazy" />
+          )
+        }
+        <p class="mt-4 max-w-sm text-sm leading-relaxed text-steel">
+          {company.tagline} — certified industrial materials and components, delivered on time to plants and projects across Pakistan.
+        </p>
+
+        <ul class="mt-6 space-y-2.5 text-sm text-steel-300">
+          {
+            contact.primary.phone && (
+              <li>
+                <a href={`tel:${contact.primary.phone.replace(/\s/g, '')}`} class="inline-flex items-center gap-2.5 transition hover:text-accent">
+                  <Icon name="lucide:phone" class="h-4 w-4 shrink-0 text-accent" />
+                  {contact.primary.phone}
+                </a>
+              </li>
+            )
+          }
+          {
+            contact.primary.email && (
+              <li>
+                <a href={`mailto:${contact.primary.email}`} class="inline-flex items-center gap-2.5 transition hover:text-accent">
+                  <Icon name="lucide:mail" class="h-4 w-4 shrink-0 text-accent" />
+                  {contact.primary.email}
+                </a>
+              </li>
+            )
+          }
+          {
+            contact.primary.address && (
+              <li class="flex items-start gap-2.5">
+                <Icon name="lucide:map-pin" class="mt-0.5 h-4 w-4 shrink-0 text-accent" />
+                {contact.primary.address}
+              </li>
+            )
+          }
+          {
+            contact.primary.hours && (
+              <li class="flex items-center gap-2.5">
+                <Icon name="lucide:clock" class="h-4 w-4 shrink-0 text-accent" />
+                {contact.primary.hours}
+              </li>
+            )
+          }
+        </ul>
+
+        {
+          contact.socials.length > 0 && (
+            <div class="mt-6 flex items-center gap-2.5">
+              {contact.socials.map((s) => (
+                <a
+                  href={s.url}
+                  target={s.url.startsWith('http') ? '_blank' : undefined}
+                  rel={s.url.startsWith('http') ? 'noopener' : undefined}
+                  aria-label={s.platform}
+                  class="grid h-9 w-9 place-items-center rounded-full border border-white/15 text-steel-300 transition hover:border-accent hover:bg-accent hover:text-primary"
+                >
+                  <Icon name={`lucide:${s.platform}`} class="h-4 w-4" />
+                </a>
+              ))}
+            </div>
+          )
+        }
+      </div>
+
+      <!-- Link columns -->
+      {
+        navigation.footerColumns.map((col) => (
+          <nav aria-label={col.title}>
+            <h3 class="text-xs font-bold tracking-[0.18em] text-steel uppercase">{col.title}</h3>
+            <ul class="mt-4 space-y-2.5">
+              {col.links.map((link) => (
+                <li>
+                  <a
+                    href={link.href}
+                    target={link.href.startsWith('http') ? '_blank' : undefined}
+                    rel={link.href.startsWith('http') ? 'noopener' : undefined}
+                    class="text-sm text-steel-300 transition hover:text-accent"
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        ))
+      }
+    </div>
+
+    {
+      legalLinks.length > 0 && (
+        <div class="mt-10 flex flex-wrap gap-x-6 gap-y-2 border-t border-white/10 pt-6">
+          {legalLinks.map((link) => (
+            <a href={link.href} class="text-xs text-steel transition hover:text-accent">
+              {link.label}
+            </a>
+          ))}
+        </div>
+      )
+    }
+  </Container>
+
+  <!-- Bottom bar -->
+  <div class="border-t border-white/10">
+    <Container class="flex flex-col items-center justify-between gap-2 py-5 sm:flex-row">
+      <p class="text-sm text-steel">© {year} {company.name}. All rights reserved.</p>
+      {
+        site.credit.text && site.credit.url && (
+          <a href={site.credit.url} target="_blank" rel="noopener" class="text-sm font-medium text-steel transition hover:text-accent">
+            {site.credit.text}
+          </a>
+        )
+      }
+    </Container>
+  </div>
+</footer>

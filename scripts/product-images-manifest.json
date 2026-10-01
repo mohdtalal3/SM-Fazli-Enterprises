@@ -1,0 +1,3614 @@
+{
+  "images": {
+    "chemicals/industrial-chemicals/sodium-hydroxide": {
+      "key": "chemicals/industrial-chemicals/sodium-hydroxide",
+      "name": "Sodium Hydroxide (Caustic Soda)",
+      "category": "Chemicals",
+      "subcategory": "Industrial Chemicals",
+      "file": "/images/products/_curated/naoh-beads.jpg",
+      "via": "curated-repair"
+    },
+    "chemicals/industrial-chemicals/hydrochloric-acid": {
+      "key": "chemicals/industrial-chemicals/hydrochloric-acid",
+      "name": "Hydrochloric Acid",
+      "category": "Chemicals",
+      "subcategory": "Industrial Chemicals",
+      "file": "/images/products/chemicals/hydrochloric-acid.jpg",
+      "via": "disk"
+    },
+    "chemicals/industrial-chemicals/sulfuric-acid": {
+      "key": "chemicals/industrial-chemicals/sulfuric-acid",
+      "name": "Sulfuric Acid",
+      "category": "Chemicals",
+      "subcategory": "Industrial Chemicals",
+      "file": "/images/products/_curated/sulfuric-bottle.jpg",
+      "via": "curated-repair"
+    },
+    "chemicals/industrial-chemicals/nitric-acid": {
+      "key": "chemicals/industrial-chemicals/nitric-acid",
+      "name": "Nitric Acid",
+      "category": "Chemicals",
+      "subcategory": "Industrial Chemicals",
+      "file": "/images/products/chemicals/nitric-acid.png",
+      "via": "disk"
+    },
+    "chemicals/industrial-chemicals/phosphoric-acid": {
+      "key": "chemicals/industrial-chemicals/phosphoric-acid",
+      "name": "Phosphoric Acid",
+      "category": "Chemicals",
+      "subcategory": "Industrial Chemicals",
+      "file": "/images/products/_curated/sulfuric-jar.jpg",
+      "via": "curated-repair"
+    },
+    "chemicals/industrial-chemicals/acetic-acid": {
+      "key": "chemicals/industrial-chemicals/acetic-acid",
+      "name": "Acetic Acid",
+      "category": "Chemicals",
+      "subcategory": "Industrial Chemicals",
+      "file": "/images/products/chemicals/acetic-acid.jpg",
+      "via": "disk"
+    },
+    "chemicals/industrial-chemicals/citric-acid": {
+      "key": "chemicals/industrial-chemicals/citric-acid",
+      "name": "Citric Acid",
+      "category": "Chemicals",
+      "subcategory": "Industrial Chemicals",
+      "file": "/images/products/chemicals/acetic-acid.jpg",
+      "via": "curated-repair"
+    },
+    "chemicals/industrial-chemicals/sodium-carbonate": {
+      "key": "chemicals/industrial-chemicals/sodium-carbonate",
+      "name": "Sodium Carbonate",
+      "category": "Chemicals",
+      "subcategory": "Industrial Chemicals",
+      "file": "/images/products/_curated/baking-soda.jpg",
+      "via": "curated-repair"
+    },
+    "chemicals/industrial-chemicals/sodium-bicarbonate": {
+      "key": "chemicals/industrial-chemicals/sodium-bicarbonate",
+      "name": "Sodium Bicarbonate",
+      "category": "Chemicals",
+      "subcategory": "Industrial Chemicals",
+      "file": "/images/products/_curated/baking-soda.jpg",
+      "via": "curated-repair"
+    },
+    "chemicals/industrial-chemicals/calcium-chloride": {
+      "key": "chemicals/industrial-chemicals/calcium-chloride",
+      "name": "Calcium Chloride",
+      "category": "Chemicals",
+      "subcategory": "Industrial Chemicals",
+      "file": "/images/products/_curated/naoh-beads.jpg",
+      "via": "curated-repair"
+    },
+    "chemicals/industrial-chemicals/ammonium-chloride": {
+      "key": "chemicals/industrial-chemicals/ammonium-chloride",
+      "name": "Ammonium Chloride",
+      "category": "Chemicals",
+      "subcategory": "Industrial Chemicals",
+      "file": "/images/products/chemicals/hydrochloric-acid.jpg",
+      "via": "curated-repair"
+    },
+    "chemicals/industrial-chemicals/potassium-hydroxide": {
+      "key": "chemicals/industrial-chemicals/potassium-hydroxide",
+      "name": "Potassium Hydroxide",
+      "category": "Chemicals",
+      "subcategory": "Industrial Chemicals",
+      "file": "/images/products/_curated/naoh-beads.jpg",
+      "via": "curated-repair"
+    },
+    "chemicals/solvents/acetone": {
+      "key": "chemicals/solvents/acetone",
+      "name": "Acetone",
+      "category": "Chemicals",
+      "subcategory": "Solvents",
+      "file": "/images/products/_curated/ethanol-usp.jpg",
+      "via": "curated-repair"
+    },
+    "chemicals/solvents/isopropyl-alcohol": {
+      "key": "chemicals/solvents/isopropyl-alcohol",
+      "name": "Isopropyl Alcohol (IPA)",
+      "category": "Chemicals",
+      "subcategory": "Solvents",
+      "file": "/images/products/_curated/ethanol-flasche.jpg",
+      "via": "curated-repair"
+    },
+    "chemicals/solvents/methanol": {
+      "key": "chemicals/solvents/methanol",
+      "name": "Methanol",
+      "category": "Chemicals",
+      "subcategory": "Solvents",
+      "file": "/images/products/_curated/ethanol-flasche.jpg",
+      "source": "https://en.wikipedia.org/wiki/Methanol",
+      "width": 800,
+      "via": "curated-repair"
+    },
+    "chemicals/solvents/ethanol": {
+      "key": "chemicals/solvents/ethanol",
+      "name": "Ethanol",
+      "category": "Chemicals",
+      "subcategory": "Solvents",
+      "file": "/images/products/_curated/ethanol-usp.jpg",
+      "source": "https://en.wikipedia.org/wiki/Ethanol_fuel",
+      "via": "curated-repair",
+      "width": 915
+    },
+    "chemicals/solvents/toluene": {
+      "key": "chemicals/solvents/toluene",
+      "name": "Toluene",
+      "category": "Chemicals",
+      "subcategory": "Solvents",
+      "file": "/images/products/chemicals/toluene.png",
+      "via": "disk"
+    },
+    "chemicals/solvents/xylene": {
+      "key": "chemicals/solvents/xylene",
+      "name": "Xylene",
+      "category": "Chemicals",
+      "subcategory": "Solvents",
+      "file": "/images/products/chemicals/toluene.png",
+      "via": "curated-repair"
+    },
+    "chemicals/solvents/mek": {
+      "key": "chemicals/solvents/mek",
+      "name": "MEK",
+      "category": "Chemicals",
+      "subcategory": "Solvents",
+      "file": "/images/products/_curated/ethanol-usp.jpg",
+      "source": "https://en.wikipedia.org/wiki/People's_Mojahedin_Organization_of_Iran",
+      "via": "curated-repair",
+      "width": 270
+    },
+    "chemicals/solvents/mibk": {
+      "key": "chemicals/solvents/mibk",
+      "name": "MIBK",
+      "category": "Chemicals",
+      "subcategory": "Solvents",
+      "file": "/images/products/_curated/ethanol-flasche.jpg",
+      "source": "https://en.wikipedia.org/wiki/Methyl_isobutyl_ketone",
+      "width": 852,
+      "via": "curated-repair"
+    },
+    "chemicals/water-treatment-chemicals/alum": {
+      "key": "chemicals/water-treatment-chemicals/alum",
+      "name": "Alum",
+      "category": "Chemicals",
+      "subcategory": "Water Treatment Chemicals",
+      "file": "/images/products/chemicals/alum.jpg",
+      "via": "disk"
+    },
+    "chemicals/water-treatment-chemicals/ferric-chloride": {
+      "key": "chemicals/water-treatment-chemicals/ferric-chloride",
+      "name": "Ferric Chloride",
+      "category": "Chemicals",
+      "subcategory": "Water Treatment Chemicals",
+      "file": "/images/products/chemicals/ferric-chloride.jpg",
+      "via": "disk"
+    },
+    "chemicals/water-treatment-chemicals/poly-aluminium-chloride": {
+      "key": "chemicals/water-treatment-chemicals/poly-aluminium-chloride",
+      "name": "Poly Aluminium Chloride (PAC)",
+      "category": "Chemicals",
+      "subcategory": "Water Treatment Chemicals",
+      "file": "/images/products/chemicals/poly-aluminium-chloride.jpg",
+      "via": "disk"
+    },
+    "chemicals/water-treatment-chemicals/sodium-hypochlorite": {
+      "key": "chemicals/water-treatment-chemicals/sodium-hypochlorite",
+      "name": "Sodium Hypochlorite",
+      "category": "Chemicals",
+      "subcategory": "Water Treatment Chemicals",
+      "file": "/images/products/chemicals/sodium-hypochlorite.png",
+      "via": "disk"
+    },
+    "chemicals/water-treatment-chemicals/antiscalants": {
+      "key": "chemicals/water-treatment-chemicals/antiscalants",
+      "name": "Antiscalants",
+      "category": "Chemicals",
+      "subcategory": "Water Treatment Chemicals",
+      "file": "/images/products/chemicals/antiscalants.jpg",
+      "via": "disk"
+    },
+    "chemicals/water-treatment-chemicals/biocides": {
+      "key": "chemicals/water-treatment-chemicals/biocides",
+      "name": "Biocides",
+      "category": "Chemicals",
+      "subcategory": "Water Treatment Chemicals",
+      "file": "/images/products/chemicals/biocides.jpg",
+      "via": "disk"
+    },
+    "chemicals/water-treatment-chemicals/coagulants": {
+      "key": "chemicals/water-treatment-chemicals/coagulants",
+      "name": "Coagulants",
+      "category": "Chemicals",
+      "subcategory": "Water Treatment Chemicals",
+      "file": "/images/products/chemicals/coagulants.png",
+      "via": "disk"
+    },
+    "chemicals/water-treatment-chemicals/flocculants": {
+      "key": "chemicals/water-treatment-chemicals/flocculants",
+      "name": "Flocculants",
+      "category": "Chemicals",
+      "subcategory": "Water Treatment Chemicals",
+      "file": "/images/products/chemicals/flocculants.jpg",
+      "via": "disk"
+    },
+    "chemicals/cleaning-degreasing-chemicals/industrial-degreasers": {
+      "key": "chemicals/cleaning-degreasing-chemicals/industrial-degreasers",
+      "name": "Industrial Degreasers",
+      "category": "Chemicals",
+      "subcategory": "Cleaning & Degreasing Chemicals",
+      "file": "/images/products/chemicals/industrial-degreasers.png",
+      "via": "disk"
+    },
+    "chemicals/cleaning-degreasing-chemicals/chemical-cleaners": {
+      "key": "chemicals/cleaning-degreasing-chemicals/chemical-cleaners",
+      "name": "Chemical Cleaners",
+      "category": "Chemicals",
+      "subcategory": "Cleaning & Degreasing Chemicals",
+      "file": "/images/products/chemicals/chemical-cleaners.jpg",
+      "via": "disk"
+    },
+    "chemicals/cleaning-degreasing-chemicals/rust-removers": {
+      "key": "chemicals/cleaning-degreasing-chemicals/rust-removers",
+      "name": "Rust Removers",
+      "category": "Chemicals",
+      "subcategory": "Cleaning & Degreasing Chemicals",
+      "file": "/images/products/chemicals/rust-removers.jpg",
+      "via": "disk"
+    },
+    "chemicals/cleaning-degreasing-chemicals/descaling-chemicals": {
+      "key": "chemicals/cleaning-degreasing-chemicals/descaling-chemicals",
+      "name": "Descaling Chemicals",
+      "category": "Chemicals",
+      "subcategory": "Cleaning & Degreasing Chemicals",
+      "file": "/images/products/chemicals/descaling-chemicals.jpg",
+      "via": "disk"
+    },
+    "chemicals/cleaning-degreasing-chemicals/metal-cleaners": {
+      "key": "chemicals/cleaning-degreasing-chemicals/metal-cleaners",
+      "name": "Metal Cleaners",
+      "category": "Chemicals",
+      "subcategory": "Cleaning & Degreasing Chemicals",
+      "file": "/images/products/chemicals/metal-cleaners.jpg",
+      "via": "disk"
+    },
+    "paints/industrial-paints/enamel-paint": {
+      "key": "paints/industrial-paints/enamel-paint",
+      "name": "Enamel Paint",
+      "category": "Paints",
+      "subcategory": "Industrial Paints",
+      "file": "/images/products/paints/enamel-paint.jpg",
+      "via": "disk"
+    },
+    "paints/industrial-paints/alkyd-paint": {
+      "key": "paints/industrial-paints/alkyd-paint",
+      "name": "Alkyd Paint",
+      "category": "Paints",
+      "subcategory": "Industrial Paints",
+      "file": "/images/products/paints/alkyd-paint.jpg",
+      "source": "https://en.wikipedia.org/wiki/Paint",
+      "via": "search",
+      "width": 800
+    },
+    "paints/industrial-paints/epoxy-paint": {
+      "key": "paints/industrial-paints/epoxy-paint",
+      "name": "Epoxy Paint",
+      "category": "Paints",
+      "subcategory": "Industrial Paints",
+      "file": "/images/products/paints/epoxy-paint.jpg",
+      "via": "disk"
+    },
+    "paints/industrial-paints/polyurethane-paint": {
+      "key": "paints/industrial-paints/polyurethane-paint",
+      "name": "Polyurethane Paint",
+      "category": "Paints",
+      "subcategory": "Industrial Paints",
+      "file": "/images/products/paints/polyurethane-paint.jpg",
+      "via": "disk"
+    },
+    "paints/industrial-paints/acrylic-paint": {
+      "key": "paints/industrial-paints/acrylic-paint",
+      "name": "Acrylic Paint",
+      "category": "Paints",
+      "subcategory": "Industrial Paints",
+      "file": "/images/products/paints/acrylic-paint.jpg",
+      "via": "disk"
+    },
+    "paints/industrial-paints/synthetic-paint": {
+      "key": "paints/industrial-paints/synthetic-paint",
+      "name": "Synthetic Paint",
+      "category": "Paints",
+      "subcategory": "Industrial Paints",
+      "file": "/images/products/paints/synthetic-paint.jpg",
+      "via": "disk"
+    },
+    "paints/industrial-paints/machinery-paint": {
+      "key": "paints/industrial-paints/machinery-paint",
+      "name": "Machinery Paint",
+      "category": "Paints",
+      "subcategory": "Industrial Paints",
+      "file": "/images/products/paints/machinery-paint.png",
+      "source": "https://en.wikipedia.org/wiki/Hydraulic_machinery",
+      "via": "search",
+      "width": 340
+    },
+    "paints/industrial-paints/structural-steel-paint": {
+      "key": "paints/industrial-paints/structural-steel-paint",
+      "name": "Structural Steel Paint",
+      "category": "Paints",
+      "subcategory": "Industrial Paints",
+      "file": "/images/products/paints/structural-steel-paint.jpg",
+      "via": "disk"
+    },
+    "paints/primers/red-oxide-primer": {
+      "key": "paints/primers/red-oxide-primer",
+      "name": "Red Oxide Primer",
+      "category": "Paints",
+      "subcategory": "Primers",
+      "file": null,
+      "source": "https://en.wikipedia.org/wiki/Lead(II%2CIV)_oxide",
+      "via": "search",
+      "width": 947
+    },
+    "paints/primers/zinc-chromate-primer": {
+      "key": "paints/primers/zinc-chromate-primer",
+      "name": "Zinc Chromate Primer",
+      "category": "Paints",
+      "subcategory": "Primers",
+      "file": "/images/products/paints/zinc-chromate-primer.jpg",
+      "via": "disk"
+    },
+    "paints/primers/zinc-phosphate-primer": {
+      "key": "paints/primers/zinc-phosphate-primer",
+      "name": "Zinc Phosphate Primer",
+      "category": "Paints",
+      "subcategory": "Primers",
+      "file": "/images/products/paints/zinc-phosphate-primer.jpg",
+      "via": "disk"
+    },
+    "paints/primers/epoxy-primer": {
+      "key": "paints/primers/epoxy-primer",
+      "name": "Epoxy Primer",
+      "category": "Paints",
+      "subcategory": "Primers",
+      "file": "/images/products/paints/epoxy-primer.jpg",
+      "via": "disk"
+    },
+    "paints/primers/metal-primer": {
+      "key": "paints/primers/metal-primer",
+      "name": "Metal Primer",
+      "category": "Paints",
+      "subcategory": "Primers",
+      "file": "/images/products/paints/metal-primer.jpg",
+      "via": "disk"
+    },
+    "paints/primers/anti-corrosion-primer": {
+      "key": "paints/primers/anti-corrosion-primer",
+      "name": "Anti-Corrosion Primer",
+      "category": "Paints",
+      "subcategory": "Primers",
+      "file": "/images/products/paints/anti-corrosion-primer.jpg",
+      "via": "disk"
+    },
+    "paints/protective-coatings/anti-corrosion-coating": {
+      "key": "paints/protective-coatings/anti-corrosion-coating",
+      "name": "Anti-Corrosion Coating",
+      "category": "Paints",
+      "subcategory": "Protective Coatings",
+      "file": "/images/products/paints/anti-corrosion-coating.jpg",
+      "via": "disk"
+    },
+    "paints/protective-coatings/heat-resistant-coating": {
+      "key": "paints/protective-coatings/heat-resistant-coating",
+      "name": "Heat Resistant Coating",
+      "category": "Paints",
+      "subcategory": "Protective Coatings",
+      "file": "/images/products/paints/heat-resistant-coating.jpg",
+      "via": "disk"
+    },
+    "paints/protective-coatings/chemical-resistant-coating": {
+      "key": "paints/protective-coatings/chemical-resistant-coating",
+      "name": "Chemical Resistant Coating",
+      "category": "Paints",
+      "subcategory": "Protective Coatings",
+      "file": "/images/products/paints/chemical-resistant-coating.jpg",
+      "via": "disk"
+    },
+    "paints/protective-coatings/abrasion-resistant-coating": {
+      "key": "paints/protective-coatings/abrasion-resistant-coating",
+      "name": "Abrasion Resistant Coating",
+      "category": "Paints",
+      "subcategory": "Protective Coatings",
+      "file": "/images/products/paints/abrasion-resistant-coating.jpg",
+      "via": "disk"
+    },
+    "paints/protective-coatings/waterproof-coating": {
+      "key": "paints/protective-coatings/waterproof-coating",
+      "name": "Waterproof Coating",
+      "category": "Paints",
+      "subcategory": "Protective Coatings",
+      "file": "/images/products/paints/waterproof-coating.jpg",
+      "via": "disk"
+    },
+    "special-paints-coatings/high-temperature-paints/heat-resistant-paint": {
+      "key": "special-paints-coatings/high-temperature-paints/heat-resistant-paint",
+      "name": "Heat Resistant Paint",
+      "category": "Special Paints & Coatings",
+      "subcategory": "High Temperature Paints",
+      "file": "/images/products/special-paints-coatings/heat-resistant-paint.jpg",
+      "via": "disk"
+    },
+    "special-paints-coatings/high-temperature-paints/stove-paint": {
+      "key": "special-paints-coatings/high-temperature-paints/stove-paint",
+      "name": "Stove Paint",
+      "category": "Special Paints & Coatings",
+      "subcategory": "High Temperature Paints",
+      "file": "/images/products/special-paints-coatings/stove-paint.jpg",
+      "via": "disk"
+    },
+    "special-paints-coatings/high-temperature-paints/furnace-paint": {
+      "key": "special-paints-coatings/high-temperature-paints/furnace-paint",
+      "name": "Furnace Paint",
+      "category": "Special Paints & Coatings",
+      "subcategory": "High Temperature Paints",
+      "file": "/images/products/special-paints-coatings/furnace-paint.jpg",
+      "via": "disk"
+    },
+    "special-paints-coatings/high-temperature-paints/exhaust-paint": {
+      "key": "special-paints-coatings/high-temperature-paints/exhaust-paint",
+      "name": "Exhaust Paint",
+      "category": "Special Paints & Coatings",
+      "subcategory": "High Temperature Paints",
+      "file": "/images/products/special-paints-coatings/exhaust-paint.jpg",
+      "via": "disk"
+    },
+    "special-paints-coatings/special-purpose-coatings/fire-retardant-paint": {
+      "key": "special-paints-coatings/special-purpose-coatings/fire-retardant-paint",
+      "name": "Fire Retardant Paint",
+      "category": "Special Paints & Coatings",
+      "subcategory": "Special Purpose Coatings",
+      "file": "/images/products/special-paints-coatings/fire-retardant-paint.jpg",
+      "via": "disk"
+    },
+    "special-paints-coatings/special-purpose-coatings/food-grade-coating": {
+      "key": "special-paints-coatings/special-purpose-coatings/food-grade-coating",
+      "name": "Food Grade Coating",
+      "category": "Special Paints & Coatings",
+      "subcategory": "Special Purpose Coatings",
+      "file": "/images/products/special-paints-coatings/food-grade-coating.jpg",
+      "via": "disk"
+    },
+    "special-paints-coatings/special-purpose-coatings/anti-slip-coating": {
+      "key": "special-paints-coatings/special-purpose-coatings/anti-slip-coating",
+      "name": "Anti-Slip Coating",
+      "category": "Special Paints & Coatings",
+      "subcategory": "Special Purpose Coatings",
+      "file": "/images/products/special-paints-coatings/anti-slip-coating.jpg",
+      "via": "disk"
+    },
+    "special-paints-coatings/special-purpose-coatings/anti-static-coating": {
+      "key": "special-paints-coatings/special-purpose-coatings/anti-static-coating",
+      "name": "Anti-Static Coating",
+      "category": "Special Paints & Coatings",
+      "subcategory": "Special Purpose Coatings",
+      "file": "/images/products/special-paints-coatings/anti-static-coating.jpg",
+      "via": "disk"
+    },
+    "special-paints-coatings/metal-coatings/zinc-coating": {
+      "key": "special-paints-coatings/metal-coatings/zinc-coating",
+      "name": "Zinc Coating",
+      "category": "Special Paints & Coatings",
+      "subcategory": "Metal Coatings",
+      "file": "/images/products/special-paints-coatings/zinc-coating.jpg",
+      "via": "disk"
+    },
+    "special-paints-coatings/metal-coatings/galvanizing-paint": {
+      "key": "special-paints-coatings/metal-coatings/galvanizing-paint",
+      "name": "Galvanizing Paint",
+      "category": "Special Paints & Coatings",
+      "subcategory": "Metal Coatings",
+      "file": "/images/products/special-paints-coatings/galvanizing-paint.jpg",
+      "via": "disk"
+    },
+    "special-paints-coatings/metal-coatings/aluminum-paint": {
+      "key": "special-paints-coatings/metal-coatings/aluminum-paint",
+      "name": "Aluminum Paint",
+      "category": "Special Paints & Coatings",
+      "subcategory": "Metal Coatings",
+      "file": "/images/products/special-paints-coatings/aluminum-paint.png",
+      "via": "disk"
+    },
+    "special-paints-coatings/metal-coatings/anti-rust-coating": {
+      "key": "special-paints-coatings/metal-coatings/anti-rust-coating",
+      "name": "Anti-Rust Coating",
+      "category": "Special Paints & Coatings",
+      "subcategory": "Metal Coatings",
+      "file": "/images/products/special-paints-coatings/anti-rust-coating.jpg",
+      "via": "disk"
+    },
+    "glassware/industrial-glass/borosilicate-glass": {
+      "key": "glassware/industrial-glass/borosilicate-glass",
+      "name": "Borosilicate Glass",
+      "category": "Glassware",
+      "subcategory": "Industrial Glass",
+      "file": "/images/products/glassware/borosilicate-glass.jpg",
+      "via": "disk"
+    },
+    "glassware/industrial-glass/tempered-glass": {
+      "key": "glassware/industrial-glass/tempered-glass",
+      "name": "Tempered Glass",
+      "category": "Glassware",
+      "subcategory": "Industrial Glass",
+      "file": "/images/products/glassware/sight-glass.jpg",
+      "via": "curated-repair"
+    },
+    "glassware/industrial-glass/toughened-glass": {
+      "key": "glassware/industrial-glass/toughened-glass",
+      "name": "Toughened Glass",
+      "category": "Glassware",
+      "subcategory": "Industrial Glass",
+      "file": "/images/products/glassware/sight-glass.jpg",
+      "via": "curated-repair"
+    },
+    "glassware/industrial-glass/heat-resistant-glass": {
+      "key": "glassware/industrial-glass/heat-resistant-glass",
+      "name": "Heat Resistant Glass",
+      "category": "Glassware",
+      "subcategory": "Industrial Glass",
+      "file": "/images/products/glassware/heat-resistant-glass.jpg",
+      "via": "disk"
+    },
+    "glassware/industrial-glass/chemical-resistant-glass": {
+      "key": "glassware/industrial-glass/chemical-resistant-glass",
+      "name": "Chemical Resistant Glass",
+      "category": "Glassware",
+      "subcategory": "Industrial Glass",
+      "file": "/images/products/glassware/chemical-resistant-glass.jpg",
+      "via": "disk"
+    },
+    "glassware/industrial-glass/sight-glass": {
+      "key": "glassware/industrial-glass/sight-glass",
+      "name": "Sight Glass",
+      "category": "Glassware",
+      "subcategory": "Industrial Glass",
+      "file": "/images/products/glassware/sight-glass.jpg",
+      "via": "disk"
+    },
+    "glassware/industrial-glass-components/glass-tubes": {
+      "key": "glassware/industrial-glass-components/glass-tubes",
+      "name": "Glass Tubes",
+      "category": "Glassware",
+      "subcategory": "Industrial Glass Components",
+      "file": "/images/products/glassware/glass-tubes.jpg",
+      "via": "disk"
+    },
+    "glassware/industrial-glass-components/glass-sheets": {
+      "key": "glassware/industrial-glass-components/glass-sheets",
+      "name": "Glass Sheets",
+      "category": "Glassware",
+      "subcategory": "Industrial Glass Components",
+      "file": "/images/products/glassware/glass-sheets.jpg",
+      "via": "disk"
+    },
+    "glassware/industrial-glass-components/glass-discs": {
+      "key": "glassware/industrial-glass-components/glass-discs",
+      "name": "Glass Discs",
+      "category": "Glassware",
+      "subcategory": "Industrial Glass Components",
+      "file": "/images/products/glassware/glass-discs.png",
+      "source": "https://en.wikipedia.org/wiki/Optical_disc",
+      "via": "search",
+      "width": 800
+    },
+    "glassware/industrial-glass-components/glass-windows": {
+      "key": "glassware/industrial-glass-components/glass-windows",
+      "name": "Glass Windows",
+      "category": "Glassware",
+      "subcategory": "Industrial Glass Components",
+      "file": "/images/products/glassware/glass-windows.jpg",
+      "source": "https://en.wikipedia.org/wiki/Window",
+      "via": "search",
+      "width": 800
+    },
+    "glassware/sight-glass-products/sight-glass-covers": {
+      "key": "glassware/sight-glass-products/sight-glass-covers",
+      "name": "Sight Glass Covers",
+      "category": "Glassware",
+      "subcategory": "Sight Glass Products",
+      "file": "/images/products/glassware/sight-glass-covers.png",
+      "via": "disk"
+    },
+    "glassware/sight-glass-products/sight-glass-gaskets": {
+      "key": "glassware/sight-glass-products/sight-glass-gaskets",
+      "name": "Sight Glass Gaskets",
+      "category": "Glassware",
+      "subcategory": "Sight Glass Products",
+      "file": "/images/products/glassware/sight-glass-gaskets.jpg",
+      "via": "disk"
+    },
+    "glassware/sight-glass-products/sight-glass-protectors": {
+      "key": "glassware/sight-glass-products/sight-glass-protectors",
+      "name": "Sight Glass Protectors",
+      "category": "Glassware",
+      "subcategory": "Sight Glass Products",
+      "file": "/images/products/glassware/sight-glass-protectors.jpg",
+      "via": "disk"
+    },
+    "fasteners/bolts/hex-bolts": {
+      "key": "fasteners/bolts/hex-bolts",
+      "name": "Hex Bolts",
+      "category": "Fasteners",
+      "subcategory": "Bolts",
+      "file": "/images/products/fasteners/hex-bolts.jpg",
+      "via": "disk"
+    },
+    "fasteners/bolts/allen-bolts": {
+      "key": "fasteners/bolts/allen-bolts",
+      "name": "Allen Bolts",
+      "category": "Fasteners",
+      "subcategory": "Bolts",
+      "file": "/images/products/fasteners/allen-bolts.jpg",
+      "via": "disk"
+    },
+    "fasteners/bolts/carriage-bolts": {
+      "key": "fasteners/bolts/carriage-bolts",
+      "name": "Carriage Bolts",
+      "category": "Fasteners",
+      "subcategory": "Bolts",
+      "file": "/images/products/fasteners/carriage-bolts.jpg",
+      "via": "disk"
+    },
+    "fasteners/bolts/u-bolts": {
+      "key": "fasteners/bolts/u-bolts",
+      "name": "U-Bolts",
+      "category": "Fasteners",
+      "subcategory": "Bolts",
+      "file": "/images/products/fasteners/u-bolts.jpg",
+      "via": "disk"
+    },
+    "fasteners/bolts/eye-bolts": {
+      "key": "fasteners/bolts/eye-bolts",
+      "name": "Eye Bolts",
+      "category": "Fasteners",
+      "subcategory": "Bolts",
+      "file": "/images/products/fasteners/eye-bolts.jpg",
+      "via": "disk"
+    },
+    "fasteners/bolts/anchor-bolts": {
+      "key": "fasteners/bolts/anchor-bolts",
+      "name": "Anchor Bolts",
+      "category": "Fasteners",
+      "subcategory": "Bolts",
+      "file": "/images/products/fasteners/anchor-bolts.png",
+      "via": "disk"
+    },
+    "fasteners/nuts/hex-nuts": {
+      "key": "fasteners/nuts/hex-nuts",
+      "name": "Hex Nuts",
+      "category": "Fasteners",
+      "subcategory": "Nuts",
+      "file": "/images/products/fasteners/hex-nuts.jpg",
+      "via": "disk"
+    },
+    "fasteners/nuts/lock-nuts": {
+      "key": "fasteners/nuts/lock-nuts",
+      "name": "Lock Nuts",
+      "category": "Fasteners",
+      "subcategory": "Nuts",
+      "file": "/images/products/fasteners/lock-nuts.jpg",
+      "via": "disk"
+    },
+    "fasteners/nuts/nylon-lock-nuts": {
+      "key": "fasteners/nuts/nylon-lock-nuts",
+      "name": "Nylon Lock Nuts",
+      "category": "Fasteners",
+      "subcategory": "Nuts",
+      "file": "/images/products/fasteners/nylon-lock-nuts.png",
+      "via": "disk"
+    },
+    "fasteners/nuts/dome-nuts": {
+      "key": "fasteners/nuts/dome-nuts",
+      "name": "Dome Nuts",
+      "category": "Fasteners",
+      "subcategory": "Nuts",
+      "file": "/images/products/fasteners/dome-nuts.jpg",
+      "via": "disk"
+    },
+    "fasteners/nuts/flange-nuts": {
+      "key": "fasteners/nuts/flange-nuts",
+      "name": "Flange Nuts",
+      "category": "Fasteners",
+      "subcategory": "Nuts",
+      "file": "/images/products/fasteners/flange-nuts.jpg",
+      "via": "disk"
+    },
+    "fasteners/washers/flat-washers": {
+      "key": "fasteners/washers/flat-washers",
+      "name": "Flat Washers",
+      "category": "Fasteners",
+      "subcategory": "Washers",
+      "file": "/images/products/fasteners/flat-washers.jpg",
+      "via": "disk"
+    },
+    "fasteners/washers/spring-washers": {
+      "key": "fasteners/washers/spring-washers",
+      "name": "Spring Washers",
+      "category": "Fasteners",
+      "subcategory": "Washers",
+      "file": "/images/products/fasteners/spring-washers.png",
+      "via": "disk"
+    },
+    "fasteners/washers/lock-washers": {
+      "key": "fasteners/washers/lock-washers",
+      "name": "Lock Washers",
+      "category": "Fasteners",
+      "subcategory": "Washers",
+      "file": "/images/products/fasteners/lock-washers.jpg",
+      "via": "disk"
+    },
+    "fasteners/washers/sealing-washers": {
+      "key": "fasteners/washers/sealing-washers",
+      "name": "Sealing Washers",
+      "category": "Fasteners",
+      "subcategory": "Washers",
+      "file": "/images/products/fasteners/sealing-washers.jpg",
+      "via": "disk"
+    },
+    "fasteners/screws/machine-screws": {
+      "key": "fasteners/screws/machine-screws",
+      "name": "Machine Screws",
+      "category": "Fasteners",
+      "subcategory": "Screws",
+      "file": "/images/products/fasteners/machine-screws.jpg",
+      "via": "disk"
+    },
+    "fasteners/screws/self-tapping-screws": {
+      "key": "fasteners/screws/self-tapping-screws",
+      "name": "Self-Tapping Screws",
+      "category": "Fasteners",
+      "subcategory": "Screws",
+      "file": "/images/products/fasteners/self-tapping-screws.jpg",
+      "via": "disk"
+    },
+    "fasteners/screws/self-drilling-screws": {
+      "key": "fasteners/screws/self-drilling-screws",
+      "name": "Self-Drilling Screws",
+      "category": "Fasteners",
+      "subcategory": "Screws",
+      "file": "/images/products/fasteners/self-drilling-screws.jpg",
+      "via": "disk"
+    },
+    "fasteners/screws/set-screws": {
+      "key": "fasteners/screws/set-screws",
+      "name": "Set Screws",
+      "category": "Fasteners",
+      "subcategory": "Screws",
+      "file": "/images/products/fasteners/set-screws.png",
+      "via": "disk"
+    },
+    "fasteners/screws/countersunk-screws": {
+      "key": "fasteners/screws/countersunk-screws",
+      "name": "Countersunk Screws",
+      "category": "Fasteners",
+      "subcategory": "Screws",
+      "file": "/images/products/fasteners/countersunk-screws.jpg",
+      "via": "disk"
+    },
+    "fasteners/other-fasteners/studs": {
+      "key": "fasteners/other-fasteners/studs",
+      "name": "Studs",
+      "category": "Fasteners",
+      "subcategory": "Other Fasteners",
+      "file": "/images/products/fasteners/studs.jpg",
+      "via": "disk"
+    },
+    "fasteners/other-fasteners/threaded-rods": {
+      "key": "fasteners/other-fasteners/threaded-rods",
+      "name": "Threaded Rods",
+      "category": "Fasteners",
+      "subcategory": "Other Fasteners",
+      "file": "/images/products/fasteners/threaded-rods.jpg",
+      "via": "disk"
+    },
+    "fasteners/other-fasteners/rivets": {
+      "key": "fasteners/other-fasteners/rivets",
+      "name": "Rivets",
+      "category": "Fasteners",
+      "subcategory": "Other Fasteners",
+      "file": "/images/products/fasteners/rivets.jpg",
+      "source": "https://en.wikipedia.org/wiki/Rivet",
+      "width": 366
+    },
+    "fasteners/other-fasteners/pins": {
+      "key": "fasteners/other-fasteners/pins",
+      "name": "Pins",
+      "category": "Fasteners",
+      "subcategory": "Other Fasteners",
+      "file": "/images/products/fasteners/pins.jpg",
+      "via": "disk"
+    },
+    "fasteners/other-fasteners/circlips": {
+      "key": "fasteners/other-fasteners/circlips",
+      "name": "Circlips",
+      "category": "Fasteners",
+      "subcategory": "Other Fasteners",
+      "file": "/images/products/fasteners/circlips.png",
+      "source": "https://en.wikipedia.org/wiki/Knipex",
+      "via": "search",
+      "width": 800
+    },
+    "fasteners/other-fasteners/anchors": {
+      "key": "fasteners/other-fasteners/anchors",
+      "name": "Anchors",
+      "category": "Fasteners",
+      "subcategory": "Other Fasteners",
+      "file": "/images/products/fasteners/anchors.jpg",
+      "via": "disk"
+    },
+    "putties/metal-putties/metal-repair-putty": {
+      "key": "putties/metal-putties/metal-repair-putty",
+      "name": "Metal Repair Putty",
+      "category": "Putties",
+      "subcategory": "Metal Putties",
+      "file": "/images/products/putties/metal-repair-putty.jpg",
+      "source": "https://en.wikipedia.org/wiki/Putty",
+      "via": "search",
+      "width": 800
+    },
+    "putties/metal-putties/steel-putty": {
+      "key": "putties/metal-putties/steel-putty",
+      "name": "Steel Putty",
+      "category": "Putties",
+      "subcategory": "Metal Putties",
+      "file": "/images/products/putties/steel-putty.jpg",
+      "source": "https://en.wikipedia.org/wiki/Putty",
+      "via": "search",
+      "width": 800
+    },
+    "putties/metal-putties/aluminum-putty": {
+      "key": "putties/metal-putties/aluminum-putty",
+      "name": "Aluminum Putty",
+      "category": "Putties",
+      "subcategory": "Metal Putties",
+      "file": "/images/products/putties/aluminum-putty.jpg",
+      "via": "disk"
+    },
+    "putties/metal-putties/stainless-steel-putty": {
+      "key": "putties/metal-putties/stainless-steel-putty",
+      "name": "Stainless Steel Putty",
+      "category": "Putties",
+      "subcategory": "Metal Putties",
+      "file": "/images/products/putties/stainless-steel-putty.jpg",
+      "via": "disk"
+    },
+    "putties/industrial-repair-putties/epoxy-putty": {
+      "key": "putties/industrial-repair-putties/epoxy-putty",
+      "name": "Epoxy Putty",
+      "category": "Putties",
+      "subcategory": "Industrial Repair Putties",
+      "file": "/images/products/putties/epoxy-putty.jpg",
+      "via": "disk"
+    },
+    "putties/industrial-repair-putties/pipe-repair-putty": {
+      "key": "putties/industrial-repair-putties/pipe-repair-putty",
+      "name": "Pipe Repair Putty",
+      "category": "Putties",
+      "subcategory": "Industrial Repair Putties",
+      "file": "/images/products/putties/pipe-repair-putty.jpg",
+      "via": "disk"
+    },
+    "putties/industrial-repair-putties/machinery-repair-putty": {
+      "key": "putties/industrial-repair-putties/machinery-repair-putty",
+      "name": "Machinery Repair Putty",
+      "category": "Putties",
+      "subcategory": "Industrial Repair Putties",
+      "file": "/images/products/putties/machinery-repair-putty.jpg",
+      "via": "disk"
+    },
+    "putties/industrial-repair-putties/chemical-resistant-putty": {
+      "key": "putties/industrial-repair-putties/chemical-resistant-putty",
+      "name": "Chemical Resistant Putty",
+      "category": "Putties",
+      "subcategory": "Industrial Repair Putties",
+      "file": "/images/products/putties/chemical-resistant-putty.jpg",
+      "via": "disk"
+    },
+    "putties/industrial-repair-putties/high-temperature-putty": {
+      "key": "putties/industrial-repair-putties/high-temperature-putty",
+      "name": "High Temperature Putty",
+      "category": "Putties",
+      "subcategory": "Industrial Repair Putties",
+      "file": "/images/products/putties/high-temperature-putty.jpg",
+      "via": "disk"
+    },
+    "putties/surface-putties/wood-putty": {
+      "key": "putties/surface-putties/wood-putty",
+      "name": "Wood Putty",
+      "category": "Putties",
+      "subcategory": "Surface Putties",
+      "file": "/images/products/putties/wood-putty.jpg",
+      "via": "disk"
+    },
+    "putties/surface-putties/wall-putty": {
+      "key": "putties/surface-putties/wall-putty",
+      "name": "Wall Putty",
+      "category": "Putties",
+      "subcategory": "Surface Putties",
+      "file": "/images/products/putties/wall-putty.jpg",
+      "via": "disk"
+    },
+    "putties/surface-putties/automotive-putty": {
+      "key": "putties/surface-putties/automotive-putty",
+      "name": "Automotive Putty",
+      "category": "Putties",
+      "subcategory": "Surface Putties",
+      "file": "/images/products/putties/automotive-putty.jpg",
+      "via": "disk"
+    },
+    "putties/surface-putties/fiberglass-putty": {
+      "key": "putties/surface-putties/fiberglass-putty",
+      "name": "Fiberglass Putty",
+      "category": "Putties",
+      "subcategory": "Surface Putties",
+      "file": "/images/products/putties/fiberglass-putty.jpg",
+      "via": "disk"
+    },
+    "lab-instruments/laboratory-glassware/beakers": {
+      "key": "lab-instruments/laboratory-glassware/beakers",
+      "name": "Beakers",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Glassware",
+      "file": "/images/products/lab-instruments/beakers.png",
+      "via": "disk"
+    },
+    "lab-instruments/laboratory-glassware/flasks": {
+      "key": "lab-instruments/laboratory-glassware/flasks",
+      "name": "Flasks",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Glassware",
+      "file": "/images/products/lab-instruments/flasks.jpg",
+      "via": "disk"
+    },
+    "lab-instruments/laboratory-glassware/pipettes": {
+      "key": "lab-instruments/laboratory-glassware/pipettes",
+      "name": "Pipettes",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Glassware",
+      "file": "/images/products/lab-instruments/pipettes.jpg",
+      "via": "disk"
+    },
+    "lab-instruments/laboratory-glassware/burettes": {
+      "key": "lab-instruments/laboratory-glassware/burettes",
+      "name": "Burettes",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Glassware",
+      "file": "/images/products/lab-instruments/burettes.jpg",
+      "via": "disk"
+    },
+    "lab-instruments/laboratory-glassware/funnels": {
+      "key": "lab-instruments/laboratory-glassware/funnels",
+      "name": "Funnels",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Glassware",
+      "file": "/images/products/lab-instruments/funnels.jpg",
+      "via": "disk"
+    },
+    "lab-instruments/laboratory-glassware/reagent-bottles": {
+      "key": "lab-instruments/laboratory-glassware/reagent-bottles",
+      "name": "Reagent Bottles",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Glassware",
+      "file": "/images/products/lab-instruments/reagent-bottles.jpg",
+      "via": "disk"
+    },
+    "lab-instruments/laboratory-glassware/watch-glasses": {
+      "key": "lab-instruments/laboratory-glassware/watch-glasses",
+      "name": "Watch Glasses",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Glassware",
+      "file": "/images/products/lab-instruments/watch-glasses.jpg",
+      "via": "disk"
+    },
+    "lab-instruments/laboratory-glassware/petri-dishes": {
+      "key": "lab-instruments/laboratory-glassware/petri-dishes",
+      "name": "Petri Dishes",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Glassware",
+      "file": "/images/products/lab-instruments/petri-dishes.jpg",
+      "via": "disk"
+    },
+    "lab-instruments/laboratory-equipment/hot-plates": {
+      "key": "lab-instruments/laboratory-equipment/hot-plates",
+      "name": "Hot Plates",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Equipment",
+      "file": "/images/products/lab-instruments/hot-plates.jpg",
+      "via": "disk"
+    },
+    "lab-instruments/laboratory-equipment/laboratory-ovens": {
+      "key": "lab-instruments/laboratory-equipment/laboratory-ovens",
+      "name": "Laboratory Ovens",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Equipment",
+      "file": "/images/products/lab-instruments/laboratory-ovens.jpg",
+      "via": "disk"
+    },
+    "lab-instruments/laboratory-equipment/magnetic-stirrers": {
+      "key": "lab-instruments/laboratory-equipment/magnetic-stirrers",
+      "name": "Magnetic Stirrers",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Equipment",
+      "file": "/images/products/lab-instruments/magnetic-stirrers.jpg",
+      "via": "disk"
+    },
+    "lab-instruments/laboratory-equipment/centrifuges": {
+      "key": "lab-instruments/laboratory-equipment/centrifuges",
+      "name": "Centrifuges",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Equipment",
+      "file": "/images/products/lab-instruments/centrifuges.jpg",
+      "source": "https://en.wikipedia.org/wiki/Centrifuge",
+      "width": 800
+    },
+    "lab-instruments/laboratory-equipment/water-baths": {
+      "key": "lab-instruments/laboratory-equipment/water-baths",
+      "name": "Water Baths",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Equipment",
+      "file": "/images/products/lab-instruments/water-baths.jpg",
+      "source": "https://en.wikipedia.org/wiki/Laboratory_water_bath",
+      "via": "search",
+      "width": 800
+    },
+    "lab-instruments/laboratory-equipment/heating-mantles": {
+      "key": "lab-instruments/laboratory-equipment/heating-mantles",
+      "name": "Heating Mantles",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Equipment",
+      "file": "/images/products/lab-instruments/heating-mantles.jpg",
+      "via": "disk"
+    },
+    "lab-instruments/measuring-instruments/pressure-gauges": {
+      "key": "lab-instruments/measuring-instruments/pressure-gauges",
+      "name": "Pressure Gauges",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Measuring Instruments",
+      "file": "/images/products/lab-instruments/pressure-gauges.jpg",
+      "source": "https://en.wikipedia.org/wiki/Pressure_measurement",
+      "via": "search",
+      "width": 800
+    },
+    "lab-instruments/measuring-instruments/flow-meters": {
+      "key": "lab-instruments/measuring-instruments/flow-meters",
+      "name": "Flow Meters",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Measuring Instruments",
+      "file": "/images/products/lab-instruments/flow-meters.png",
+      "via": "disk"
+    },
+    "lab-instruments/measuring-instruments/level-indicators": {
+      "key": "lab-instruments/measuring-instruments/level-indicators",
+      "name": "Level Indicators",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Measuring Instruments",
+      "file": "/images/products/lab-instruments/level-indicators.png",
+      "via": "disk"
+    },
+    "lab-instruments/measuring-instruments/vacuum-gauges": {
+      "key": "lab-instruments/measuring-instruments/vacuum-gauges",
+      "name": "Vacuum Gauges",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Measuring Instruments",
+      "file": "/images/products/lab-instruments/vacuum-gauges.jpg",
+      "via": "disk"
+    },
+    "lab-instruments/measuring-instruments/ph-meters": {
+      "key": "lab-instruments/measuring-instruments/ph-meters",
+      "name": "pH Meters",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Measuring Instruments",
+      "file": "/images/products/lab-instruments/ph-meters.jpg",
+      "via": "disk"
+    },
+    "lab-instruments/industrial-instruments/pressure-transmitters": {
+      "key": "lab-instruments/industrial-instruments/pressure-transmitters",
+      "name": "Pressure Transmitters",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Industrial Instruments",
+      "file": "/images/products/lab-instruments/pressure-transmitters.jpg",
+      "via": "disk"
+    },
+    "lab-instruments/industrial-instruments/flow-sensors": {
+      "key": "lab-instruments/industrial-instruments/flow-sensors",
+      "name": "Flow Sensors",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Industrial Instruments",
+      "file": "/images/products/lab-instruments/pressure-transmitters.jpg",
+      "via": "curated-repair"
+    },
+    "lab-instruments/industrial-instruments/digital-controllers": {
+      "key": "lab-instruments/industrial-instruments/digital-controllers",
+      "name": "Digital Controllers",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Industrial Instruments",
+      "file": "/images/products/lab-instruments/digital-controllers.jpg",
+      "via": "disk"
+    },
+    "lab-instruments/industrial-instruments/process-indicators": {
+      "key": "lab-instruments/industrial-instruments/process-indicators",
+      "name": "Process Indicators",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Industrial Instruments",
+      "file": "/images/products/lab-instruments/process-indicators.jpg",
+      "via": "disk"
+    },
+    "stainless-steel/stainless-steel-sheets/ss-304-sheets": {
+      "key": "stainless-steel/stainless-steel-sheets/ss-304-sheets",
+      "name": "SS 304 Sheets",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Sheets",
+      "file": "/images/products/_curated/ss-plate.jpg",
+      "via": "curated-repair"
+    },
+    "stainless-steel/stainless-steel-sheets/ss-316-sheets": {
+      "key": "stainless-steel/stainless-steel-sheets/ss-316-sheets",
+      "name": "SS 316 Sheets",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Sheets",
+      "file": "/images/products/_curated/ss-cable.jpg",
+      "via": "curated-repair"
+    },
+    "stainless-steel/stainless-steel-sheets/ss-321-sheets": {
+      "key": "stainless-steel/stainless-steel-sheets/ss-321-sheets",
+      "name": "SS 321 Sheets",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Sheets",
+      "file": "/images/products/_curated/ss-rebar.jpg",
+      "via": "curated-repair"
+    },
+    "stainless-steel/stainless-steel-sheets/ss-430-sheets": {
+      "key": "stainless-steel/stainless-steel-sheets/ss-430-sheets",
+      "name": "SS 430 Sheets",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Sheets",
+      "file": "/images/products/_curated/ss-cable.jpg",
+      "via": "curated-repair"
+    },
+    "stainless-steel/sheet-finishes/2b-finish": {
+      "key": "stainless-steel/sheet-finishes/2b-finish",
+      "name": "2B Finish",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Sheet Finishes",
+      "file": "/images/products/_curated/ss-plate.jpg",
+      "via": "curated-repair"
+    },
+    "stainless-steel/sheet-finishes/ba-finish": {
+      "key": "stainless-steel/sheet-finishes/ba-finish",
+      "name": "BA Finish",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Sheet Finishes",
+      "file": "/images/products/_curated/ss-cable.jpg",
+      "via": "curated-repair"
+    },
+    "stainless-steel/sheet-finishes/no-4-finish": {
+      "key": "stainless-steel/sheet-finishes/no-4-finish",
+      "name": "No. 4 Finish",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Sheet Finishes",
+      "file": "/images/products/_curated/ss-rebar.jpg",
+      "via": "curated-repair"
+    },
+    "stainless-steel/sheet-finishes/mirror-finish": {
+      "key": "stainless-steel/sheet-finishes/mirror-finish",
+      "name": "Mirror Finish",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Sheet Finishes",
+      "file": "/images/products/_curated/ss-plate.jpg",
+      "via": "curated-repair"
+    },
+    "stainless-steel/sheet-finishes/hairline-finish": {
+      "key": "stainless-steel/sheet-finishes/hairline-finish",
+      "name": "Hairline Finish",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Sheet Finishes",
+      "file": "/images/products/_curated/ss-cable.jpg",
+      "via": "curated-repair"
+    },
+    "stainless-steel/stainless-steel-rods/round-bars": {
+      "key": "stainless-steel/stainless-steel-rods/round-bars",
+      "name": "Round Bars",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Rods",
+      "file": "/images/products/_curated/ss-plate.jpg",
+      "via": "curated-repair"
+    },
+    "stainless-steel/stainless-steel-rods/square-bars": {
+      "key": "stainless-steel/stainless-steel-rods/square-bars",
+      "name": "Square Bars",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Rods",
+      "file": "/images/products/_curated/ss-cable.jpg",
+      "via": "curated-repair"
+    },
+    "stainless-steel/stainless-steel-rods/hex-bars": {
+      "key": "stainless-steel/stainless-steel-rods/hex-bars",
+      "name": "Hex Bars",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Rods",
+      "file": "/images/products/_curated/ss-rebar.jpg",
+      "via": "curated-repair"
+    },
+    "stainless-steel/stainless-steel-rods/flat-bars": {
+      "key": "stainless-steel/stainless-steel-rods/flat-bars",
+      "name": "Flat Bars",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Rods",
+      "file": "/images/products/_curated/ss-plate.jpg",
+      "source": "https://en.wikipedia.org/wiki/Bicycle_handlebar",
+      "via": "curated-repair",
+      "width": 800
+    },
+    "stainless-steel/stainless-steel-forms/stainless-steel-plates": {
+      "key": "stainless-steel/stainless-steel-forms/stainless-steel-plates",
+      "name": "Stainless Steel Plates",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Forms",
+      "file": "/images/products/_curated/ss-plate.jpg",
+      "via": "curated-repair"
+    },
+    "stainless-steel/stainless-steel-forms/stainless-steel-strips": {
+      "key": "stainless-steel/stainless-steel-forms/stainless-steel-strips",
+      "name": "Stainless Steel Strips",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Forms",
+      "file": "/images/products/_curated/ss-cable.jpg",
+      "source": "https://en.wikipedia.org/wiki/Jindal_Stainless",
+      "via": "curated-repair",
+      "width": 800
+    },
+    "stainless-steel/stainless-steel-forms/stainless-steel-tubes": {
+      "key": "stainless-steel/stainless-steel-forms/stainless-steel-tubes",
+      "name": "Stainless Steel Tubes",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Forms",
+      "file": "/images/products/_curated/ss-rebar.jpg",
+      "source": "https://en.wikipedia.org/wiki/Stainless_steel",
+      "via": "curated-repair",
+      "width": 800
+    },
+    "ptfe/ptfe-products/ptfe-rods": {
+      "key": "ptfe/ptfe-products/ptfe-rods",
+      "name": "PTFE Rods",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "PTFE Products",
+      "file": "/images/products/ptfe/ptfe-rods.jpg",
+      "via": "disk"
+    },
+    "ptfe/ptfe-products/ptfe-bars": {
+      "key": "ptfe/ptfe-products/ptfe-bars",
+      "name": "PTFE Bars",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "PTFE Products",
+      "file": "/images/products/ptfe/ptfe-bars.jpg",
+      "via": "disk"
+    },
+    "ptfe/ptfe-products/ptfe-sheets": {
+      "key": "ptfe/ptfe-products/ptfe-sheets",
+      "name": "PTFE Sheets",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "PTFE Products",
+      "file": "/images/products/ptfe/virgin-ptfe.jpg",
+      "via": "curated-repair"
+    },
+    "ptfe/ptfe-products/ptfe-plates": {
+      "key": "ptfe/ptfe-products/ptfe-plates",
+      "name": "PTFE Plates",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "PTFE Products",
+      "file": "/images/products/ptfe/virgin-ptfe.jpg",
+      "via": "curated-repair"
+    },
+    "ptfe/ptfe-products/ptfe-tubes": {
+      "key": "ptfe/ptfe-products/ptfe-tubes",
+      "name": "PTFE Tubes",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "PTFE Products",
+      "file": "/images/products/ptfe/virgin-ptfe.jpg",
+      "via": "curated-repair"
+    },
+    "ptfe/ptfe-products/ptfe-bushes": {
+      "key": "ptfe/ptfe-products/ptfe-bushes",
+      "name": "PTFE Bushes",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "PTFE Products",
+      "file": "/images/products/ptfe/virgin-ptfe.jpg",
+      "via": "curated-repair"
+    },
+    "ptfe/ptfe-components/ptfe-insulators": {
+      "key": "ptfe/ptfe-components/ptfe-insulators",
+      "name": "PTFE Insulators",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "PTFE Components",
+      "file": "/images/products/ptfe/virgin-ptfe.jpg",
+      "via": "curated-repair"
+    },
+    "ptfe/special-ptfe/virgin-ptfe": {
+      "key": "ptfe/special-ptfe/virgin-ptfe",
+      "name": "Virgin PTFE",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "Special PTFE",
+      "file": "/images/products/ptfe/virgin-ptfe.jpg",
+      "via": "disk"
+    },
+    "ptfe/special-ptfe/filled-ptfe": {
+      "key": "ptfe/special-ptfe/filled-ptfe",
+      "name": "Filled PTFE",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "Special PTFE",
+      "file": "/images/products/ptfe/virgin-ptfe.jpg",
+      "via": "curated-repair"
+    },
+    "ptfe/special-ptfe/glass-filled-ptfe": {
+      "key": "ptfe/special-ptfe/glass-filled-ptfe",
+      "name": "Glass-Filled PTFE",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "Special PTFE",
+      "file": "/images/products/ptfe/virgin-ptfe.jpg",
+      "via": "curated-repair"
+    },
+    "ptfe/special-ptfe/carbon-filled-ptfe": {
+      "key": "ptfe/special-ptfe/carbon-filled-ptfe",
+      "name": "Carbon-Filled PTFE",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "Special PTFE",
+      "file": "/images/products/ptfe/carbon-filled-ptfe.jpg",
+      "via": "disk"
+    },
+    "ptfe/special-ptfe/graphite-filled-ptfe": {
+      "key": "ptfe/special-ptfe/graphite-filled-ptfe",
+      "name": "Graphite-Filled PTFE",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "Special PTFE",
+      "file": "/images/products/ptfe/virgin-ptfe.jpg",
+      "via": "curated-repair"
+    },
+    "composites/fiberglass-materials/fiberglass-rods": {
+      "key": "composites/fiberglass-materials/fiberglass-rods",
+      "name": "Fiberglass Rods",
+      "category": "Composite Materials",
+      "subcategory": "Fiberglass Materials",
+      "file": "/images/products/composites/insulation-boards.jpg",
+      "via": "curated-repair"
+    },
+    "composites/fiberglass-materials/fiberglass-tubes": {
+      "key": "composites/fiberglass-materials/fiberglass-tubes",
+      "name": "Fiberglass Tubes",
+      "category": "Composite Materials",
+      "subcategory": "Fiberglass Materials",
+      "file": "/images/products/composites/insulation-boards.jpg",
+      "via": "curated-repair"
+    },
+    "composites/fiberglass-materials/fiberglass-mat": {
+      "key": "composites/fiberglass-materials/fiberglass-mat",
+      "name": "Fiberglass Mat",
+      "category": "Composite Materials",
+      "subcategory": "Fiberglass Materials",
+      "file": "/images/products/composites/insulation-boards.jpg",
+      "via": "curated-repair"
+    },
+    "composites/carbon-fiber/carbon-fiber-sheets": {
+      "key": "composites/carbon-fiber/carbon-fiber-sheets",
+      "name": "Carbon Fiber Sheets",
+      "category": "Composite Materials",
+      "subcategory": "Carbon Fiber",
+      "file": "/images/products/composites/carbon-fiber-sheets.jpg",
+      "via": "disk"
+    },
+    "composites/carbon-fiber/carbon-fiber-rods": {
+      "key": "composites/carbon-fiber/carbon-fiber-rods",
+      "name": "Carbon Fiber Rods",
+      "category": "Composite Materials",
+      "subcategory": "Carbon Fiber",
+      "file": "/images/products/composites/carbon-fiber-rods.jpg",
+      "via": "disk"
+    },
+    "composites/carbon-fiber/carbon-fiber-tubes": {
+      "key": "composites/carbon-fiber/carbon-fiber-tubes",
+      "name": "Carbon Fiber Tubes",
+      "category": "Composite Materials",
+      "subcategory": "Carbon Fiber",
+      "file": "/images/products/composites/carbon-fiber-tubes.jpg",
+      "via": "disk"
+    },
+    "composites/composite-sheets-panels/frp-sheets": {
+      "key": "composites/composite-sheets-panels/frp-sheets",
+      "name": "FRP Sheets",
+      "category": "Composite Materials",
+      "subcategory": "Composite Sheets & Panels",
+      "file": "/images/products/composites/frp-sheets.jpg",
+      "via": "disk"
+    },
+    "composites/composite-sheets-panels/grp-sheets": {
+      "key": "composites/composite-sheets-panels/grp-sheets",
+      "name": "GRP Sheets",
+      "category": "Composite Materials",
+      "subcategory": "Composite Sheets & Panels",
+      "file": "/images/products/composites/grp-sheets.jpg",
+      "via": "disk"
+    },
+    "composites/composite-sheets-panels/composite-panels": {
+      "key": "composites/composite-sheets-panels/composite-panels",
+      "name": "Composite Panels",
+      "category": "Composite Materials",
+      "subcategory": "Composite Sheets & Panels",
+      "file": "/images/products/composites/composite-panels.png",
+      "via": "disk"
+    },
+    "composites/composite-sheets-panels/insulation-boards": {
+      "key": "composites/composite-sheets-panels/insulation-boards",
+      "name": "Insulation Boards",
+      "category": "Composite Materials",
+      "subcategory": "Composite Sheets & Panels",
+      "file": "/images/products/composites/insulation-boards.jpg",
+      "via": "disk"
+    },
+    "composites/composite-components/composite-bushes": {
+      "key": "composites/composite-components/composite-bushes",
+      "name": "Composite Bushes",
+      "category": "Composite Materials",
+      "subcategory": "Composite Components",
+      "file": "/images/products/composites/insulation-boards.jpg",
+      "via": "curated-repair"
+    },
+    "composites/composite-components/composite-bearings": {
+      "key": "composites/composite-components/composite-bearings",
+      "name": "Composite Bearings",
+      "category": "Composite Materials",
+      "subcategory": "Composite Components",
+      "file": "/images/products/composites/insulation-boards.jpg",
+      "via": "curated-repair"
+    },
+    "composites/composite-components/composite-profiles": {
+      "key": "composites/composite-components/composite-profiles",
+      "name": "Composite Profiles",
+      "category": "Composite Materials",
+      "subcategory": "Composite Components",
+      "file": "/images/products/composites/insulation-boards.jpg",
+      "via": "curated-repair"
+    },
+    "composites/composite-components/composite-structural-parts": {
+      "key": "composites/composite-components/composite-structural-parts",
+      "name": "Composite Structural Parts",
+      "category": "Composite Materials",
+      "subcategory": "Composite Components",
+      "file": "/images/products/composites/insulation-boards.jpg",
+      "source": "https://en.wikipedia.org/wiki/ScaleWings_SW51_Mustang",
+      "via": "curated-repair",
+      "width": 800
+    },
+    "steel-balls/bearing-balls/stainless-steel-balls": {
+      "key": "steel-balls/bearing-balls/stainless-steel-balls",
+      "name": "Stainless Steel Balls",
+      "category": "Steel Balls",
+      "subcategory": "Bearing Balls",
+      "file": "/images/products/_curated/wingquist-bearing.jpg",
+      "source": "https://en.wikipedia.org/wiki/Ball_mill",
+      "via": "curated-repair",
+      "width": 800
+    },
+    "steel-balls/bearing-balls/carbon-steel-balls": {
+      "key": "steel-balls/bearing-balls/carbon-steel-balls",
+      "name": "Carbon Steel Balls",
+      "category": "Steel Balls",
+      "subcategory": "Bearing Balls",
+      "file": "/images/products/_curated/bearing-cover.jpg",
+      "via": "curated-repair"
+    },
+    "steel-balls/industrial-balls/grinding-balls": {
+      "key": "steel-balls/industrial-balls/grinding-balls",
+      "name": "Grinding Balls",
+      "category": "Steel Balls",
+      "subcategory": "Industrial Balls",
+      "file": "/images/products/_curated/bearing-cover.jpg",
+      "via": "curated-repair"
+    },
+    "steel-balls/industrial-balls/precision-steel-balls": {
+      "key": "steel-balls/industrial-balls/precision-steel-balls",
+      "name": "Precision Steel Balls",
+      "category": "Steel Balls",
+      "subcategory": "Industrial Balls",
+      "file": "/images/products/_curated/wingquist-bearing.jpg",
+      "via": "curated-repair"
+    },
+    "steel-balls/industrial-balls/hardened-steel-balls": {
+      "key": "steel-balls/industrial-balls/hardened-steel-balls",
+      "name": "Hardened Steel Balls",
+      "category": "Steel Balls",
+      "subcategory": "Industrial Balls",
+      "file": "/images/products/_curated/bearing-cover.jpg",
+      "via": "curated-repair"
+    },
+    "steel-balls/industrial-balls/mild-steel-balls": {
+      "key": "steel-balls/industrial-balls/mild-steel-balls",
+      "name": "Mild Steel Balls",
+      "category": "Steel Balls",
+      "subcategory": "Industrial Balls",
+      "file": "/images/products/_curated/wingquist-bearing.jpg",
+      "via": "curated-repair"
+    },
+    "steel-balls/applications/valve-balls": {
+      "key": "steel-balls/applications/valve-balls",
+      "name": "Valve Balls",
+      "category": "Steel Balls",
+      "subcategory": "Applications",
+      "file": "/images/products/_curated/wingquist-bearing.jpg",
+      "via": "curated-repair"
+    },
+    "steel-balls/applications/grinding-media": {
+      "key": "steel-balls/applications/grinding-media",
+      "name": "Grinding Media",
+      "category": "Steel Balls",
+      "subcategory": "Applications",
+      "file": "/images/products/_curated/bearing-cover.jpg",
+      "via": "curated-repair"
+    },
+    "steel-balls/applications/industrial-grinding-balls": {
+      "key": "steel-balls/applications/industrial-grinding-balls",
+      "name": "Industrial Grinding Balls",
+      "category": "Steel Balls",
+      "subcategory": "Applications",
+      "file": "/images/products/_curated/wingquist-bearing.jpg",
+      "via": "curated-repair"
+    },
+    "steel-balls/sizes/small-diameter-balls": {
+      "key": "steel-balls/sizes/small-diameter-balls",
+      "name": "Small Diameter Balls",
+      "category": "Steel Balls",
+      "subcategory": "Sizes",
+      "file": "/images/products/_curated/bearing-cover.jpg",
+      "via": "curated-repair"
+    },
+    "steel-balls/sizes/medium-diameter-balls": {
+      "key": "steel-balls/sizes/medium-diameter-balls",
+      "name": "Medium Diameter Balls",
+      "category": "Steel Balls",
+      "subcategory": "Sizes",
+      "file": "/images/products/_curated/wingquist-bearing.jpg",
+      "via": "curated-repair"
+    },
+    "steel-balls/sizes/large-diameter-balls": {
+      "key": "steel-balls/sizes/large-diameter-balls",
+      "name": "Large Diameter Balls",
+      "category": "Steel Balls",
+      "subcategory": "Sizes",
+      "file": "/images/products/_curated/bearing-cover.jpg",
+      "via": "curated-repair"
+    },
+    "steel-balls/sizes/custom-size-balls": {
+      "key": "steel-balls/sizes/custom-size-balls",
+      "name": "Custom Size Balls",
+      "category": "Steel Balls",
+      "subcategory": "Sizes",
+      "file": "/images/products/_curated/wingquist-bearing.jpg",
+      "via": "curated-repair"
+    },
+    "adhesives/threadlockers/thread-sealant": {
+      "key": "adhesives/threadlockers/thread-sealant",
+      "name": "Thread Sealant",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Threadlockers",
+      "file": "/images/products/adhesives/thread-sealant.jpg",
+      "via": "disk"
+    },
+    "adhesives/structural-adhesives/epoxy-adhesives": {
+      "key": "adhesives/structural-adhesives/epoxy-adhesives",
+      "name": "Epoxy Adhesives",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Structural Adhesives",
+      "file": "/images/products/adhesives/epoxy-adhesives.jpg",
+      "via": "disk"
+    },
+    "adhesives/structural-adhesives/acrylic-adhesives": {
+      "key": "adhesives/structural-adhesives/acrylic-adhesives",
+      "name": "Acrylic Adhesives",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Structural Adhesives",
+      "file": "/images/products/adhesives/acrylic-adhesives.jpg",
+      "via": "disk"
+    },
+    "adhesives/structural-adhesives/anaerobic-adhesives": {
+      "key": "adhesives/structural-adhesives/anaerobic-adhesives",
+      "name": "Anaerobic Adhesives",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Structural Adhesives",
+      "file": "/images/products/adhesives/anaerobic-adhesives.jpg",
+      "via": "disk"
+    },
+    "adhesives/structural-adhesives/cyanoacrylate-adhesives": {
+      "key": "adhesives/structural-adhesives/cyanoacrylate-adhesives",
+      "name": "Cyanoacrylate Adhesives",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Structural Adhesives",
+      "file": "/images/products/adhesives/cyanoacrylate-adhesives.jpg",
+      "via": "disk"
+    },
+    "adhesives/industrial-adhesives/metal-adhesive": {
+      "key": "adhesives/industrial-adhesives/metal-adhesive",
+      "name": "Metal Adhesive",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Industrial Adhesives",
+      "file": "/images/products/adhesives/metal-adhesive.jpg",
+      "via": "disk"
+    },
+    "adhesives/industrial-adhesives/plastic-adhesive": {
+      "key": "adhesives/industrial-adhesives/plastic-adhesive",
+      "name": "Plastic Adhesive",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Industrial Adhesives",
+      "file": "/images/products/adhesives/plastic-adhesive.jpg",
+      "via": "disk"
+    },
+    "adhesives/industrial-adhesives/rubber-adhesive": {
+      "key": "adhesives/industrial-adhesives/rubber-adhesive",
+      "name": "Rubber Adhesive",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Industrial Adhesives",
+      "file": "/images/products/adhesives/rubber-adhesive.jpg",
+      "via": "disk"
+    },
+    "adhesives/sealants/silicone-sealant": {
+      "key": "adhesives/sealants/silicone-sealant",
+      "name": "Silicone Sealant",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Sealants",
+      "file": "/images/products/adhesives/silicone-sealant.jpg",
+      "via": "disk"
+    },
+    "adhesives/sealants/pipe-sealant": {
+      "key": "adhesives/sealants/pipe-sealant",
+      "name": "Pipe Sealant",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Sealants",
+      "file": "/images/products/adhesives/pipe-sealant.jpg",
+      "via": "disk"
+    },
+    "adhesives/sealants/gasket-maker": {
+      "key": "adhesives/sealants/gasket-maker",
+      "name": "Gasket Maker",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Sealants",
+      "file": "/images/products/adhesives/gasket-maker.jpg",
+      "via": "disk"
+    },
+    "hardware-tools/hand-tools/spanners": {
+      "key": "hardware-tools/hand-tools/spanners",
+      "name": "Spanners",
+      "category": "Hardware Tools",
+      "subcategory": "Hand Tools",
+      "file": "/images/products/hardware-tools/spanners.jpg",
+      "via": "disk"
+    },
+    "hardware-tools/hand-tools/wrenches": {
+      "key": "hardware-tools/hand-tools/wrenches",
+      "name": "Wrenches",
+      "category": "Hardware Tools",
+      "subcategory": "Hand Tools",
+      "file": "/images/products/hardware-tools/wrenches.jpg",
+      "via": "disk"
+    },
+    "hardware-tools/hand-tools/screwdrivers": {
+      "key": "hardware-tools/hand-tools/screwdrivers",
+      "name": "Screwdrivers",
+      "category": "Hardware Tools",
+      "subcategory": "Hand Tools",
+      "file": "/images/products/hardware-tools/screwdrivers.jpg",
+      "via": "disk"
+    },
+    "hardware-tools/hand-tools/pliers": {
+      "key": "hardware-tools/hand-tools/pliers",
+      "name": "Pliers",
+      "category": "Hardware Tools",
+      "subcategory": "Hand Tools",
+      "file": "/images/products/hardware-tools/spanners.jpg",
+      "source": "https://en.wikipedia.org/wiki/Pliers",
+      "width": 800,
+      "via": "curated-repair"
+    },
+    "hardware-tools/hand-tools/hammers": {
+      "key": "hardware-tools/hand-tools/hammers",
+      "name": "Hammers",
+      "category": "Hardware Tools",
+      "subcategory": "Hand Tools",
+      "file": "/images/products/_curated/claw-hammer.jpg",
+      "source": "https://en.wikipedia.org/wiki/Hammer",
+      "width": 800,
+      "via": "curated-repair"
+    },
+    "hardware-tools/hand-tools/pipe-wrenches": {
+      "key": "hardware-tools/hand-tools/pipe-wrenches",
+      "name": "Pipe Wrenches",
+      "category": "Hardware Tools",
+      "subcategory": "Hand Tools",
+      "file": "/images/products/hardware-tools/pipe-wrenches.jpg",
+      "via": "disk"
+    },
+    "hardware-tools/cutting-tools/cutting-blades": {
+      "key": "hardware-tools/cutting-tools/cutting-blades",
+      "name": "Cutting Blades",
+      "category": "Hardware Tools",
+      "subcategory": "Cutting Tools",
+      "file": "/images/products/_curated/tool-hacksaw.jpg",
+      "via": "curated-repair"
+    },
+    "hardware-tools/power-tools/drills": {
+      "key": "hardware-tools/power-tools/drills",
+      "name": "Drills",
+      "category": "Hardware Tools",
+      "subcategory": "Power Tools",
+      "file": "/images/products/hardware-tools/drills.png",
+      "via": "disk"
+    },
+    "hardware-tools/power-tools/angle-grinders": {
+      "key": "hardware-tools/power-tools/angle-grinders",
+      "name": "Angle Grinders",
+      "category": "Hardware Tools",
+      "subcategory": "Power Tools",
+      "file": "/images/products/hardware-tools/angle-grinders.jpg",
+      "via": "disk"
+    },
+    "hardware-tools/power-tools/impact-wrenches": {
+      "key": "hardware-tools/power-tools/impact-wrenches",
+      "name": "Impact Wrenches",
+      "category": "Hardware Tools",
+      "subcategory": "Power Tools",
+      "file": "/images/products/hardware-tools/impact-wrenches.jpg",
+      "via": "disk"
+    },
+    "hardware-tools/power-tools/electric-sanders": {
+      "key": "hardware-tools/power-tools/electric-sanders",
+      "name": "Electric Sanders",
+      "category": "Hardware Tools",
+      "subcategory": "Power Tools",
+      "file": "/images/products/hardware-tools/electric-sanders.jpg",
+      "via": "disk"
+    },
+    "hardware-tools/power-tools/cutting-machines": {
+      "key": "hardware-tools/power-tools/cutting-machines",
+      "name": "Cutting Machines",
+      "category": "Hardware Tools",
+      "subcategory": "Power Tools",
+      "file": "/images/products/hardware-tools/cutting-machines.jpg",
+      "via": "disk"
+    },
+    "hardware-tools/workshop-tools/vices": {
+      "key": "hardware-tools/workshop-tools/vices",
+      "name": "Vices",
+      "category": "Hardware Tools",
+      "subcategory": "Workshop Tools",
+      "file": "/images/products/hardware-tools/vices.jpg",
+      "via": "disk"
+    },
+    "hardware-tools/workshop-tools/clamps": {
+      "key": "hardware-tools/workshop-tools/clamps",
+      "name": "Clamps",
+      "category": "Hardware Tools",
+      "subcategory": "Workshop Tools",
+      "file": "/images/products/hardware-tools/clamps.jpg",
+      "via": "disk"
+    },
+    "hardware-tools/workshop-tools/tool-kits": {
+      "key": "hardware-tools/workshop-tools/tool-kits",
+      "name": "Tool Kits",
+      "category": "Hardware Tools",
+      "subcategory": "Workshop Tools",
+      "file": "/images/products/hardware-tools/tool-kits.jpg",
+      "via": "disk"
+    },
+    "hardware-tools/workshop-tools/measuring-tools": {
+      "key": "hardware-tools/workshop-tools/measuring-tools",
+      "name": "Measuring Tools",
+      "category": "Hardware Tools",
+      "subcategory": "Workshop Tools",
+      "file": "/images/products/_curated/torque-wrench.jpg",
+      "via": "curated-repair"
+    },
+    "hardware-tools/workshop-tools/torque-wrenches": {
+      "key": "hardware-tools/workshop-tools/torque-wrenches",
+      "name": "Torque Wrenches",
+      "category": "Hardware Tools",
+      "subcategory": "Workshop Tools",
+      "file": "/images/products/_curated/torque-wrench.jpg",
+      "via": "curated-repair"
+    },
+    "hardware-tools/workshop-tools/pullers": {
+      "key": "hardware-tools/workshop-tools/pullers",
+      "name": "Pullers",
+      "category": "Hardware Tools",
+      "subcategory": "Workshop Tools",
+      "file": "/images/products/hardware-tools/pipe-wrenches.jpg",
+      "via": "curated-repair"
+    },
+    "electronic-components/passive-components/resistors": {
+      "key": "electronic-components/passive-components/resistors",
+      "name": "Resistors",
+      "category": "Electronic Components",
+      "subcategory": "Passive Components",
+      "file": "/images/products/electronic-components/resistors.png",
+      "via": "disk"
+    },
+    "electronic-components/passive-components/capacitors": {
+      "key": "electronic-components/passive-components/capacitors",
+      "name": "Capacitors",
+      "category": "Electronic Components",
+      "subcategory": "Passive Components",
+      "file": "/images/products/electronic-components/capacitors.jpg",
+      "via": "disk"
+    },
+    "electronic-components/passive-components/inductors": {
+      "key": "electronic-components/passive-components/inductors",
+      "name": "Inductors",
+      "category": "Electronic Components",
+      "subcategory": "Passive Components",
+      "file": "/images/products/electronic-components/inductors.jpg",
+      "via": "disk"
+    },
+    "electronic-components/passive-components/transformers": {
+      "key": "electronic-components/passive-components/transformers",
+      "name": "Transformers",
+      "category": "Electronic Components",
+      "subcategory": "Passive Components",
+      "file": "/images/products/electronic-components/transformers.jpg",
+      "via": "disk"
+    },
+    "electronic-components/passive-components/potentiometers": {
+      "key": "electronic-components/passive-components/potentiometers",
+      "name": "Potentiometers",
+      "category": "Electronic Components",
+      "subcategory": "Passive Components",
+      "file": "/images/products/electronic-components/potentiometers.jpg",
+      "via": "disk"
+    },
+    "electronic-components/semiconductor-components/diodes": {
+      "key": "electronic-components/semiconductor-components/diodes",
+      "name": "Diodes",
+      "category": "Electronic Components",
+      "subcategory": "Semiconductor Components",
+      "file": "/images/products/electronic-components/diodes.jpg",
+      "via": "disk"
+    },
+    "electronic-components/semiconductor-components/transistors": {
+      "key": "electronic-components/semiconductor-components/transistors",
+      "name": "Transistors",
+      "category": "Electronic Components",
+      "subcategory": "Semiconductor Components",
+      "file": "/images/products/electronic-components/transistors.jpg",
+      "via": "disk"
+    },
+    "electronic-components/semiconductor-components/mosfets": {
+      "key": "electronic-components/semiconductor-components/mosfets",
+      "name": "MOSFETs",
+      "category": "Electronic Components",
+      "subcategory": "Semiconductor Components",
+      "file": "/images/products/electronic-components/mosfets.jpg",
+      "via": "disk"
+    },
+    "electronic-components/semiconductor-components/ics": {
+      "key": "electronic-components/semiconductor-components/ics",
+      "name": "ICs",
+      "category": "Electronic Components",
+      "subcategory": "Semiconductor Components",
+      "file": "/images/products/electronic-components/ics.jpg",
+      "via": "disk"
+    },
+    "electronic-components/semiconductor-components/voltage-regulators": {
+      "key": "electronic-components/semiconductor-components/voltage-regulators",
+      "name": "Voltage Regulators",
+      "category": "Electronic Components",
+      "subcategory": "Semiconductor Components",
+      "file": "/images/products/electronic-components/voltage-regulators.jpg",
+      "via": "disk"
+    },
+    "electronic-components/switching-components/relays": {
+      "key": "electronic-components/switching-components/relays",
+      "name": "Relays",
+      "category": "Electronic Components",
+      "subcategory": "Switching Components",
+      "file": "/images/products/electronic-components/relays.jpg",
+      "via": "disk"
+    },
+    "electronic-components/switching-components/switches": {
+      "key": "electronic-components/switching-components/switches",
+      "name": "Switches",
+      "category": "Electronic Components",
+      "subcategory": "Switching Components",
+      "file": "/images/products/electronic-components/switches.jpg",
+      "via": "disk"
+    },
+    "electronic-components/switching-components/push-buttons": {
+      "key": "electronic-components/switching-components/push-buttons",
+      "name": "Push Buttons",
+      "category": "Electronic Components",
+      "subcategory": "Switching Components",
+      "file": "/images/products/electronic-components/push-buttons.jpg",
+      "via": "disk"
+    },
+    "electronic-components/connectors-wiring/terminal-blocks": {
+      "key": "electronic-components/connectors-wiring/terminal-blocks",
+      "name": "Terminal Blocks",
+      "category": "Electronic Components",
+      "subcategory": "Connectors & Wiring",
+      "file": "/images/products/electronic-components/terminal-blocks.png",
+      "via": "disk"
+    },
+    "electronic-components/connectors-wiring/cable-lugs": {
+      "key": "electronic-components/connectors-wiring/cable-lugs",
+      "name": "Cable Lugs",
+      "category": "Electronic Components",
+      "subcategory": "Connectors & Wiring",
+      "file": "/images/products/electronic-components/cable-lugs.jpg",
+      "via": "disk"
+    },
+    "electronic-components/connectors-wiring/connectors": {
+      "key": "electronic-components/connectors-wiring/connectors",
+      "name": "Connectors",
+      "category": "Electronic Components",
+      "subcategory": "Connectors & Wiring",
+      "file": "/images/products/electronic-components/connectors.jpg",
+      "via": "disk"
+    },
+    "electronic-components/connectors-wiring/plugs": {
+      "key": "electronic-components/connectors-wiring/plugs",
+      "name": "Plugs",
+      "category": "Electronic Components",
+      "subcategory": "Connectors & Wiring",
+      "file": "/images/products/electronic-components/plugs.jpg",
+      "via": "disk"
+    },
+    "electronic-components/connectors-wiring/sockets": {
+      "key": "electronic-components/connectors-wiring/sockets",
+      "name": "Sockets",
+      "category": "Electronic Components",
+      "subcategory": "Connectors & Wiring",
+      "file": "/images/products/electronic-components/sockets.jpg",
+      "via": "disk"
+    },
+    "electronic-components/connectors-wiring/wires": {
+      "key": "electronic-components/connectors-wiring/wires",
+      "name": "Wires",
+      "category": "Electronic Components",
+      "subcategory": "Connectors & Wiring",
+      "file": "/images/products/electronic-components/wires.jpg",
+      "via": "disk"
+    },
+    "electronic-components/connectors-wiring/cables": {
+      "key": "electronic-components/connectors-wiring/cables",
+      "name": "Cables",
+      "category": "Electronic Components",
+      "subcategory": "Connectors & Wiring",
+      "file": "/images/products/electronic-components/cables.png",
+      "via": "disk"
+    },
+    "electronic-components/industrial-electronics/plc-components": {
+      "key": "electronic-components/industrial-electronics/plc-components",
+      "name": "PLC Components",
+      "category": "Electronic Components",
+      "subcategory": "Industrial Electronics",
+      "file": "/images/products/electronic-components/control-modules.jpg",
+      "via": "curated-repair"
+    },
+    "electronic-components/industrial-electronics/sensors": {
+      "key": "electronic-components/industrial-electronics/sensors",
+      "name": "Sensors",
+      "category": "Electronic Components",
+      "subcategory": "Industrial Electronics",
+      "file": "/images/products/electronic-components/sensors.png",
+      "via": "disk"
+    },
+    "electronic-components/industrial-electronics/power-supplies": {
+      "key": "electronic-components/industrial-electronics/power-supplies",
+      "name": "Power Supplies",
+      "category": "Electronic Components",
+      "subcategory": "Industrial Electronics",
+      "file": "/images/products/electronic-components/power-supplies.jpg",
+      "via": "disk"
+    },
+    "electronic-components/industrial-electronics/control-modules": {
+      "key": "electronic-components/industrial-electronics/control-modules",
+      "name": "Control Modules",
+      "category": "Electronic Components",
+      "subcategory": "Industrial Electronics",
+      "file": "/images/products/electronic-components/control-modules.jpg",
+      "via": "disk"
+    },
+    "electronic-components/industrial-electronics/industrial-controllers": {
+      "key": "electronic-components/industrial-electronics/industrial-controllers",
+      "name": "Industrial Controllers",
+      "category": "Electronic Components",
+      "subcategory": "Industrial Electronics",
+      "file": "/images/products/electronic-components/industrial-controllers.jpg",
+      "via": "disk"
+    },
+    "electronic-components/industrial-electronics/timers": {
+      "key": "electronic-components/industrial-electronics/timers",
+      "name": "Timers",
+      "category": "Electronic Components",
+      "subcategory": "Industrial Electronics",
+      "file": "/images/products/electronic-components/timers.jpg",
+      "via": "disk"
+    },
+    "rubber-items/rubber-sheets/neoprene-sheets": {
+      "key": "rubber-items/rubber-sheets/neoprene-sheets",
+      "name": "Neoprene Sheets",
+      "category": "Rubber Items",
+      "subcategory": "Rubber Sheets",
+      "file": "/images/products/rubber-items/neoprene-sheets.jpg",
+      "via": "disk"
+    },
+    "rubber-items/rubber-sheets/epdm-sheets": {
+      "key": "rubber-items/rubber-sheets/epdm-sheets",
+      "name": "EPDM Sheets",
+      "category": "Rubber Items",
+      "subcategory": "Rubber Sheets",
+      "file": "/images/products/rubber-items/epdm-sheets.jpg",
+      "via": "disk"
+    },
+    "rubber-items/rubber-sheets/silicone-sheets": {
+      "key": "rubber-items/rubber-sheets/silicone-sheets",
+      "name": "Silicone Sheets",
+      "category": "Rubber Items",
+      "subcategory": "Rubber Sheets",
+      "file": "/images/products/rubber-items/silicone-sheets.jpg",
+      "via": "disk"
+    },
+    "rubber-items/rubber-sheets/nitrile-sheets": {
+      "key": "rubber-items/rubber-sheets/nitrile-sheets",
+      "name": "Nitrile Sheets",
+      "category": "Rubber Items",
+      "subcategory": "Rubber Sheets",
+      "file": "/images/products/rubber-items/nitrile-sheets.png",
+      "via": "disk"
+    },
+    "rubber-items/rubber-sheets/natural-rubber-sheets": {
+      "key": "rubber-items/rubber-sheets/natural-rubber-sheets",
+      "name": "Natural Rubber Sheets",
+      "category": "Rubber Items",
+      "subcategory": "Rubber Sheets",
+      "file": "/images/products/rubber-items/natural-rubber-sheets.jpg",
+      "source": "https://en.wikipedia.org/wiki/Natural_rubber",
+      "via": "search",
+      "width": 800
+    },
+    "rubber-items/sealing-products/rubber-gaskets": {
+      "key": "rubber-items/sealing-products/rubber-gaskets",
+      "name": "Rubber Gaskets",
+      "category": "Rubber Items",
+      "subcategory": "Sealing Products",
+      "file": "/images/products/rubber-items/rubber-gaskets.jpg",
+      "via": "disk"
+    },
+    "rubber-items/sealing-products/o-rings": {
+      "key": "rubber-items/sealing-products/o-rings",
+      "name": "O-Rings",
+      "category": "Rubber Items",
+      "subcategory": "Sealing Products",
+      "file": "/images/products/rubber-items/o-rings.jpg",
+      "via": "disk"
+    },
+    "rubber-items/sealing-products/rubber-seals": {
+      "key": "rubber-items/sealing-products/rubber-seals",
+      "name": "Rubber Seals",
+      "category": "Rubber Items",
+      "subcategory": "Sealing Products",
+      "file": "/images/products/rubber-items/rubber-seals.png",
+      "via": "disk"
+    },
+    "rubber-items/sealing-products/oil-seals": {
+      "key": "rubber-items/sealing-products/oil-seals",
+      "name": "Oil Seals",
+      "category": "Rubber Items",
+      "subcategory": "Sealing Products",
+      "file": "/images/products/rubber-items/oil-seals.jpg",
+      "via": "disk"
+    },
+    "rubber-items/rubber-components/rubber-pads": {
+      "key": "rubber-items/rubber-components/rubber-pads",
+      "name": "Rubber Pads",
+      "category": "Rubber Items",
+      "subcategory": "Rubber Components",
+      "file": "/images/products/rubber-items/rubber-pads.jpg",
+      "via": "disk"
+    },
+    "rubber-items/rubber-components/rubber-profiles": {
+      "key": "rubber-items/rubber-components/rubber-profiles",
+      "name": "Rubber Profiles",
+      "category": "Rubber Items",
+      "subcategory": "Rubber Components",
+      "file": "/images/products/rubber-items/rubber-profiles.jpg",
+      "via": "disk"
+    },
+    "rubber-items/rubber-components/rubber-tubes": {
+      "key": "rubber-items/rubber-components/rubber-tubes",
+      "name": "Rubber Tubes",
+      "category": "Rubber Items",
+      "subcategory": "Rubber Components",
+      "file": "/images/products/rubber-items/rubber-tubes.jpg",
+      "via": "disk"
+    },
+    "rubber-items/rubber-components/rubber-hoses": {
+      "key": "rubber-items/rubber-components/rubber-hoses",
+      "name": "Rubber Hoses",
+      "category": "Rubber Items",
+      "subcategory": "Rubber Components",
+      "file": "/images/products/rubber-items/rubber-hoses.jpg",
+      "via": "disk"
+    },
+    "rubber-items/industrial-rubber/heat-resistant-rubber": {
+      "key": "rubber-items/industrial-rubber/heat-resistant-rubber",
+      "name": "Heat Resistant Rubber",
+      "category": "Rubber Items",
+      "subcategory": "Industrial Rubber",
+      "file": "/images/products/rubber-items/nitrile-sheets.png",
+      "via": "curated-repair"
+    },
+    "rubber-items/industrial-rubber/oil-resistant-rubber": {
+      "key": "rubber-items/industrial-rubber/oil-resistant-rubber",
+      "name": "Oil Resistant Rubber",
+      "category": "Rubber Items",
+      "subcategory": "Industrial Rubber",
+      "file": "/images/products/rubber-items/nitrile-sheets.png",
+      "via": "curated-repair"
+    },
+    "rubber-items/industrial-rubber/food-grade-rubber": {
+      "key": "rubber-items/industrial-rubber/food-grade-rubber",
+      "name": "Food Grade Rubber",
+      "category": "Rubber Items",
+      "subcategory": "Industrial Rubber",
+      "file": "/images/products/rubber-items/food-grade-rubber.jpg",
+      "via": "disk"
+    },
+    "rubber-items/industrial-rubber/high-pressure-rubber": {
+      "key": "rubber-items/industrial-rubber/high-pressure-rubber",
+      "name": "High Pressure Rubber",
+      "category": "Rubber Items",
+      "subcategory": "Industrial Rubber",
+      "file": "/images/products/rubber-items/high-pressure-rubber.jpg",
+      "via": "disk"
+    },
+    "industrial-oils/lubricating-oils/hydraulic-oil": {
+      "key": "industrial-oils/lubricating-oils/hydraulic-oil",
+      "name": "Hydraulic Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Lubricating Oils",
+      "file": "/images/products/industrial-oils/hydraulic-oil.jpg",
+      "via": "disk"
+    },
+    "industrial-oils/lubricating-oils/gear-oil": {
+      "key": "industrial-oils/lubricating-oils/gear-oil",
+      "name": "Gear Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Lubricating Oils",
+      "file": "/images/products/industrial-oils/gear-oil.jpg",
+      "via": "disk"
+    },
+    "industrial-oils/lubricating-oils/compressor-oil": {
+      "key": "industrial-oils/lubricating-oils/compressor-oil",
+      "name": "Compressor Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Lubricating Oils",
+      "file": "/images/products/industrial-oils/compressor-oil.jpg",
+      "via": "disk"
+    },
+    "industrial-oils/lubricating-oils/turbine-oil": {
+      "key": "industrial-oils/lubricating-oils/turbine-oil",
+      "name": "Turbine Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Lubricating Oils",
+      "file": "/images/products/industrial-oils/turbine-oil.jpg",
+      "via": "disk"
+    },
+    "industrial-oils/lubricating-oils/circulating-oil": {
+      "key": "industrial-oils/lubricating-oils/circulating-oil",
+      "name": "Circulating Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Lubricating Oils",
+      "file": "/images/products/industrial-oils/circulating-oil.jpg",
+      "via": "disk"
+    },
+    "industrial-oils/lubricating-oils/machine-oil": {
+      "key": "industrial-oils/lubricating-oils/machine-oil",
+      "name": "Machine Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Lubricating Oils",
+      "file": "/images/products/industrial-oils/machine-oil.jpg",
+      "via": "disk"
+    },
+    "industrial-oils/specialty-oils/cutting-oil": {
+      "key": "industrial-oils/specialty-oils/cutting-oil",
+      "name": "Cutting Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Specialty Oils",
+      "file": "/images/products/industrial-oils/cutting-oil.jpg",
+      "via": "disk"
+    },
+    "industrial-oils/specialty-oils/slideway-oil": {
+      "key": "industrial-oils/specialty-oils/slideway-oil",
+      "name": "Slideway Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Specialty Oils",
+      "file": "/images/products/industrial-oils/slideway-oil.jpg",
+      "via": "disk"
+    },
+    "industrial-oils/specialty-oils/spindle-oil": {
+      "key": "industrial-oils/specialty-oils/spindle-oil",
+      "name": "Spindle Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Specialty Oils",
+      "file": "/images/products/industrial-oils/slideway-oil.jpg",
+      "via": "curated-repair"
+    },
+    "industrial-oils/specialty-oils/heat-transfer-oil": {
+      "key": "industrial-oils/specialty-oils/heat-transfer-oil",
+      "name": "Heat Transfer Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Specialty Oils",
+      "file": "/images/products/industrial-oils/heat-transfer-oil.jpg",
+      "via": "disk"
+    },
+    "industrial-oils/specialty-oils/transformer-oil": {
+      "key": "industrial-oils/specialty-oils/transformer-oil",
+      "name": "Transformer Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Specialty Oils",
+      "file": "/images/products/industrial-oils/transformer-oil.jpg",
+      "via": "disk"
+    },
+    "industrial-oils/industrial-lubricants/bearing-grease": {
+      "key": "industrial-oils/industrial-lubricants/bearing-grease",
+      "name": "Bearing Grease",
+      "category": "Industrial Oils",
+      "subcategory": "Industrial Lubricants",
+      "file": "/images/products/industrial-oils/bearing-grease.jpg",
+      "via": "disk"
+    },
+    "industrial-oils/industrial-lubricants/high-temperature-grease": {
+      "key": "industrial-oils/industrial-lubricants/high-temperature-grease",
+      "name": "High Temperature Grease",
+      "category": "Industrial Oils",
+      "subcategory": "Industrial Lubricants",
+      "file": "/images/products/industrial-oils/high-temperature-grease.jpg",
+      "via": "disk"
+    },
+    "industrial-oils/industrial-lubricants/ep-grease": {
+      "key": "industrial-oils/industrial-lubricants/ep-grease",
+      "name": "EP Grease",
+      "category": "Industrial Oils",
+      "subcategory": "Industrial Lubricants",
+      "file": "/images/products/industrial-oils/ep-grease.jpg",
+      "via": "disk"
+    },
+    "industrial-oils/industrial-lubricants/lithium-grease": {
+      "key": "industrial-oils/industrial-lubricants/lithium-grease",
+      "name": "Lithium Grease",
+      "category": "Industrial Oils",
+      "subcategory": "Industrial Lubricants",
+      "file": "/images/products/industrial-oils/bearing-grease.jpg",
+      "via": "curated-repair"
+    },
+    "industrial-oils/maintenance-oils/rust-preventive-oil": {
+      "key": "industrial-oils/maintenance-oils/rust-preventive-oil",
+      "name": "Rust Preventive Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Maintenance Oils",
+      "file": "/images/products/industrial-oils/cutting-oil.jpg",
+      "via": "curated-repair"
+    },
+    "industrial-oils/maintenance-oils/penetrating-oil": {
+      "key": "industrial-oils/maintenance-oils/penetrating-oil",
+      "name": "Penetrating Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Maintenance Oils",
+      "file": "/images/products/industrial-oils/cutting-oil.jpg",
+      "via": "curated-repair"
+    },
+    "industrial-oils/maintenance-oils/chain-oil": {
+      "key": "industrial-oils/maintenance-oils/chain-oil",
+      "name": "Chain Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Maintenance Oils",
+      "file": "/images/products/industrial-oils/cutting-oil.jpg",
+      "via": "curated-repair"
+    },
+    "industrial-oils/maintenance-oils/mould-release-oil": {
+      "key": "industrial-oils/maintenance-oils/mould-release-oil",
+      "name": "Mould Release Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Maintenance Oils",
+      "file": "/images/products/industrial-oils/cutting-oil.jpg",
+      "via": "curated-repair"
+    },
+    "glassware/industrial-glass-components/glass-plates": {
+      "key": "glassware/industrial-glass-components/glass-plates",
+      "name": "Glass Plates",
+      "category": "Glassware",
+      "subcategory": "Industrial Glass Components",
+      "file": null,
+      "source": "https://en.wikipedia.org/wiki/Photographic_plate",
+      "via": "search",
+      "width": 652
+    },
+    "lab-instruments/laboratory-equipment/laboratory-balances": {
+      "key": "lab-instruments/laboratory-equipment/laboratory-balances",
+      "name": "Laboratory Balances",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Equipment",
+      "file": "/images/products/lab-instruments/laboratory-balances.jpg",
+      "source": "https://en.wikipedia.org/wiki/Weighing_scale",
+      "via": "search",
+      "width": 960
+    },
+    "steel-balls/bearing-balls/chrome-steel-balls": {
+      "key": "steel-balls/bearing-balls/chrome-steel-balls",
+      "name": "Chrome Steel Balls",
+      "category": "Steel Balls",
+      "subcategory": "Bearing Balls",
+      "file": "/images/products/_curated/bearing-cover.jpg",
+      "source": "https://en.wikipedia.org/wiki/Yard_globe",
+      "via": "curated-repair",
+      "width": 640
+    },
+    "adhesives/sealants/flange-sealant": {
+      "key": "adhesives/sealants/flange-sealant",
+      "name": "Flange Sealant",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Sealants",
+      "file": "/images/products/adhesives/flange-sealant.jpg",
+      "source": "https://en.wikipedia.org/wiki/Gasket",
+      "via": "search",
+      "width": 510
+    },
+    "hardware-tools/hand-tools/allen-keys": {
+      "key": "hardware-tools/hand-tools/allen-keys",
+      "name": "Allen Keys",
+      "category": "Hardware Tools",
+      "subcategory": "Hand Tools",
+      "file": "/images/products/_curated/hexkey-set.jpg",
+      "source": "https://en.wikipedia.org/wiki/Alan_Keyes",
+      "via": "curated-repair",
+      "width": 921
+    },
+    "rubber-items/sealing-products/rubber-washers": {
+      "key": "rubber-items/sealing-products/rubber-washers",
+      "name": "Rubber Washers",
+      "category": "Rubber Items",
+      "subcategory": "Sealing Products",
+      "file": "/images/products/rubber-items/rubber-washers.jpg",
+      "source": "https://en.wikipedia.org/wiki/Washer_(hardware)",
+      "via": "search",
+      "width": 572
+    },
+    "rubber-items/rubber-components/rubber-bushes": {
+      "key": "rubber-items/rubber-components/rubber-bushes",
+      "name": "Rubber Bushes",
+      "category": "Rubber Items",
+      "subcategory": "Rubber Components",
+      "file": null,
+      "source": "https://en.wikipedia.org/wiki/Bushing_(isolator)",
+      "via": "search",
+      "width": 730
+    }
+  },
+  "failures": [
+    {
+      "key": "glassware/industrial-glass-components/glass-plates",
+      "name": "Glass Plates"
+    },
+    {
+      "key": "lab-instruments/laboratory-equipment/laboratory-balances",
+      "name": "Laboratory Balances"
+    },
+    {
+      "key": "steel-balls/bearing-balls/chrome-steel-balls",
+      "name": "Chrome Steel Balls"
+    },
+    {
+      "key": "adhesives/sealants/flange-sealant",
+      "name": "Flange Sealant"
+    },
+    {
+      "key": "hardware-tools/hand-tools/allen-keys",
+      "name": "Allen Keys"
+    },
+    {
+      "key": "rubber-items/sealing-products/rubber-washers",
+      "name": "Rubber Washers"
+    },
+    {
+      "key": "rubber-items/rubber-components/rubber-bushes",
+      "name": "Rubber Bushes"
+    },
+    {
+      "key": "chemicals/water-treatment-chemicals/ferric-chloride",
+      "name": "Ferric Chloride",
+      "category": "Chemicals",
+      "subcategory": "Water Treatment Chemicals",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "chemicals/water-treatment-chemicals/poly-aluminium-chloride",
+      "name": "Poly Aluminium Chloride (PAC)",
+      "category": "Chemicals",
+      "subcategory": "Water Treatment Chemicals",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "chemicals/water-treatment-chemicals/antiscalants",
+      "name": "Antiscalants",
+      "category": "Chemicals",
+      "subcategory": "Water Treatment Chemicals",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "chemicals/water-treatment-chemicals/biocides",
+      "name": "Biocides",
+      "category": "Chemicals",
+      "subcategory": "Water Treatment Chemicals",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "chemicals/water-treatment-chemicals/coagulants",
+      "name": "Coagulants",
+      "category": "Chemicals",
+      "subcategory": "Water Treatment Chemicals",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "chemicals/cleaning-degreasing-chemicals/industrial-degreasers",
+      "name": "Industrial Degreasers",
+      "category": "Chemicals",
+      "subcategory": "Cleaning & Degreasing Chemicals",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "chemicals/cleaning-degreasing-chemicals/chemical-cleaners",
+      "name": "Chemical Cleaners",
+      "category": "Chemicals",
+      "subcategory": "Cleaning & Degreasing Chemicals",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "chemicals/cleaning-degreasing-chemicals/rust-removers",
+      "name": "Rust Removers",
+      "category": "Chemicals",
+      "subcategory": "Cleaning & Degreasing Chemicals",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "chemicals/cleaning-degreasing-chemicals/descaling-chemicals",
+      "name": "Descaling Chemicals",
+      "category": "Chemicals",
+      "subcategory": "Cleaning & Degreasing Chemicals",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "chemicals/cleaning-degreasing-chemicals/metal-cleaners",
+      "name": "Metal Cleaners",
+      "category": "Chemicals",
+      "subcategory": "Cleaning & Degreasing Chemicals",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "paints/industrial-paints/enamel-paint",
+      "name": "Enamel Paint",
+      "category": "Paints",
+      "subcategory": "Industrial Paints",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "paints/primers/zinc-chromate-primer",
+      "name": "Zinc Chromate Primer",
+      "category": "Paints",
+      "subcategory": "Primers",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "paints/primers/anti-corrosion-primer",
+      "name": "Anti-Corrosion Primer",
+      "category": "Paints",
+      "subcategory": "Primers",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "special-paints-coatings/high-temperature-paints/high-temperature-coating",
+      "name": "High Temperature Coating",
+      "category": "Special Paints & Coatings",
+      "subcategory": "High Temperature Paints",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "special-paints-coatings/special-purpose-coatings/fire-retardant-paint",
+      "name": "Fire Retardant Paint",
+      "category": "Special Paints & Coatings",
+      "subcategory": "Special Purpose Coatings",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "special-paints-coatings/special-purpose-coatings/food-grade-coating",
+      "name": "Food Grade Coating",
+      "category": "Special Paints & Coatings",
+      "subcategory": "Special Purpose Coatings",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "special-paints-coatings/special-purpose-coatings/chemical-resistant-coating",
+      "name": "Chemical Resistant Coating",
+      "category": "Special Paints & Coatings",
+      "subcategory": "Special Purpose Coatings",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "special-paints-coatings/special-purpose-coatings/anti-slip-coating",
+      "name": "Anti-Slip Coating",
+      "category": "Special Paints & Coatings",
+      "subcategory": "Special Purpose Coatings",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "special-paints-coatings/special-purpose-coatings/anti-static-coating",
+      "name": "Anti-Static Coating",
+      "category": "Special Paints & Coatings",
+      "subcategory": "Special Purpose Coatings",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "special-paints-coatings/special-purpose-coatings/electrical-insulating-paint",
+      "name": "Electrical Insulating Paint",
+      "category": "Special Paints & Coatings",
+      "subcategory": "Special Purpose Coatings",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "special-paints-coatings/metal-coatings/zinc-coating",
+      "name": "Zinc Coating",
+      "category": "Special Paints & Coatings",
+      "subcategory": "Metal Coatings",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "special-paints-coatings/metal-coatings/aluminum-paint",
+      "name": "Aluminum Paint",
+      "category": "Special Paints & Coatings",
+      "subcategory": "Metal Coatings",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "glassware/industrial-glass/borosilicate-glass",
+      "name": "Borosilicate Glass",
+      "category": "Glassware",
+      "subcategory": "Industrial Glass",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "glassware/industrial-glass/tempered-glass",
+      "name": "Tempered Glass",
+      "category": "Glassware",
+      "subcategory": "Industrial Glass",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "glassware/industrial-glass/toughened-glass",
+      "name": "Toughened Glass",
+      "category": "Glassware",
+      "subcategory": "Industrial Glass",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "glassware/industrial-glass/heat-resistant-glass",
+      "name": "Heat Resistant Glass",
+      "category": "Glassware",
+      "subcategory": "Industrial Glass",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "glassware/industrial-glass/sight-glass",
+      "name": "Sight Glass",
+      "category": "Glassware",
+      "subcategory": "Industrial Glass",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "glassware/industrial-glass-components/glass-rods",
+      "name": "Glass Rods",
+      "category": "Glassware",
+      "subcategory": "Industrial Glass Components",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "glassware/sight-glass-products/sight-glass-assemblies",
+      "name": "Sight Glass Assemblies",
+      "category": "Glassware",
+      "subcategory": "Sight Glass Products",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "glassware/sight-glass-products/sight-glass-covers",
+      "name": "Sight Glass Covers",
+      "category": "Glassware",
+      "subcategory": "Sight Glass Products",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "glassware/sight-glass-products/sight-glass-gaskets",
+      "name": "Sight Glass Gaskets",
+      "category": "Glassware",
+      "subcategory": "Sight Glass Products",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "glassware/sight-glass-products/sight-glass-protectors",
+      "name": "Sight Glass Protectors",
+      "category": "Glassware",
+      "subcategory": "Sight Glass Products",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "fasteners/bolts/u-bolts",
+      "name": "U-Bolts",
+      "category": "Fasteners",
+      "subcategory": "Bolts",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "fasteners/bolts/eye-bolts",
+      "name": "Eye Bolts",
+      "category": "Fasteners",
+      "subcategory": "Bolts",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "fasteners/nuts/hex-nuts",
+      "name": "Hex Nuts",
+      "category": "Fasteners",
+      "subcategory": "Nuts",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "fasteners/nuts/lock-nuts",
+      "name": "Lock Nuts",
+      "category": "Fasteners",
+      "subcategory": "Nuts",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "fasteners/nuts/nylon-lock-nuts",
+      "name": "Nylon Lock Nuts",
+      "category": "Fasteners",
+      "subcategory": "Nuts",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "fasteners/nuts/wing-nuts",
+      "name": "Wing Nuts",
+      "category": "Fasteners",
+      "subcategory": "Nuts",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "fasteners/nuts/dome-nuts",
+      "name": "Dome Nuts",
+      "category": "Fasteners",
+      "subcategory": "Nuts",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "fasteners/nuts/flange-nuts",
+      "name": "Flange Nuts",
+      "category": "Fasteners",
+      "subcategory": "Nuts",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "fasteners/washers/spring-washers",
+      "name": "Spring Washers",
+      "category": "Fasteners",
+      "subcategory": "Washers",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "fasteners/washers/lock-washers",
+      "name": "Lock Washers",
+      "category": "Fasteners",
+      "subcategory": "Washers",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "fasteners/washers/serrated-washers",
+      "name": "Serrated Washers",
+      "category": "Fasteners",
+      "subcategory": "Washers",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "fasteners/washers/sealing-washers",
+      "name": "Sealing Washers",
+      "category": "Fasteners",
+      "subcategory": "Washers",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "fasteners/other-fasteners/studs",
+      "name": "Studs",
+      "category": "Fasteners",
+      "subcategory": "Other Fasteners",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "fasteners/other-fasteners/threaded-rods",
+      "name": "Threaded Rods",
+      "category": "Fasteners",
+      "subcategory": "Other Fasteners",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "putties/metal-putties/aluminum-putty",
+      "name": "Aluminum Putty",
+      "category": "Putties",
+      "subcategory": "Metal Putties",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "putties/metal-putties/stainless-steel-putty",
+      "name": "Stainless Steel Putty",
+      "category": "Putties",
+      "subcategory": "Metal Putties",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "putties/industrial-repair-putties/epoxy-putty",
+      "name": "Epoxy Putty",
+      "category": "Putties",
+      "subcategory": "Industrial Repair Putties",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "putties/industrial-repair-putties/pipe-repair-putty",
+      "name": "Pipe Repair Putty",
+      "category": "Putties",
+      "subcategory": "Industrial Repair Putties",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "putties/industrial-repair-putties/machinery-repair-putty",
+      "name": "Machinery Repair Putty",
+      "category": "Putties",
+      "subcategory": "Industrial Repair Putties",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "putties/industrial-repair-putties/chemical-resistant-putty",
+      "name": "Chemical Resistant Putty",
+      "category": "Putties",
+      "subcategory": "Industrial Repair Putties",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "putties/surface-putties/wood-putty",
+      "name": "Wood Putty",
+      "category": "Putties",
+      "subcategory": "Surface Putties",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "putties/surface-putties/wall-putty",
+      "name": "Wall Putty",
+      "category": "Putties",
+      "subcategory": "Surface Putties",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "putties/surface-putties/automotive-putty",
+      "name": "Automotive Putty",
+      "category": "Putties",
+      "subcategory": "Surface Putties",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "putties/surface-putties/fiberglass-putty",
+      "name": "Fiberglass Putty",
+      "category": "Putties",
+      "subcategory": "Surface Putties",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "lab-instruments/laboratory-glassware/beakers",
+      "name": "Beakers",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Glassware",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "lab-instruments/laboratory-glassware/flasks",
+      "name": "Flasks",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Glassware",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "lab-instruments/laboratory-glassware/test-tubes",
+      "name": "Test Tubes",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Glassware",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "lab-instruments/laboratory-glassware/measuring-cylinders",
+      "name": "Measuring Cylinders",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Glassware",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "lab-instruments/laboratory-glassware/watch-glasses",
+      "name": "Watch Glasses",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Glassware",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "lab-instruments/laboratory-glassware/petri-dishes",
+      "name": "Petri Dishes",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Glassware",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "lab-instruments/laboratory-equipment/hot-plates",
+      "name": "Hot Plates",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Equipment",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "lab-instruments/laboratory-equipment/laboratory-ovens",
+      "name": "Laboratory Ovens",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Laboratory Equipment",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "lab-instruments/measuring-instruments/temperature-gauges",
+      "name": "Temperature Gauges",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Measuring Instruments",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "lab-instruments/measuring-instruments/thermometers",
+      "name": "Thermometers",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Measuring Instruments",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "lab-instruments/measuring-instruments/level-indicators",
+      "name": "Level Indicators",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Measuring Instruments",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "lab-instruments/industrial-instruments/temperature-sensors",
+      "name": "Temperature Sensors",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Industrial Instruments",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "lab-instruments/industrial-instruments/level-sensors",
+      "name": "Level Sensors",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Industrial Instruments",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "lab-instruments/industrial-instruments/digital-controllers",
+      "name": "Digital Controllers",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Industrial Instruments",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "lab-instruments/industrial-instruments/process-indicators",
+      "name": "Process Indicators",
+      "category": "Laboratory Glassware & Industrial Instruments",
+      "subcategory": "Industrial Instruments",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "stainless-steel/stainless-steel-sheets/ss-304-sheets",
+      "name": "SS 304 Sheets",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Sheets",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "stainless-steel/stainless-steel-sheets/ss-316-sheets",
+      "name": "SS 316 Sheets",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Sheets",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "stainless-steel/stainless-steel-sheets/ss-321-sheets",
+      "name": "SS 321 Sheets",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Sheets",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "stainless-steel/stainless-steel-sheets/ss-310-sheets",
+      "name": "SS 310 Sheets",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Sheets",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "stainless-steel/stainless-steel-sheets/ss-430-sheets",
+      "name": "SS 430 Sheets",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Sheets",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "stainless-steel/sheet-finishes/ba-finish",
+      "name": "BA Finish",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Sheet Finishes",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "stainless-steel/sheet-finishes/no-4-finish",
+      "name": "No. 4 Finish",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Sheet Finishes",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "stainless-steel/sheet-finishes/mirror-finish",
+      "name": "Mirror Finish",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Sheet Finishes",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "stainless-steel/sheet-finishes/hairline-finish",
+      "name": "Hairline Finish",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Sheet Finishes",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "stainless-steel/stainless-steel-rods/round-bars",
+      "name": "Round Bars",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Rods",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "stainless-steel/stainless-steel-rods/hex-bars",
+      "name": "Hex Bars",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Rods",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "stainless-steel/stainless-steel-forms/stainless-steel-pipes",
+      "name": "Stainless Steel Pipes",
+      "category": "Stainless Steel Sheets & Rods",
+      "subcategory": "Stainless Steel Forms",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "ptfe/ptfe-products/ptfe-rods",
+      "name": "PTFE Rods",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "PTFE Products",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "ptfe/ptfe-products/ptfe-bars",
+      "name": "PTFE Bars",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "PTFE Products",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "ptfe/ptfe-products/ptfe-rings",
+      "name": "PTFE Rings",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "PTFE Products",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "ptfe/ptfe-components/ptfe-gaskets",
+      "name": "PTFE Gaskets",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "PTFE Components",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "ptfe/ptfe-components/ptfe-seals",
+      "name": "PTFE Seals",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "PTFE Components",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "ptfe/ptfe-components/ptfe-washers",
+      "name": "PTFE Washers",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "PTFE Components",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "ptfe/ptfe-components/ptfe-o-rings",
+      "name": "PTFE O-Rings",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "PTFE Components",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "ptfe/special-ptfe/virgin-ptfe",
+      "name": "Virgin PTFE",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "Special PTFE",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "ptfe/special-ptfe/carbon-filled-ptfe",
+      "name": "Carbon-Filled PTFE",
+      "category": "PTFE Bars & Rods",
+      "subcategory": "Special PTFE",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "composites/fiberglass-materials/fiberglass-sheets",
+      "name": "Fiberglass Sheets",
+      "category": "Composite Materials",
+      "subcategory": "Fiberglass Materials",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "composites/fiberglass-materials/fiberglass-rods",
+      "name": "Fiberglass Rods",
+      "category": "Composite Materials",
+      "subcategory": "Fiberglass Materials",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "composites/fiberglass-materials/fiberglass-fabric",
+      "name": "Fiberglass Fabric",
+      "category": "Composite Materials",
+      "subcategory": "Fiberglass Materials",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "composites/fiberglass-materials/fiberglass-mat",
+      "name": "Fiberglass Mat",
+      "category": "Composite Materials",
+      "subcategory": "Fiberglass Materials",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "composites/carbon-fiber/carbon-fiber-fabric",
+      "name": "Carbon Fiber Fabric",
+      "category": "Composite Materials",
+      "subcategory": "Carbon Fiber",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "composites/composite-sheets-panels/frp-sheets",
+      "name": "FRP Sheets",
+      "category": "Composite Materials",
+      "subcategory": "Composite Sheets & Panels",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "composites/composite-sheets-panels/composite-panels",
+      "name": "Composite Panels",
+      "category": "Composite Materials",
+      "subcategory": "Composite Sheets & Panels",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "composites/composite-components/composite-profiles",
+      "name": "Composite Profiles",
+      "category": "Composite Materials",
+      "subcategory": "Composite Components",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "steel-balls/bearing-balls/carbon-steel-balls",
+      "name": "Carbon Steel Balls",
+      "category": "Steel Balls",
+      "subcategory": "Bearing Balls",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "steel-balls/industrial-balls/grinding-balls",
+      "name": "Grinding Balls",
+      "category": "Steel Balls",
+      "subcategory": "Industrial Balls",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "steel-balls/industrial-balls/hardened-steel-balls",
+      "name": "Hardened Steel Balls",
+      "category": "Steel Balls",
+      "subcategory": "Industrial Balls",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "steel-balls/industrial-balls/mild-steel-balls",
+      "name": "Mild Steel Balls",
+      "category": "Steel Balls",
+      "subcategory": "Industrial Balls",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "steel-balls/applications/bearing-balls",
+      "name": "Bearing Balls",
+      "category": "Steel Balls",
+      "subcategory": "Applications",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "steel-balls/applications/valve-balls",
+      "name": "Valve Balls",
+      "category": "Steel Balls",
+      "subcategory": "Applications",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "steel-balls/applications/grinding-media",
+      "name": "Grinding Media",
+      "category": "Steel Balls",
+      "subcategory": "Applications",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "steel-balls/applications/industrial-grinding-balls",
+      "name": "Industrial Grinding Balls",
+      "category": "Steel Balls",
+      "subcategory": "Applications",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "steel-balls/sizes/small-diameter-balls",
+      "name": "Small Diameter Balls",
+      "category": "Steel Balls",
+      "subcategory": "Sizes",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "steel-balls/sizes/medium-diameter-balls",
+      "name": "Medium Diameter Balls",
+      "category": "Steel Balls",
+      "subcategory": "Sizes",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "adhesives/threadlockers/threadlocker-low-strength",
+      "name": "Threadlocker Low Strength",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Threadlockers",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "adhesives/threadlockers/threadlocker-medium-strength",
+      "name": "Threadlocker Medium Strength",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Threadlockers",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "adhesives/threadlockers/threadlocker-high-strength",
+      "name": "Threadlocker High Strength",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Threadlockers",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "adhesives/industrial-adhesives/plastic-adhesive",
+      "name": "Plastic Adhesive",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Industrial Adhesives",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "adhesives/industrial-adhesives/rubber-adhesive",
+      "name": "Rubber Adhesive",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Industrial Adhesives",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "adhesives/industrial-adhesives/glass-adhesive",
+      "name": "Glass Adhesive",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Industrial Adhesives",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "adhesives/industrial-adhesives/ceramic-adhesive",
+      "name": "Ceramic Adhesive",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Industrial Adhesives",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "adhesives/sealants/rtv-sealant",
+      "name": "RTV Sealant",
+      "category": "Loctite & Adhesives",
+      "subcategory": "Sealants",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "hardware-tools/cutting-tools/hacksaws",
+      "name": "Hacksaws",
+      "category": "Hardware Tools",
+      "subcategory": "Cutting Tools",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "hardware-tools/cutting-tools/drill-bits",
+      "name": "Drill Bits",
+      "category": "Hardware Tools",
+      "subcategory": "Cutting Tools",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "hardware-tools/cutting-tools/taps",
+      "name": "Taps",
+      "category": "Hardware Tools",
+      "subcategory": "Cutting Tools",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "hardware-tools/cutting-tools/dies",
+      "name": "Dies",
+      "category": "Hardware Tools",
+      "subcategory": "Cutting Tools",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "hardware-tools/cutting-tools/reamers",
+      "name": "Reamers",
+      "category": "Hardware Tools",
+      "subcategory": "Cutting Tools",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "hardware-tools/workshop-tools/vices",
+      "name": "Vices",
+      "category": "Hardware Tools",
+      "subcategory": "Workshop Tools",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "hardware-tools/workshop-tools/clamps",
+      "name": "Clamps",
+      "category": "Hardware Tools",
+      "subcategory": "Workshop Tools",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "hardware-tools/workshop-tools/tool-kits",
+      "name": "Tool Kits",
+      "category": "Hardware Tools",
+      "subcategory": "Workshop Tools",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "hardware-tools/workshop-tools/measuring-tools",
+      "name": "Measuring Tools",
+      "category": "Hardware Tools",
+      "subcategory": "Workshop Tools",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "hardware-tools/workshop-tools/torque-wrenches",
+      "name": "Torque Wrenches",
+      "category": "Hardware Tools",
+      "subcategory": "Workshop Tools",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "hardware-tools/workshop-tools/pullers",
+      "name": "Pullers",
+      "category": "Hardware Tools",
+      "subcategory": "Workshop Tools",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "electronic-components/semiconductor-components/leds",
+      "name": "LEDs",
+      "category": "Electronic Components",
+      "subcategory": "Semiconductor Components",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "electronic-components/switching-components/contactors",
+      "name": "Contactors",
+      "category": "Electronic Components",
+      "subcategory": "Switching Components",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "electronic-components/switching-components/circuit-breakers",
+      "name": "Circuit Breakers",
+      "category": "Electronic Components",
+      "subcategory": "Switching Components",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "electronic-components/industrial-electronics/plc-components",
+      "name": "PLC Components",
+      "category": "Electronic Components",
+      "subcategory": "Industrial Electronics",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "electronic-components/industrial-electronics/industrial-controllers",
+      "name": "Industrial Controllers",
+      "category": "Electronic Components",
+      "subcategory": "Industrial Electronics",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "rubber-items/rubber-sheets/epdm-sheets",
+      "name": "EPDM Sheets",
+      "category": "Rubber Items",
+      "subcategory": "Rubber Sheets",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "rubber-items/rubber-components/rubber-mounts",
+      "name": "Rubber Mounts",
+      "category": "Rubber Items",
+      "subcategory": "Rubber Components",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "rubber-items/rubber-components/rubber-pads",
+      "name": "Rubber Pads",
+      "category": "Rubber Items",
+      "subcategory": "Rubber Components",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "rubber-items/rubber-components/rubber-profiles",
+      "name": "Rubber Profiles",
+      "category": "Rubber Items",
+      "subcategory": "Rubber Components",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "rubber-items/industrial-rubber/chemical-resistant-rubber",
+      "name": "Chemical Resistant Rubber",
+      "category": "Rubber Items",
+      "subcategory": "Industrial Rubber",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "rubber-items/industrial-rubber/food-grade-rubber",
+      "name": "Food Grade Rubber",
+      "category": "Rubber Items",
+      "subcategory": "Industrial Rubber",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "industrial-oils/lubricating-oils/hydraulic-oil",
+      "name": "Hydraulic Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Lubricating Oils",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "industrial-oils/lubricating-oils/gear-oil",
+      "name": "Gear Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Lubricating Oils",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "industrial-oils/lubricating-oils/circulating-oil",
+      "name": "Circulating Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Lubricating Oils",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "industrial-oils/lubricating-oils/machine-oil",
+      "name": "Machine Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Lubricating Oils",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "industrial-oils/industrial-lubricants/food-grade-lubricants",
+      "name": "Food Grade Lubricants",
+      "category": "Industrial Oils",
+      "subcategory": "Industrial Lubricants",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "industrial-oils/maintenance-oils/rust-preventive-oil",
+      "name": "Rust Preventive Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Maintenance Oils",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "industrial-oils/maintenance-oils/penetrating-oil",
+      "name": "Penetrating Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Maintenance Oils",
+      "file": null,
+      "error": "HTTP 429"
+    },
+    {
+      "key": "industrial-oils/maintenance-oils/mould-release-oil",
+      "name": "Mould Release Oil",
+      "category": "Industrial Oils",
+      "subcategory": "Maintenance Oils",
+      "file": null,
+      "error": "HTTP 429"
+    }
+  ]
+}

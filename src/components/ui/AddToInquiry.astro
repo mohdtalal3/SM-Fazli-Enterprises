@@ -1,0 +1,72 @@
+---
+import { Icon } from 'astro-icon/components';
+
+interface Props {
+  item: {
+    slug: string;
+    name: string;
+    category: string;
+    subcategory: string;
+    url: string;
+  };
+  class?: string;
+  label?: string;
+  variant?: 'accent' | 'outline' | 'sm';
+}
+
+const { item, class: className = '', label = 'Add to Inquiry', variant = 'accent' } = Astro.props;
+
+const variantCls =
+  variant === 'accent' ? 'btn btn-accent' : variant === 'outline' ? 'btn btn-outline' : 'btn btn-outline btn-sm';
+---
+
+<button
+  type="button"
+  class={`${variantCls} ${className}`}
+  data-inquiry-add
+  data-item={JSON.stringify(item)}
+>
+  <Icon name="lucide:clipboard-list" class="h-4 w-4 shrink-0" />
+  <span data-label>{label}</span>
+</button>
+
+<style>
+  button[data-inquiry-add].is-added {
+    background-color: #16a34a !important;
+    border-color: transparent !important;
+    color: #fff !important;
+  }
+</style>
+
+<script>
+  import { addInquiryItem } from '../../lib/inquiry';
+
+  document.addEventListener('click', (e) => {
+    const target = e.target as Element | null;
+    const btn = target?.closest?.('[data-inquiry-add]');
+    if (!btn) return;
+    e.preventDefault();
+    e.stopPropagation();
+
+    const button = btn as HTMLElement;
+    const raw = button.dataset.item;
+    if (!raw) return;
+
+    try {
+      addInquiryItem(JSON.parse(raw) as Parameters<typeof addInquiryItem>[0]);
+    } catch {
+      return;
+    }
+
+    const labelEl = button.querySelector<HTMLElement>('[data-label]');
+    if (labelEl && !button.classList.contains('is-added')) {
+      const original = labelEl.textContent ?? '';
+      button.classList.add('is-added');
+      labelEl.textContent = 'Added ✓';
+      window.setTimeout(() => {
+        button.classList.remove('is-added');
+        labelEl.textContent = original;
+      }, 1400);
+    }
+  });
+</script>

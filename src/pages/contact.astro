@@ -1,0 +1,264 @@
+---
+import { Icon } from 'astro-icon/components';
+import PageLayout from '../layouts/PageLayout.astro';
+import Container from '../components/ui/Container.astro';
+import { getCompany, getSite, getContact } from '../lib/data';
+
+const company = getCompany();
+const site = getSite();
+const contact = getContact();
+
+const methods = site.inquiry.method;
+const waDigits = site.inquiry.whatsappNumber.replace(/\D/g, '');
+
+const details = [
+  { icon: 'phone', label: 'Phone', value: contact.primary.phone, href: contact.primary.phone ? `tel:${contact.primary.phone.replace(/\s/g, '')}` : '' },
+  { icon: 'whatsapp', label: 'WhatsApp', value: contact.primary.whatsapp, href: waDigits ? `https://wa.me/${waDigits}` : '' },
+  { icon: 'mail', label: 'Email', value: contact.primary.email, href: contact.primary.email ? `mailto:${contact.primary.email}` : '' },
+  { icon: 'map-pin', label: 'Address', value: contact.primary.address, href: '' },
+  { icon: 'clock', label: 'Working Hours', value: contact.primary.hours, href: '' },
+];
+---
+
+<PageLayout
+  title={`Contact Us | ${company.name}`} heading="Contact Us"
+  description={`Get in touch with ${company.name} — phone, WhatsApp, email or visit us at ${contact.primary.address}.`}
+  breadcrumbs={[{ name: 'Contact' }]}
+  eyebrow="Contact"
+  lead="Call, message or visit — the sales desk answers during working hours, and quotes go out within one business day."
+>
+  <Container>
+    <div class="grid items-start gap-8 lg:grid-cols-[0.9fr_1.1fr]">
+      <!-- Contact details -->
+      <div class="space-y-4" data-reveal>
+        <div class="card divide-y divide-line p-2">
+          {
+            details
+              .filter((detail) => detail.value)
+              .map((detail) => (
+                <div class="flex items-center gap-4 p-4">
+                  <span class="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-accent/10 text-accent-600 dark:text-accent">
+                    {detail.icon === 'whatsapp' ? <Icon name="whatsapp" class="h-5 w-5" /> : <Icon name={`lucide:${detail.icon}`} class="h-5 w-5" />}
+                  </span>
+                  <div class="min-w-0">
+                    <p class="text-xs font-bold tracking-wide text-muted uppercase">{detail.label}</p>
+                    {detail.href ? (
+                      <a
+                        href={detail.href}
+                        target={detail.href.startsWith('http') ? '_blank' : undefined}
+                        rel={detail.href.startsWith('http') ? 'noopener' : undefined}
+                        class="block truncate text-sm font-semibold text-ink transition hover:text-accent-600 dark:hover:text-accent"
+                      >
+                        {detail.value}
+                      </a>
+                    ) : (
+                      <p class="text-sm font-semibold text-ink">{detail.value}</p>
+                    )}
+                  </div>
+                </div>
+              ))
+          }
+        </div>
+
+        {
+          contact.departments.length > 0 && (
+            <div class="card p-5">
+              <h2 class="text-xs font-bold tracking-[0.18em] text-muted uppercase">Departments</h2>
+              <ul class="mt-3.5 space-y-3.5">
+                {contact.departments.map((department) => (
+                  <li class="flex flex-wrap items-center justify-between gap-2 border-b border-line pb-3.5 last:border-0 last:pb-0">
+                    <div>
+                      <p class="text-sm font-semibold text-ink">
+                        {department.name}
+                        {department.person && <span class="font-normal text-muted"> · {department.person}</span>}
+                      </p>
+                      <p class="mt-0.5 text-xs text-muted">
+                        {department.phone && <a href={`tel:${department.phone.replace(/\s/g, '')}`} class="hover:text-accent">{department.phone}</a>}
+                        {department.phone && department.email && ' · '}
+                        {department.email && <a href={`mailto:${department.email}`} class="hover:text-accent">{department.email}</a>}
+                      </p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        }
+
+        {
+          contact.socials.length > 0 && (
+            <div class="card flex items-center justify-between p-5">
+              <h2 class="text-xs font-bold tracking-[0.18em] text-muted uppercase">Follow us</h2>
+              <div class="flex items-center gap-2.5">
+                {contact.socials.map((social) => (
+                  <a
+                    href={social.url}
+                    target={social.url.startsWith('http') ? '_blank' : undefined}
+                    rel={social.url.startsWith('http') ? 'noopener' : undefined}
+                    aria-label={social.platform}
+                    class="grid h-10 w-10 place-items-center rounded-full border border-line text-muted transition hover:border-accent hover:bg-accent hover:text-primary"
+                  >
+                    <Icon name={`lucide:${social.platform}`} class="h-4.5 w-4.5" />
+                  </a>
+                ))}
+              </div>
+            </div>
+          )
+        }
+      </div>
+
+      <!-- Contact form -->
+      <div class="card p-5 sm:p-7" data-reveal style="--rd:1">
+        <h2 class="font-display text-lg font-bold text-ink">Send us a message</h2>
+        <p class="mt-1 text-sm text-muted">For quotes with a product list, use the <a href="/quote" class="font-semibold text-accent-600 hover:underline dark:text-accent">inquiry list</a> instead.</p>
+
+        <form id="contact-form" class="mt-6 space-y-4" novalidate>
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div>
+              <label for="c-name" class="label">Name *</label>
+              <input id="c-name" name="name" type="text" required class="input" placeholder="Your full name" autocomplete="name" />
+            </div>
+            <div>
+              <label for="c-company" class="label">Company</label>
+              <input id="c-company" name="company" type="text" class="input" placeholder="Company name" autocomplete="organization" />
+            </div>
+          </div>
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div>
+              <label for="c-email" class="label">Email *</label>
+              <input id="c-email" name="email" type="email" required class="input" placeholder="you@company.com" autocomplete="email" />
+            </div>
+            <div>
+              <label for="c-phone" class="label">Phone</label>
+              <input id="c-phone" name="phone" type="tel" class="input" placeholder="+92 3xx xxxxxxx" autocomplete="tel" />
+            </div>
+          </div>
+          <div>
+            <label for="c-subject" class="label">Subject</label>
+            <input id="c-subject" name="subject" type="text" class="input" placeholder="What is this about?" />
+          </div>
+          <div>
+            <label for="c-message" class="label">Message *</label>
+            <textarea id="c-message" name="message" rows="5" required class="input resize-y" placeholder="Your requirements, quantities, delivery location…"></textarea>
+          </div>
+
+          <div class="flex flex-col gap-2.5 pt-1 sm:flex-row" id="contact-buttons">
+            {
+              methods.includes('whatsapp') && waDigits && (
+                <button type="submit" class="btn btn-whatsapp flex-1" data-method="whatsapp">
+                  <Icon name="whatsapp" class="h-4 w-4" />
+                  WhatsApp
+                </button>
+              )
+            }
+            {
+              methods.includes('email') && site.inquiry.email && (
+                <button type="submit" class="btn btn-primary flex-1" data-method="email">
+                  <Icon name="lucide:mail" class="h-4 w-4" />
+                  Email Us
+                </button>
+              )
+            }
+            {
+              methods.includes('endpoint') && site.inquiry.formEndpoint && (
+                <button type="submit" class="btn btn-accent flex-1" data-method="endpoint">
+                  <Icon name="lucide:send" class="h-4 w-4" />
+                  Submit
+                </button>
+              )
+            }
+          </div>
+
+          <p id="contact-status" class="hidden rounded-lg px-3.5 py-2.5 text-sm" role="status"></p>
+        </form>
+      </div>
+    </div>
+
+    <!-- Map -->
+    <div class="mt-12" data-reveal>
+      {
+        contact.primary.mapEmbedUrl ? (
+          <iframe
+            src={contact.primary.mapEmbedUrl}
+            title="Map — office location"
+            class="h-80 w-full rounded-2xl border border-line"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          />
+        ) : (
+          <div class="img-placeholder flex h-72 flex-col items-center justify-center gap-3 rounded-2xl text-center">
+            <Icon name="lucide:map-pin" class="h-10 w-10" />
+            <p class="text-sm font-medium text-muted">
+              {contact.primary.address || 'Map location coming soon'}
+            </p>
+            {contact.primary.mapLink && (
+              <a href={contact.primary.mapLink} target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                Open in Maps
+                <Icon name="lucide:external-link" class="h-3.5 w-3.5" />
+              </a>
+            )}
+          </div>
+        )
+      }
+    </div>
+  </Container>
+</PageLayout>
+
+<script>
+  const form = document.getElementById('contact-form') as HTMLFormElement | null;
+  const statusEl = document.getElementById('contact-status');
+
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    if (!form || !statusEl) return;
+
+    const get = (id: string) => (document.getElementById(id) as HTMLInputElement | HTMLTextAreaElement | null)?.value.trim() ?? '';
+    const name = get('c-name');
+    const email = get('c-email');
+    const phone = get('c-phone');
+    const company = get('c-company');
+    const subject = get('c-subject');
+    const message = get('c-message');
+
+    const showStatus = (text: string, ok: boolean) => {
+      statusEl.textContent = text;
+      statusEl.className = `rounded-lg px-3.5 py-2.5 text-sm ${
+        ok ? 'bg-green-500/10 text-green-700 dark:text-green-400' : 'bg-red-500/10 text-red-600 dark:text-red-400'
+      }`;
+      statusEl.hidden = false;
+    };
+
+    if (!name) return showStatus('Please add your name.', false);
+    if (!email && !phone) return showStatus('Please add an email or phone number so we can reply.', false);
+
+    const method = (e.submitter as HTMLElement | null)?.dataset.method ?? 'email';
+    const body = [
+      `Name: ${name}`,
+      company && `Company: ${company}`,
+      phone && `Phone: ${phone}`,
+      email && `Email: ${email}`,
+      '',
+      message,
+    ]
+      .filter(Boolean)
+      .join('\n');
+
+    if (method === 'whatsapp') {
+      const number = form.dataset.whatsapp ?? '';
+      window.open(`https://wa.me/${number}?text=${encodeURIComponent(body)}`, '_blank', 'noopener');
+      showStatus('Opening WhatsApp with your message…', true);
+    } else if (method === 'email') {
+      window.location.href = `mailto:${form.dataset.email ?? ''}?subject=${encodeURIComponent(subject || 'Website inquiry')}&body=${encodeURIComponent(body)}`;
+      showStatus('Opening your email client…', true);
+    } else if (method === 'endpoint') {
+      fetch(form.dataset.endpoint ?? '', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({ name, company, phone, email, subject, message }),
+      })
+        .then(() => showStatus('Message sent — we will reply within one business day.', true))
+        .catch(() => showStatus('Something went wrong. Please try again.', false));
+    }
+  });
+</script>

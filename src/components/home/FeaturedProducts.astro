@@ -1,0 +1,27 @@
+---
+import Container from '../ui/Container.astro';
+import SectionHeading from '../ui/SectionHeading.astro';
+import ProductCard from '../products/ProductCard.astro';
+import { getFeaturedProducts } from '../../lib/data';
+
+const featured = getFeaturedProducts();
+---
+
+{
+  featured.length > 0 && (
+    <section class="border-y border-line bg-card py-16 md:py-24">
+      <Container>
+        <SectionHeading
+          eyebrow="Featured Products"
+          title="Popular lines, ready to quote"
+          description="Frequently ordered items across our catalog — add them to your inquiry list or request a custom specification."
+        />
+        <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {featured.slice(0, 8).map((ref) => (
+            <ProductCard item={ref.item} category={ref.category} subcategory={ref.subcategory} />
+          ))}
+        </div>
+      </Container>
+    </section>
+  )
+}

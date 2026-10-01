@@ -1,0 +1,115 @@
+{
+  "name": "Ferrox Industrial Supply Co.",
+  "shortName": "Ferrox",
+  "tagline": "Materials. Components. Reliability.",
+  "logo": {
+    "light": "/images/logo-light.svg",
+    "dark": "/images/logo-dark.svg",
+    "icon": "/images/logo-icon.svg"
+  },
+  "foundedYear": 2009,
+  "about": "Ferrox Industrial Supply Co. is a trusted supplier of industrial materials and components, serving plants, workshops and projects across Pakistan since 2009. From bulk chemicals and protective coatings to precision fasteners, stainless steel and lab instruments, we keep production lines running with certified materials, honest lead times and technical support that answers the phone.",
+  "story": [
+    "Ferrox began in 2009 as a two-person trading desk supplying solvents and paints to textile mills in Punjab. Our founders had spent years on the procurement side and knew exactly where supply chains break: unclear specs, inconsistent batches and vendors who disappear after the first invoice.",
+    "So we built the company around the opposite habits — documented grades for every chemical, traceable batches, photographs before dispatch, and pricing that holds for the agreed quarter. Word travelled. Today Ferrox supplies more than 400 clients across textiles, food, pharma, construction, power and water utilities, with a 1,500+ line catalog and same-week dispatch from our Islamabad warehouse.",
+    "We remain deliberately boring in the best way: we answer quickly, we deliver what the purchase order says, and when something goes wrong we fix it before it becomes your problem."
+  ],
+  "mission": "To make industrial procurement effortless — certified materials, transparent pricing and dependable delivery, so our clients never lose a day of production to a supply problem.",
+  "vision": "To be the most trusted industrial supply partner in Pakistan, known for the same reliability at item number 1,500 as we were at item number one.",
+  "stats": [
+    { "label": "Years of Experience", "value": 15, "suffix": "+" },
+    { "label": "Products Available", "value": 1500, "suffix": "+" },
+    { "label": "Happy Clients", "value": 400, "suffix": "+" },
+    { "label": "Projects Delivered", "value": 850, "suffix": "+" }
+  ],
+  "values": [
+    {
+      "title": "Quality First",
+      "description": "Certified grades, traceable batches and documented specs on every consignment — no vague 'commercial quality' shortcuts.",
+      "icon": "shield-check"
+    },
+    {
+      "title": "Straight Talk",
+      "description": "Real lead times, real stock positions, real pricing. If we can't supply it well, we say so and point you to someone who can.",
+      "icon": "message-circle"
+    },
+    {
+      "title": "Long-Term Partnerships",
+      "description": "We build decade-long relationships, not one-off invoices. Most of our first clients in 2009 still buy from us today.",
+      "icon": "handshake"
+    },
+    {
+      "title": "Safety & Compliance",
+      "description": "Proper MSDS documentation, correct packaging and safe handling guidance ship with every chemical and coating we sell.",
+      "icon": "file-check"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "title": "Certified Materials",
+      "description": "Every chemical, alloy and coating ships with grade documentation and batch traceability.",
+      "icon": "badge-check"
+    },
+    {
+      "title": "Bulk Supply Capability",
+      "description": "Drum, tote and tanker quantities with scheduled deliveries matched to your consumption.",
+      "icon": "package"
+    },
+    {
+      "title": "Fast Delivery",
+      "description": "Same-week dispatch from Islamabad on stocked lines, nationwide coverage via trusted logistics.",
+      "icon": "truck"
+    },
+    {
+      "title": "Technical Support",
+      "description": "Engineers on staff to help you select grades, coatings and components that fit the application.",
+      "icon": "headset"
+    },
+    {
+      "title": "One Vendor, Many Categories",
+      "description": "16 categories from chemicals to electronics — one PO instead of twenty vendors.",
+      "icon": "layers"
+    },
+    {
+      "title": "Competitive Pricing",
+      "description": "Direct import and local manufacturing relationships keep landed costs honest and stable.",
+      "icon": "coins"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 2009,
+      "title": "Company founded",
+      "description": "Ferrox opens in Islamabad as a specialist supplier of solvents and industrial paints."
+    },
+    {
+      "year": 2012,
+      "title": "First annual supply contract",
+      "description": "Signed a 12-month chemical supply agreement with a major municipal water authority."
+    },
+    {
+      "year": 2016,
+      "title": "Warehouse expansion",
+      "description": "Moved to a dedicated 8,000 sq ft warehouse with segregated chemical storage."
+    },
+    {
+      "year": 2019,
+      "title": "1,000th product line",
+      "description": "Catalog grows past a thousand active lines across 12 categories."
+    },
+    {
+      "year": 2022,
+      "title": "ISO 9001:2015 certified",
+      "description": "Quality management system certified across procurement, storage and dispatch."
+    },
+    {
+      "year": 2024,
+      "title": "400+ active clients",
+      "description": "Serving clients in textiles, pharma, food, construction, power and water utilities."
+    }
+  ],
+  "certifications": [
+    { "name": "ISO 9001:2015", "image": "/images/certs/iso-9001-2015.svg" },
+    { "name": "ISO 14001:2015", "image": "/images/certs/iso-14001-2015.svg" }
+  ]
+}

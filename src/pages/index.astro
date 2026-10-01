@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getHome } from '../lib/data';
+
+import Hero from '../components/home/Hero.astro';
+import StatsBar from '../components/home/StatsBar.astro';
+import CategoryGrid from '../components/home/CategoryGrid.astro';
+import FeaturedProducts from '../components/home/FeaturedProducts.astro';
+import WhyChooseUs from '../components/home/WhyChooseUs.astro';
+import Industries from '../components/home/Industries.astro';
+import ProjectsPreview from '../components/home/ProjectsPreview.astro';
+import PartnersMarquee from '../components/home/PartnersMarquee.astro';
+import FounderTeaser from '../components/home/FounderTeaser.astro';
+import Testimonials from '../components/home/Testimonials.astro';
+import CtaBanner from '../components/home/CtaBanner.astro';
+
+const home = getHome();
+
+/* Section registry: home.json `sections[].id` → component. Adding a section
+   means building the component, registering it here, and adding a JSON entry. */
+const registry: Record<string, any> = {
+  hero: Hero,
+  stats: StatsBar,
+  categories: CategoryGrid,
+  featured: FeaturedProducts,
+  'why-us': WhyChooseUs,
+  industries: Industries,
+  projects: ProjectsPreview,
+  partners: PartnersMarquee,
+  founder: FounderTeaser,
+  testimonials: Testimonials,
+  cta: CtaBanner,
+};
+
+const sections = home.sections.filter((s) => s.enabled);
+---
+
+<BaseLayout>
+  {
+    sections.map((section) => {
+      const SectionComponent = registry[section.id];
+      return SectionComponent ? <SectionComponent /> : null;
+    })
+  }
+</BaseLayout>

@@ -1,0 +1,10 @@
+[
+  { "name": "Oil & Gas", "icon": "fuel", "description": "Drilling consumables, specialty oils and corrosion protection." },
+  { "name": "Textile", "icon": "shirt", "description": "Lubricants, machine paints and process chemicals for spinning & weaving." },
+  { "name": "Pharmaceutical", "icon": "pill", "description": "Lab glassware, instruments and GMP-aligned consumables." },
+  { "name": "Food & Beverage", "icon": "utensils", "description": "Food-grade lubricants, cleaning chemicals and sealing products." },
+  { "name": "Construction", "icon": "building-2", "description": "Fasteners, waterproof coatings, putties and site hardware." },
+  { "name": "Power & Energy", "icon": "zap", "description": "Transformer oils, electrical components and EPC consumables." },
+  { "name": "Water & Utilities", "icon": "waves", "description": "Coagulants, disinfectants and dosing instruments for treatment plants." },
+  { "name": "Automotive", "icon": "car", "description": "Adhesives, rubber components, paints and workshop tooling." }
+]

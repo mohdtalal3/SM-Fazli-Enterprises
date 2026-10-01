@@ -1,0 +1,23 @@
+[
+  {
+    "quote": "Ferrox consolidated our chemical buying from a dozen vendors into one dependable supply line. Deliveries land when they say they will, and the paperwork is always right.",
+    "author": "Imran Sheikh",
+    "role": "Procurement Head",
+    "company": "Northern Textile Mills",
+    "photo": ""
+  },
+  {
+    "quote": "Their technical team helped us redesign our dosing chemistry during monsoon season. Turbidity issues we fought for years were solved in one quarter.",
+    "author": "Dr. Ayesha Rahman",
+    "role": "Plant Chemist",
+    "company": "Example Municipal Authority",
+    "photo": ""
+  },
+  {
+    "quote": "Eight weeks, two hundred lab lines, one vendor, zero observations in the GMP audit. That sums up the fitout they did for us.",
+    "author": "Bilal Ahmed",
+    "role": "QC Manager",
+    "company": "PharmaTech Laboratories",
+    "photo": ""
+  }
+]

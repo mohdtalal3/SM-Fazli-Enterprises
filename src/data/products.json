@@ -1,0 +1,5867 @@
+{
+  "categories": [
+    {
+      "slug": "chemicals",
+      "name": "Chemicals",
+      "icon": "flask-conical",
+      "image": "",
+      "description": "Industrial chemicals, solvents, water treatment and cleaning chemicals — documented grades with batch traceability.",
+      "menuLabel": "",
+      "order": 1,
+      "subcategories": [
+        {
+          "slug": "industrial-chemicals",
+          "name": "Industrial Chemicals",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "sodium-hydroxide",
+              "name": "Sodium Hydroxide (Caustic Soda)",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/naoh-beads.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "hydrochloric-acid",
+              "name": "Hydrochloric Acid",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/hydrochloric-acid.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "sulfuric-acid",
+              "name": "Sulfuric Acid",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/sulfuric-bottle.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "nitric-acid",
+              "name": "Nitric Acid",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/nitric-acid.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "phosphoric-acid",
+              "name": "Phosphoric Acid",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/sulfuric-jar.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "acetic-acid",
+              "name": "Acetic Acid",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/acetic-acid.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "citric-acid",
+              "name": "Citric Acid",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/acetic-acid.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "sodium-carbonate",
+              "name": "Sodium Carbonate",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/baking-soda.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "sodium-bicarbonate",
+              "name": "Sodium Bicarbonate",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/baking-soda.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "calcium-chloride",
+              "name": "Calcium Chloride",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/naoh-beads.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ammonium-chloride",
+              "name": "Ammonium Chloride",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/hydrochloric-acid.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "potassium-hydroxide",
+              "name": "Potassium Hydroxide",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/naoh-beads.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "solvents",
+          "name": "Solvents",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "acetone",
+              "name": "Acetone",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ethanol-usp.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "isopropyl-alcohol",
+              "name": "Isopropyl Alcohol (IPA)",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ethanol-flasche.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "methanol",
+              "name": "Methanol",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ethanol-flasche.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ethanol",
+              "name": "Ethanol",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ethanol-usp.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "toluene",
+              "name": "Toluene",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/toluene.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "xylene",
+              "name": "Xylene",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/toluene.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "mek",
+              "name": "MEK",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ethanol-usp.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "mibk",
+              "name": "MIBK",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ethanol-flasche.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "water-treatment-chemicals",
+          "name": "Water Treatment Chemicals",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "alum",
+              "name": "Alum",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/alum.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ferric-chloride",
+              "name": "Ferric Chloride",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/ferric-chloride.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "poly-aluminium-chloride",
+              "name": "Poly Aluminium Chloride (PAC)",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/poly-aluminium-chloride.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "sodium-hypochlorite",
+              "name": "Sodium Hypochlorite",
+              "shortDescription": "High-strength disinfectant and oxidizer for municipal and industrial water systems.",
+              "description": "Stabilized sodium hypochlorite solution for disinfection, chlorination and odor control in water treatment plants, cooling towers and process water systems. Supplied in sealed carboys or drums with batch certificates and current MSDS.",
+              "images": [
+                "/images/products/chemicals/sodium-hypochlorite.png"
+              ],
+              "specs": {
+                "Available Chlorine": "10–12%",
+                "Appearance": "Pale yellow to light green liquid",
+                "Packaging": "30 / 50 kg carboys, 200 kg drums",
+                "Shelf Life": "60–90 days (cool, dark storage)",
+                "Documentation": "Batch certificate + MSDS with every consignment"
+              },
+              "variants": [],
+              "applications": [
+                "Municipal water disinfection",
+                "Cooling tower biocontrol",
+                "Process water chlorination",
+                "Sanitation of tanks and pipelines"
+              ],
+              "datasheet": "",
+              "featured": true,
+              "tags": [
+                "water-treatment",
+                "disinfectant"
+              ]
+            },
+            {
+              "slug": "antiscalants",
+              "name": "Antiscalants",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/ferric-chloride.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "biocides",
+              "name": "Biocides",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/ferric-chloride.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "coagulants",
+              "name": "Coagulants",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/poly-aluminium-chloride.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "flocculants",
+              "name": "Flocculants",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/flocculants.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "cleaning-degreasing-chemicals",
+          "name": "Cleaning & Degreasing Chemicals",
+          "description": "",
+          "image": "",
+          "menuLabel": "Cleaning & Degreasing",
+          "items": [
+            {
+              "slug": "industrial-degreasers",
+              "name": "Industrial Degreasers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/rust-removers.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "chemical-cleaners",
+              "name": "Chemical Cleaners",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/rust-removers.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "rust-removers",
+              "name": "Rust Removers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/rust-removers.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "descaling-chemicals",
+              "name": "Descaling Chemicals",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/rust-removers.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "metal-cleaners",
+              "name": "Metal Cleaners",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/chemicals/rust-removers.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "paints",
+      "name": "Paints",
+      "icon": "paint-bucket",
+      "image": "",
+      "description": "Industrial and protective paints: enamels, epoxies, primers and coatings engineered for plant environments.",
+      "menuLabel": "",
+      "order": 2,
+      "subcategories": [
+        {
+          "slug": "industrial-paints",
+          "name": "Industrial Paints",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "enamel-paint",
+              "name": "Enamel Paint",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/alkyd-paint.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "alkyd-paint",
+              "name": "Alkyd Paint",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/alkyd-paint.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "epoxy-paint",
+              "name": "Epoxy Paint",
+              "shortDescription": "Two-pack epoxy coating for machinery, floors and steelwork in demanding plant environments.",
+              "description": "High-build two-component epoxy paint delivering a tough, chemical-resistant finish on machinery, structural steel and concrete floors. Available in RAL shades with matching primers; spray or brush application with full technical data support.",
+              "images": [
+                "/images/products/paints/epoxy-paint.jpg"
+              ],
+              "specs": {
+                "Type": "Two-pack polyamide-cured epoxy",
+                "Coverage (theoretical)": "8–10 m²/L at 50 µm DFT",
+                "Dry to Touch": "4–6 hours at 25°C",
+                "Full Cure": "7 days",
+                "Packaging": "4 L / 20 L kits (base + hardener)",
+                "Shades": "RAL shades on order"
+              },
+              "variants": [
+                "Gloss finish",
+                "Semi-gloss finish",
+                "Floor-grade (self-levelling)"
+              ],
+              "applications": [
+                "Machine bodies and frames",
+                "Structural steelwork",
+                "Industrial flooring",
+                "Chemical plant equipment"
+              ],
+              "datasheet": "",
+              "featured": true,
+              "tags": [
+                "coatings",
+                "two-pack"
+              ]
+            },
+            {
+              "slug": "polyurethane-paint",
+              "name": "Polyurethane Paint",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/polyurethane-paint.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "acrylic-paint",
+              "name": "Acrylic Paint",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/acrylic-paint.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "synthetic-paint",
+              "name": "Synthetic Paint",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/synthetic-paint.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "machinery-paint",
+              "name": "Machinery Paint",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/alkyd-paint.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "structural-steel-paint",
+              "name": "Structural Steel Paint",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/structural-steel-paint.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "primers",
+          "name": "Primers",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "red-oxide-primer",
+              "name": "Red Oxide Primer",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/zinc-chromate-primer.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "zinc-chromate-primer",
+              "name": "Zinc Chromate Primer",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/zinc-chromate-primer.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "zinc-phosphate-primer",
+              "name": "Zinc Phosphate Primer",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/zinc-phosphate-primer.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "epoxy-primer",
+              "name": "Epoxy Primer",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/epoxy-primer.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "metal-primer",
+              "name": "Metal Primer",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/metal-primer.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "anti-corrosion-primer",
+              "name": "Anti-Corrosion Primer",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/zinc-chromate-primer.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "protective-coatings",
+          "name": "Protective Coatings",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "anti-corrosion-coating",
+              "name": "Anti-Corrosion Coating",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/anti-corrosion-coating.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "heat-resistant-coating",
+              "name": "Heat Resistant Coating",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/waterproof-coating.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "chemical-resistant-coating",
+              "name": "Chemical Resistant Coating",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/chemical-resistant-coating.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "abrasion-resistant-coating",
+              "name": "Abrasion Resistant Coating",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/abrasion-resistant-coating.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "waterproof-coating",
+              "name": "Waterproof Coating",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/paints/waterproof-coating.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "special-paints-coatings",
+      "name": "Special Paints & Coatings",
+      "icon": "flame",
+      "image": "",
+      "description": "High-temperature and special-purpose coatings: furnace paints, fire retardants, anti-static and metal coatings.",
+      "menuLabel": "",
+      "order": 3,
+      "subcategories": [
+        {
+          "slug": "high-temperature-paints",
+          "name": "High Temperature Paints",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "heat-resistant-paint",
+              "name": "Heat Resistant Paint",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/special-paints-coatings/heat-resistant-paint.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "stove-paint",
+              "name": "Stove Paint",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/special-paints-coatings/stove-paint.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "furnace-paint",
+              "name": "Furnace Paint",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/special-paints-coatings/furnace-paint.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "exhaust-paint",
+              "name": "Exhaust Paint",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/special-paints-coatings/exhaust-paint.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "high-temperature-coating",
+              "name": "High Temperature Coating",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/special-paints-coatings/heat-resistant-paint.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "special-purpose-coatings",
+          "name": "Special Purpose Coatings",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "fire-retardant-paint",
+              "name": "Fire Retardant Paint",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/special-paints-coatings/food-grade-coating.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "food-grade-coating",
+              "name": "Food Grade Coating",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/special-paints-coatings/food-grade-coating.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "chemical-resistant-coating",
+              "name": "Chemical Resistant Coating",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/special-paints-coatings/food-grade-coating.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "anti-slip-coating",
+              "name": "Anti-Slip Coating",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/special-paints-coatings/food-grade-coating.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "anti-static-coating",
+              "name": "Anti-Static Coating",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/special-paints-coatings/food-grade-coating.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "electrical-insulating-paint",
+              "name": "Electrical Insulating Paint",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/special-paints-coatings/food-grade-coating.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "metal-coatings",
+          "name": "Metal Coatings",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "zinc-coating",
+              "name": "Zinc Coating",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/special-paints-coatings/zinc-coating.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "galvanizing-paint",
+              "name": "Galvanizing Paint",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/special-paints-coatings/galvanizing-paint.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "aluminum-paint",
+              "name": "Aluminum Paint",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/special-paints-coatings/zinc-coating.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "anti-rust-coating",
+              "name": "Anti-Rust Coating",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/special-paints-coatings/anti-rust-coating.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "glassware",
+      "name": "Glassware",
+      "icon": "glass-water",
+      "image": "",
+      "description": "Industrial glass and sight-glass products: borosilicate components, sheets, tubes and assemblies.",
+      "menuLabel": "",
+      "order": 4,
+      "subcategories": [
+        {
+          "slug": "industrial-glass",
+          "name": "Industrial Glass",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "borosilicate-glass",
+              "name": "Borosilicate Glass",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/glassware/heat-resistant-glass.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "tempered-glass",
+              "name": "Tempered Glass",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/glassware/sight-glass.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "toughened-glass",
+              "name": "Toughened Glass",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/glassware/sight-glass.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "heat-resistant-glass",
+              "name": "Heat Resistant Glass",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/glassware/heat-resistant-glass.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "chemical-resistant-glass",
+              "name": "Chemical Resistant Glass",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/glassware/chemical-resistant-glass.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "sight-glass",
+              "name": "Sight Glass",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/glassware/sight-glass.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "industrial-glass-components",
+          "name": "Industrial Glass Components",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "glass-tubes",
+              "name": "Glass Tubes",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/glassware/glass-tubes.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "glass-sheets",
+              "name": "Glass Sheets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/glassware/glass-sheets.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "glass-rods",
+              "name": "Glass Rods",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/glassware/glass-sheets.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "glass-plates",
+              "name": "Glass Plates",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/glassware/glass-windows.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "glass-discs",
+              "name": "Glass Discs",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/glassware/glass-windows.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "glass-windows",
+              "name": "Glass Windows",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/glassware/glass-windows.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "sight-glass-products",
+          "name": "Sight Glass Products",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "sight-glass-assemblies",
+              "name": "Sight Glass Assemblies",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/glassware/sight-glass.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "sight-glass-covers",
+              "name": "Sight Glass Covers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/glassware/sight-glass.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "sight-glass-gaskets",
+              "name": "Sight Glass Gaskets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/glassware/sight-glass.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "sight-glass-protectors",
+              "name": "Sight Glass Protectors",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/glassware/sight-glass.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fasteners",
+      "name": "Fasteners",
+      "icon": "bolt",
+      "image": "",
+      "description": "Complete fastener range in standard and high-tensile grades: bolts, nuts, washers, screws, studs and anchors.",
+      "menuLabel": "",
+      "order": 5,
+      "subcategories": [
+        {
+          "slug": "bolts",
+          "name": "Bolts",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "hex-bolts",
+              "name": "Hex Bolts",
+              "shortDescription": "Full-diameter hex head bolts in mild steel, high-tensile and stainless grades.",
+              "description": "Hexagon head bolts in DIN 931 / ISO 4014 (partial thread) and DIN 933 / ISO 4017 (full thread), from M6 to M56. Available in grades 4.8, 8.8 and 10.9 plus SS-304/316; hot-dip galvanized finish for outdoor service.",
+              "images": [
+                "/images/products/fasteners/hex-bolts.jpg"
+              ],
+              "specs": {
+                "Standards": "DIN 931 / DIN 933 (ISO equivalent)",
+                "Size Range": "M6 – M56",
+                "Property Classes": "4.8, 8.8, 10.9",
+                "Stainless Grades": "A2 (SS-304), A4 (SS-316)",
+                "Finishes": "Self-color, zinc-plated, hot-dip galvanized"
+              },
+              "variants": [
+                "Grade 4.8 (mild steel)",
+                "Grade 8.8 (high tensile)",
+                "Grade 10.9 (alloy steel)",
+                "SS-304",
+                "SS-316"
+              ],
+              "applications": [
+                "Structural connections",
+                "Machine assembly",
+                "Solar and steel structures",
+                "General maintenance"
+              ],
+              "datasheet": "",
+              "featured": true,
+              "tags": [
+                "fasteners",
+                "bolts"
+              ]
+            },
+            {
+              "slug": "allen-bolts",
+              "name": "Allen Bolts",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/allen-bolts.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "carriage-bolts",
+              "name": "Carriage Bolts",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/carriage-bolts.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "u-bolts",
+              "name": "U-Bolts",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/carriage-bolts.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "eye-bolts",
+              "name": "Eye Bolts",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/carriage-bolts.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "anchor-bolts",
+              "name": "Anchor Bolts",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/anchor-bolts.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "nuts",
+          "name": "Nuts",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "hex-nuts",
+              "name": "Hex Nuts",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/flange-nuts.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "lock-nuts",
+              "name": "Lock Nuts",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/nylon-lock-nuts.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "nylon-lock-nuts",
+              "name": "Nylon Lock Nuts",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/nylon-lock-nuts.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "wing-nuts",
+              "name": "Wing Nuts",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/nylon-lock-nuts.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "dome-nuts",
+              "name": "Dome Nuts",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/flange-nuts.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "flange-nuts",
+              "name": "Flange Nuts",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/flange-nuts.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "washers",
+          "name": "Washers",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "flat-washers",
+              "name": "Flat Washers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/flat-washers.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "spring-washers",
+              "name": "Spring Washers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/flat-washers.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "lock-washers",
+              "name": "Lock Washers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/flat-washers.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "serrated-washers",
+              "name": "Serrated Washers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/flat-washers.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "sealing-washers",
+              "name": "Sealing Washers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/flat-washers.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "screws",
+          "name": "Screws",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "machine-screws",
+              "name": "Machine Screws",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/machine-screws.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "self-tapping-screws",
+              "name": "Self-Tapping Screws",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/self-tapping-screws.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "self-drilling-screws",
+              "name": "Self-Drilling Screws",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/self-drilling-screws.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "set-screws",
+              "name": "Set Screws",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/set-screws.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "countersunk-screws",
+              "name": "Countersunk Screws",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/countersunk-screws.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "other-fasteners",
+          "name": "Other Fasteners",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "studs",
+              "name": "Studs",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/threaded-rods.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "threaded-rods",
+              "name": "Threaded Rods",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/threaded-rods.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "rivets",
+              "name": "Rivets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/rivets.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "pins",
+              "name": "Pins",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/pins.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "circlips",
+              "name": "Circlips",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/rivets.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "anchors",
+              "name": "Anchors",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/fasteners/anchors.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "putties",
+      "name": "Putties",
+      "icon": "hammer",
+      "image": "",
+      "description": "Metal, repair and surface putties for rebuilding, sealing and finishing under industrial conditions.",
+      "menuLabel": "",
+      "order": 6,
+      "subcategories": [
+        {
+          "slug": "metal-putties",
+          "name": "Metal Putties",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "metal-repair-putty",
+              "name": "Metal Repair Putty",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/putties/pipe-repair-putty.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "steel-putty",
+              "name": "Steel Putty",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/putties/pipe-repair-putty.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "aluminum-putty",
+              "name": "Aluminum Putty",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/putties/pipe-repair-putty.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "stainless-steel-putty",
+              "name": "Stainless Steel Putty",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/putties/pipe-repair-putty.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "industrial-repair-putties",
+          "name": "Industrial Repair Putties",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "epoxy-putty",
+              "name": "Epoxy Putty",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/putties/pipe-repair-putty.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "pipe-repair-putty",
+              "name": "Pipe Repair Putty",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/putties/pipe-repair-putty.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "machinery-repair-putty",
+              "name": "Machinery Repair Putty",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/putties/pipe-repair-putty.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "chemical-resistant-putty",
+              "name": "Chemical Resistant Putty",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/putties/pipe-repair-putty.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "high-temperature-putty",
+              "name": "High Temperature Putty",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/putties/high-temperature-putty.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "surface-putties",
+          "name": "Surface Putties",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "wood-putty",
+              "name": "Wood Putty",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/putties/wall-putty.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "wall-putty",
+              "name": "Wall Putty",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/putties/wall-putty.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "automotive-putty",
+              "name": "Automotive Putty",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/putties/wall-putty.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "fiberglass-putty",
+              "name": "Fiberglass Putty",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/putties/wall-putty.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lab-instruments",
+      "name": "Laboratory Glassware & Industrial Instruments",
+      "icon": "microscope",
+      "image": "",
+      "description": "Laboratory glassware, lab equipment, measuring instruments and industrial process instrumentation.",
+      "menuLabel": "Lab & Instruments",
+      "order": 7,
+      "subcategories": [
+        {
+          "slug": "laboratory-glassware",
+          "name": "Laboratory Glassware",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "beakers",
+              "name": "Beakers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/flasks.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "flasks",
+              "name": "Flasks",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/flasks.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "test-tubes",
+              "name": "Test Tubes",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/funnels.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "measuring-cylinders",
+              "name": "Measuring Cylinders",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/reagent-bottles.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "pipettes",
+              "name": "Pipettes",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/pipettes.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "burettes",
+              "name": "Burettes",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/burettes.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "funnels",
+              "name": "Funnels",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/funnels.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "reagent-bottles",
+              "name": "Reagent Bottles",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/reagent-bottles.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "watch-glasses",
+              "name": "Watch Glasses",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/petri-dishes.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "petri-dishes",
+              "name": "Petri Dishes",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/petri-dishes.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "laboratory-equipment",
+          "name": "Laboratory Equipment",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "hot-plates",
+              "name": "Hot Plates",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/centrifuges.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "laboratory-ovens",
+              "name": "Laboratory Ovens",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/heating-mantles.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "magnetic-stirrers",
+              "name": "Magnetic Stirrers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/magnetic-stirrers.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "laboratory-balances",
+              "name": "Laboratory Balances",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/magnetic-stirrers.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "centrifuges",
+              "name": "Centrifuges",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/centrifuges.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "water-baths",
+              "name": "Water Baths",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/centrifuges.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "heating-mantles",
+              "name": "Heating Mantles",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/heating-mantles.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "measuring-instruments",
+          "name": "Measuring Instruments",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "pressure-gauges",
+              "name": "Pressure Gauges",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/pressure-gauges.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "temperature-gauges",
+              "name": "Temperature Gauges",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/pressure-gauges.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "thermometers",
+              "name": "Thermometers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/flow-meters.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "flow-meters",
+              "name": "Flow Meters",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/flow-meters.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "level-indicators",
+              "name": "Level Indicators",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/pressure-gauges.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "vacuum-gauges",
+              "name": "Vacuum Gauges",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/vacuum-gauges.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ph-meters",
+              "name": "pH Meters",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/ph-meters.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "industrial-instruments",
+          "name": "Industrial Instruments",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "pressure-transmitters",
+              "name": "Pressure Transmitters",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/pressure-transmitters.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "temperature-sensors",
+              "name": "Temperature Sensors",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/flow-sensors.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "flow-sensors",
+              "name": "Flow Sensors",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/pressure-transmitters.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "level-sensors",
+              "name": "Level Sensors",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/pressure-transmitters.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "digital-controllers",
+              "name": "Digital Controllers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/flow-sensors.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "process-indicators",
+              "name": "Process Indicators",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/lab-instruments/pressure-transmitters.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "stainless-steel",
+      "name": "Stainless Steel Sheets & Rods",
+      "icon": "layers",
+      "image": "",
+      "description": "Stainless steel sheets, rods and forms in 304/316/321/310/430 grades with all standard mill finishes.",
+      "menuLabel": "Stainless Steel",
+      "order": 8,
+      "subcategories": [
+        {
+          "slug": "stainless-steel-sheets",
+          "name": "Stainless Steel Sheets",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "ss-304-sheets",
+              "name": "SS 304 Sheets",
+              "shortDescription": "General-purpose austenitic stainless steel sheet in all standard sizes and finishes.",
+              "description": "ASTM A240 Type 304 stainless steel sheets for fabrication, food processing equipment, cladding and general corrosion-resistant service. Cut-to-size available on order; mill test certificates supplied with every batch.",
+              "images": [
+                "/images/products/_curated/ss-plate.jpg"
+              ],
+              "specs": {
+                "Grade": "SS 304 (ASTM A240 / EN 1.4301)",
+                "Thickness Range": "0.4 – 6.0 mm",
+                "Standard Sheet Size": "4 ft × 8 ft (1219 × 2438 mm)",
+                "Finishes": "2B, BA, No. 4, Mirror, Hairline",
+                "Certification": "Mill test certificate (EN 10204 3.1) on request"
+              },
+              "variants": [
+                "0.4–1.2 mm (foil/ thin)",
+                "1.5–3.0 mm",
+                "4.0–6.0 mm",
+                "Cut-to-size"
+              ],
+              "applications": [
+                "Food & pharma equipment",
+                "Architectural cladding",
+                "Tanks and vessels",
+                "General fabrication"
+              ],
+              "datasheet": "",
+              "featured": true,
+              "tags": [
+                "stainless",
+                "sheet"
+              ]
+            },
+            {
+              "slug": "ss-316-sheets",
+              "name": "SS 316 Sheets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ss-cable.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ss-321-sheets",
+              "name": "SS 321 Sheets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ss-rebar.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ss-310-sheets",
+              "name": "SS 310 Sheets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ss-plate.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ss-430-sheets",
+              "name": "SS 430 Sheets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ss-cable.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "sheet-finishes",
+          "name": "Sheet Finishes",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "2b-finish",
+              "name": "2B Finish",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ss-plate.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ba-finish",
+              "name": "BA Finish",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ss-cable.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "no-4-finish",
+              "name": "No. 4 Finish",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ss-rebar.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "mirror-finish",
+              "name": "Mirror Finish",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ss-plate.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "hairline-finish",
+              "name": "Hairline Finish",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ss-cable.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "stainless-steel-rods",
+          "name": "Stainless Steel Rods",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "round-bars",
+              "name": "Round Bars",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ss-plate.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "square-bars",
+              "name": "Square Bars",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ss-cable.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "hex-bars",
+              "name": "Hex Bars",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ss-rebar.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "flat-bars",
+              "name": "Flat Bars",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ss-plate.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "stainless-steel-forms",
+          "name": "Stainless Steel Forms",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "stainless-steel-plates",
+              "name": "Stainless Steel Plates",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ss-plate.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "stainless-steel-strips",
+              "name": "Stainless Steel Strips",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ss-cable.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "stainless-steel-tubes",
+              "name": "Stainless Steel Tubes",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ss-rebar.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "stainless-steel-pipes",
+              "name": "Stainless Steel Pipes",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/ss-plate.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ptfe",
+      "name": "PTFE Bars & Rods",
+      "icon": "cylinder",
+      "image": "",
+      "description": "Virgin and filled PTFE products: rods, sheets, tubes, gaskets, seals and machined components.",
+      "menuLabel": "PTFE",
+      "order": 9,
+      "subcategories": [
+        {
+          "slug": "ptfe-products",
+          "name": "PTFE Products",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "ptfe-rods",
+              "name": "PTFE Rods",
+              "shortDescription": "Virgin PTFE rods from 6 mm to 150 mm diameter for machining into seals and components.",
+              "description": "Virgin polytetrafluoroethylene rods with outstanding chemical inertness and a continuous service range of −200°C to +260°C. Supplied in standard lengths or cut pieces; filled grades (glass, carbon, graphite) available on order.",
+              "images": [
+                "/images/products/ptfe/virgin-ptfe.jpg"
+              ],
+              "specs": {
+                "Material": "Virgin PTFE (99.9%)",
+                "Diameter Range": "6 – 150 mm",
+                "Standard Length": "100 / 200 / 1000 mm",
+                "Temperature Range": "−200°C to +260°C",
+                "Filled Grades": "Glass, carbon, graphite filled (on order)"
+              },
+              "variants": [
+                "Virgin PTFE",
+                "Glass-filled 25%",
+                "Carbon-filled 25%",
+                "Graphite-filled"
+              ],
+              "applications": [
+                "Machined seals and gaskets",
+                "Bearings and bushes",
+                "Electrical insulation",
+                "Chemical plant linings"
+              ],
+              "datasheet": "",
+              "featured": true,
+              "tags": [
+                "ptfe",
+                "machining-stock"
+              ]
+            },
+            {
+              "slug": "ptfe-bars",
+              "name": "PTFE Bars",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/ptfe/virgin-ptfe.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ptfe-sheets",
+              "name": "PTFE Sheets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/ptfe/virgin-ptfe.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ptfe-plates",
+              "name": "PTFE Plates",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/ptfe/virgin-ptfe.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ptfe-tubes",
+              "name": "PTFE Tubes",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/ptfe/virgin-ptfe.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ptfe-bushes",
+              "name": "PTFE Bushes",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/ptfe/virgin-ptfe.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ptfe-rings",
+              "name": "PTFE Rings",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/ptfe/virgin-ptfe.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "ptfe-components",
+          "name": "PTFE Components",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "ptfe-gaskets",
+              "name": "PTFE Gaskets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/ptfe/virgin-ptfe.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ptfe-seals",
+              "name": "PTFE Seals",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/ptfe/virgin-ptfe.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ptfe-washers",
+              "name": "PTFE Washers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/ptfe/virgin-ptfe.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ptfe-o-rings",
+              "name": "PTFE O-Rings",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/ptfe/virgin-ptfe.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ptfe-insulators",
+              "name": "PTFE Insulators",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/ptfe/virgin-ptfe.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "special-ptfe",
+          "name": "Special PTFE",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "virgin-ptfe",
+              "name": "Virgin PTFE",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/ptfe/virgin-ptfe.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "filled-ptfe",
+              "name": "Filled PTFE",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/ptfe/virgin-ptfe.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "glass-filled-ptfe",
+              "name": "Glass-Filled PTFE",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/ptfe/virgin-ptfe.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "carbon-filled-ptfe",
+              "name": "Carbon-Filled PTFE",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/ptfe/virgin-ptfe.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "graphite-filled-ptfe",
+              "name": "Graphite-Filled PTFE",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/ptfe/virgin-ptfe.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "composites",
+      "name": "Composite Materials",
+      "icon": "hexagon",
+      "image": "",
+      "description": "Fiberglass, carbon fiber and FRP/GRP composites: sheets, tubes, fabrics and structural components.",
+      "menuLabel": "",
+      "order": 10,
+      "subcategories": [
+        {
+          "slug": "fiberglass-materials",
+          "name": "Fiberglass Materials",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "fiberglass-sheets",
+              "name": "Fiberglass Sheets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/composites/insulation-boards.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "fiberglass-rods",
+              "name": "Fiberglass Rods",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/composites/insulation-boards.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "fiberglass-tubes",
+              "name": "Fiberglass Tubes",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/composites/insulation-boards.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "fiberglass-fabric",
+              "name": "Fiberglass Fabric",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/composites/insulation-boards.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "fiberglass-mat",
+              "name": "Fiberglass Mat",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/composites/insulation-boards.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "carbon-fiber",
+          "name": "Carbon Fiber",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "carbon-fiber-sheets",
+              "name": "Carbon Fiber Sheets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/composites/carbon-fiber-sheets.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "carbon-fiber-rods",
+              "name": "Carbon Fiber Rods",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/composites/carbon-fiber-rods.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "carbon-fiber-tubes",
+              "name": "Carbon Fiber Tubes",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/composites/carbon-fiber-tubes.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "carbon-fiber-fabric",
+              "name": "Carbon Fiber Fabric",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/composites/carbon-fiber-sheets.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "composite-sheets-panels",
+          "name": "Composite Sheets & Panels",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "frp-sheets",
+              "name": "FRP Sheets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/composites/insulation-boards.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "grp-sheets",
+              "name": "GRP Sheets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/composites/grp-sheets.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "composite-panels",
+              "name": "Composite Panels",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/composites/grp-sheets.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "insulation-boards",
+              "name": "Insulation Boards",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/composites/insulation-boards.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "composite-components",
+          "name": "Composite Components",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "composite-bushes",
+              "name": "Composite Bushes",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/composites/insulation-boards.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "composite-bearings",
+              "name": "Composite Bearings",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/composites/insulation-boards.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "composite-profiles",
+              "name": "Composite Profiles",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/composites/insulation-boards.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "composite-structural-parts",
+              "name": "Composite Structural Parts",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/composites/insulation-boards.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "steel-balls",
+      "name": "Steel Balls",
+      "icon": "circle-dot",
+      "image": "",
+      "description": "Precision steel balls for bearings, valves and grinding media — chrome, stainless and carbon steel, all standard sizes.",
+      "menuLabel": "",
+      "order": 11,
+      "subcategories": [
+        {
+          "slug": "bearing-balls",
+          "name": "Bearing Balls",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "chrome-steel-balls",
+              "name": "Chrome Steel Balls",
+              "shortDescription": "GCR15 / AISI 52100 chrome steel balls in grades G100–G1000, 1 mm to 50 mm.",
+              "description": "Through-hardened chrome steel bearing balls (AISI 52100 / GCR15) with HRC 60–67 hardness for bearings, valves, linear motion and precision applications. Supplied in grades G100–G1000 with hardness and size certificates.",
+              "images": [
+                "/images/products/_curated/bearing-cover.jpg"
+              ],
+              "specs": {
+                "Material": "AISI 52100 / GCR15",
+                "Hardness": "HRC 60–67",
+                "Size Range": "1 mm – 50 mm",
+                "Grades": "G100 – G1000",
+                "Packaging": "Sealed poly bags / drums by weight"
+              },
+              "variants": [
+                "1–6 mm",
+                "6–12 mm",
+                "12–25 mm",
+                "25–50 mm",
+                "Custom sizes"
+              ],
+              "applications": [
+                "Ball bearings",
+                "Valve balls",
+                "Linear motion guides",
+                "Measurement instruments"
+              ],
+              "datasheet": "",
+              "featured": true,
+              "tags": [
+                "bearings",
+                "precision"
+              ]
+            },
+            {
+              "slug": "stainless-steel-balls",
+              "name": "Stainless Steel Balls",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/wingquist-bearing.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "carbon-steel-balls",
+              "name": "Carbon Steel Balls",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/bearing-cover.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "industrial-balls",
+          "name": "Industrial Balls",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "grinding-balls",
+              "name": "Grinding Balls",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/bearing-cover.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "precision-steel-balls",
+              "name": "Precision Steel Balls",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/wingquist-bearing.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "hardened-steel-balls",
+              "name": "Hardened Steel Balls",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/bearing-cover.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "mild-steel-balls",
+              "name": "Mild Steel Balls",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/wingquist-bearing.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "applications",
+          "name": "Applications",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "bearing-balls",
+              "name": "Bearing Balls",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/bearing-cover.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "valve-balls",
+              "name": "Valve Balls",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/wingquist-bearing.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "grinding-media",
+              "name": "Grinding Media",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/bearing-cover.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "industrial-grinding-balls",
+              "name": "Industrial Grinding Balls",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/wingquist-bearing.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "sizes",
+          "name": "Sizes",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "small-diameter-balls",
+              "name": "Small Diameter Balls",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/bearing-cover.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "medium-diameter-balls",
+              "name": "Medium Diameter Balls",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/wingquist-bearing.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "large-diameter-balls",
+              "name": "Large Diameter Balls",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/bearing-cover.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "custom-size-balls",
+              "name": "Custom Size Balls",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/wingquist-bearing.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "adhesives",
+      "name": "Loctite & Adhesives",
+      "icon": "droplets",
+      "image": "",
+      "description": "Threadlockers, structural adhesives, industrial glues and sealants for assembly and maintenance.",
+      "menuLabel": "Adhesives",
+      "order": 12,
+      "subcategories": [
+        {
+          "slug": "threadlockers",
+          "name": "Threadlockers",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "threadlocker-low-strength",
+              "name": "Threadlocker Low Strength",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/adhesives/thread-sealant.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "threadlocker-medium-strength",
+              "name": "Threadlocker Medium Strength",
+              "shortDescription": "General-purpose medium-strength threadlocker for M6–M20 fasteners; removable with hand tools.",
+              "description": "Anaerobic medium-strength threadlocker that locks and seals threaded fasteners against vibration loosening while remaining removable with standard hand tools. Ideal for machine assembly and maintenance; cures on active metal surfaces without primers.",
+              "images": [
+                "/images/products/adhesives/thread-sealant.jpg"
+              ],
+              "specs": {
+                "Strength": "Medium (removable with hand tools)",
+                "Thread Range": "M6 – M20",
+                "Cure Speed": "Fixture 10–20 min, full 24 h",
+                "Temperature Range": "−55°C to +150°C",
+                "Packaging": "10 / 50 / 250 ml bottles"
+              },
+              "variants": [],
+              "applications": [
+                "Machine assembly bolts",
+                "Pump and motor fasteners",
+                "Vibration-exposed joints",
+                "General maintenance"
+              ],
+              "datasheet": "",
+              "featured": true,
+              "tags": [
+                "threadlocker",
+                "maintenance"
+              ]
+            },
+            {
+              "slug": "threadlocker-high-strength",
+              "name": "Threadlocker High Strength",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/adhesives/thread-sealant.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "thread-sealant",
+              "name": "Thread Sealant",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/adhesives/thread-sealant.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "structural-adhesives",
+          "name": "Structural Adhesives",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "epoxy-adhesives",
+              "name": "Epoxy Adhesives",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/adhesives/epoxy-adhesives.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "acrylic-adhesives",
+              "name": "Acrylic Adhesives",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/adhesives/acrylic-adhesives.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "anaerobic-adhesives",
+              "name": "Anaerobic Adhesives",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/adhesives/anaerobic-adhesives.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "cyanoacrylate-adhesives",
+              "name": "Cyanoacrylate Adhesives",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/adhesives/cyanoacrylate-adhesives.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "industrial-adhesives",
+          "name": "Industrial Adhesives",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "metal-adhesive",
+              "name": "Metal Adhesive",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/adhesives/metal-adhesive.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "plastic-adhesive",
+              "name": "Plastic Adhesive",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/adhesives/metal-adhesive.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "rubber-adhesive",
+              "name": "Rubber Adhesive",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/adhesives/rubber-adhesive.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "glass-adhesive",
+              "name": "Glass Adhesive",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/adhesives/rubber-adhesive.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ceramic-adhesive",
+              "name": "Ceramic Adhesive",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/adhesives/metal-adhesive.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "sealants",
+          "name": "Sealants",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "silicone-sealant",
+              "name": "Silicone Sealant",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/adhesives/silicone-sealant.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "rtv-sealant",
+              "name": "RTV Sealant",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/adhesives/pipe-sealant.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "pipe-sealant",
+              "name": "Pipe Sealant",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/adhesives/pipe-sealant.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "gasket-maker",
+              "name": "Gasket Maker",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/adhesives/gasket-maker.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "flange-sealant",
+              "name": "Flange Sealant",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/adhesives/gasket-maker.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hardware-tools",
+      "name": "Hardware Tools",
+      "icon": "wrench",
+      "image": "",
+      "description": "Hand, cutting, power and workshop tools from trusted brands — built for daily industrial use.",
+      "menuLabel": "",
+      "order": 13,
+      "subcategories": [
+        {
+          "slug": "hand-tools",
+          "name": "Hand Tools",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "spanners",
+              "name": "Spanners",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/spanners.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "wrenches",
+              "name": "Wrenches",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/wrenches.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "screwdrivers",
+              "name": "Screwdrivers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/screwdrivers.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "pliers",
+              "name": "Pliers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/spanners.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "hammers",
+              "name": "Hammers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/claw-hammer.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "allen-keys",
+              "name": "Allen Keys",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/hexkey-set.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "pipe-wrenches",
+              "name": "Pipe Wrenches",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/pipe-wrenches.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "cutting-tools",
+          "name": "Cutting Tools",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "hacksaws",
+              "name": "Hacksaws",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/hacksaw.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "cutting-blades",
+              "name": "Cutting Blades",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/tool-hacksaw.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "drill-bits",
+              "name": "Drill Bits",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/cutting-blades.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "taps",
+              "name": "Taps",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/cutting-blades.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "dies",
+              "name": "Dies",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/cutting-blades.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "reamers",
+              "name": "Reamers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/cutting-blades.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "power-tools",
+          "name": "Power Tools",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "drills",
+              "name": "Drills",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/drills.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "angle-grinders",
+              "name": "Angle Grinders",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/angle-grinders.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "impact-wrenches",
+              "name": "Impact Wrenches",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/impact-wrenches.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "electric-sanders",
+              "name": "Electric Sanders",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/electric-sanders.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "cutting-machines",
+              "name": "Cutting Machines",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/cutting-machines.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "workshop-tools",
+          "name": "Workshop Tools",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "vices",
+              "name": "Vices",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/clamps.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "clamps",
+              "name": "Clamps",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/clamps.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "tool-kits",
+              "name": "Tool Kits",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/measuring-tools.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "measuring-tools",
+              "name": "Measuring Tools",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/torque-wrench.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "torque-wrenches",
+              "name": "Torque Wrenches",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/_curated/torque-wrench.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "pullers",
+              "name": "Pullers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/hardware-tools/pipe-wrenches.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "electronic-components",
+      "name": "Electronic Components",
+      "icon": "cpu",
+      "image": "",
+      "description": "Passive and semiconductor components, switching devices, wiring accessories and industrial electronics.",
+      "menuLabel": "Electronics",
+      "order": 14,
+      "subcategories": [
+        {
+          "slug": "passive-components",
+          "name": "Passive Components",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "resistors",
+              "name": "Resistors",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/resistors.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "capacitors",
+              "name": "Capacitors",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/capacitors.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "inductors",
+              "name": "Inductors",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/inductors.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "transformers",
+              "name": "Transformers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/transformers.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "potentiometers",
+              "name": "Potentiometers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/potentiometers.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "semiconductor-components",
+          "name": "Semiconductor Components",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "diodes",
+              "name": "Diodes",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/diodes.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "leds",
+              "name": "LEDs",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/transistors.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "transistors",
+              "name": "Transistors",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/transistors.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "mosfets",
+              "name": "MOSFETs",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/mosfets.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ics",
+              "name": "ICs",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/ics.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "voltage-regulators",
+              "name": "Voltage Regulators",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/voltage-regulators.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "switching-components",
+          "name": "Switching Components",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "relays",
+              "name": "Relays",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/relays.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "contactors",
+              "name": "Contactors",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/switches.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "switches",
+              "name": "Switches",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/switches.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "push-buttons",
+              "name": "Push Buttons",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/push-buttons.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "circuit-breakers",
+              "name": "Circuit Breakers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/push-buttons.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "connectors-wiring",
+          "name": "Connectors & Wiring",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "terminal-blocks",
+              "name": "Terminal Blocks",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/terminal-blocks.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "cable-lugs",
+              "name": "Cable Lugs",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/cable-lugs.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "connectors",
+              "name": "Connectors",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/connectors.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "plugs",
+              "name": "Plugs",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/plugs.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "sockets",
+              "name": "Sockets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/sockets.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "wires",
+              "name": "Wires",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/wires.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "cables",
+              "name": "Cables",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/cables.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "industrial-electronics",
+          "name": "Industrial Electronics",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "plc-components",
+              "name": "PLC Components",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/control-modules.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "sensors",
+              "name": "Sensors",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/sensors.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "power-supplies",
+              "name": "Power Supplies",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/power-supplies.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "control-modules",
+              "name": "Control Modules",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/control-modules.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "industrial-controllers",
+              "name": "Industrial Controllers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/control-modules.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "timers",
+              "name": "Timers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/electronic-components/timers.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "rubber-items",
+      "name": "Rubber Items",
+      "icon": "circle",
+      "image": "",
+      "description": "Rubber sheets, seals, gaskets and molded components in neoprene, EPDM, silicone and nitrile.",
+      "menuLabel": "Rubber",
+      "order": 15,
+      "subcategories": [
+        {
+          "slug": "rubber-sheets",
+          "name": "Rubber Sheets",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "neoprene-sheets",
+              "name": "Neoprene Sheets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/neoprene-sheets.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "epdm-sheets",
+              "name": "EPDM Sheets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/natural-rubber-sheets.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "silicone-sheets",
+              "name": "Silicone Sheets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/silicone-sheets.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "nitrile-sheets",
+              "name": "Nitrile Sheets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/nitrile-sheets.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "natural-rubber-sheets",
+              "name": "Natural Rubber Sheets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/natural-rubber-sheets.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "sealing-products",
+          "name": "Sealing Products",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "rubber-gaskets",
+              "name": "Rubber Gaskets",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/rubber-gaskets.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "o-rings",
+              "name": "O-Rings",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/o-rings.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "rubber-seals",
+              "name": "Rubber Seals",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/rubber-seals.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "oil-seals",
+              "name": "Oil Seals",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/oil-seals.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "rubber-washers",
+              "name": "Rubber Washers",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/oil-seals.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "rubber-components",
+          "name": "Rubber Components",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "rubber-bushes",
+              "name": "Rubber Bushes",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/rubber-profiles.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "rubber-mounts",
+              "name": "Rubber Mounts",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/rubber-tubes.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "rubber-pads",
+              "name": "Rubber Pads",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/rubber-hoses.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "rubber-profiles",
+              "name": "Rubber Profiles",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/rubber-profiles.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "rubber-tubes",
+              "name": "Rubber Tubes",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/rubber-tubes.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "rubber-hoses",
+              "name": "Rubber Hoses",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/rubber-hoses.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "industrial-rubber",
+          "name": "Industrial Rubber",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "heat-resistant-rubber",
+              "name": "Heat Resistant Rubber",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/nitrile-sheets.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "oil-resistant-rubber",
+              "name": "Oil Resistant Rubber",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/nitrile-sheets.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "chemical-resistant-rubber",
+              "name": "Chemical Resistant Rubber",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/nitrile-sheets.png"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "food-grade-rubber",
+              "name": "Food Grade Rubber",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/natural-rubber-sheets.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "high-pressure-rubber",
+              "name": "High Pressure Rubber",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/rubber-items/high-pressure-rubber.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "industrial-oils",
+      "name": "Industrial Oils",
+      "icon": "fuel",
+      "image": "",
+      "description": "Lubricating and specialty oils, greases and maintenance fluids for every plant application.",
+      "menuLabel": "",
+      "order": 16,
+      "subcategories": [
+        {
+          "slug": "lubricating-oils",
+          "name": "Lubricating Oils",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "hydraulic-oil",
+              "name": "Hydraulic Oil",
+              "shortDescription": "Anti-wear hydraulic oils in ISO VG 32/46/68 for industrial and mobile systems.",
+              "description": "Premium anti-wear (HM-type) hydraulic oils formulated with zinc-free additive technology for reliable pump protection, filterability and demulsibility. Available in pails and drums with consistent batch-to-batch viscosity.",
+              "images": [
+                "/images/products/industrial-oils/hydraulic-oil.jpg"
+              ],
+              "specs": {
+                "ISO VG Grades": "32 / 46 / 68",
+                "Viscosity Index": "≥ 95",
+                "Flash Point": "≥ 200°C",
+                "Pour Point": "≤ −18°C",
+                "Packaging": "20 L pail, 208 L drum"
+              },
+              "variants": [
+                "ISO VG 32",
+                "ISO VG 46",
+                "ISO VG 68"
+              ],
+              "applications": [
+                "Industrial hydraulic systems",
+                "Injection molding machines",
+                "Presses and machine tools",
+                "Mobile hydraulic equipment"
+              ],
+              "datasheet": "",
+              "featured": true,
+              "tags": [
+                "lubricants",
+                "anti-wear"
+              ]
+            },
+            {
+              "slug": "gear-oil",
+              "name": "Gear Oil",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/gear-oil.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "compressor-oil",
+              "name": "Compressor Oil",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/compressor-oil.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "turbine-oil",
+              "name": "Turbine Oil",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/turbine-oil.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "circulating-oil",
+              "name": "Circulating Oil",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/hydraulic-oil.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "machine-oil",
+              "name": "Machine Oil",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/gear-oil.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "specialty-oils",
+          "name": "Specialty Oils",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "cutting-oil",
+              "name": "Cutting Oil",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/cutting-oil.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "slideway-oil",
+              "name": "Slideway Oil",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/slideway-oil.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "spindle-oil",
+              "name": "Spindle Oil",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/slideway-oil.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "heat-transfer-oil",
+              "name": "Heat Transfer Oil",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/heat-transfer-oil.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "transformer-oil",
+              "name": "Transformer Oil",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/transformer-oil.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "industrial-lubricants",
+          "name": "Industrial Lubricants",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "bearing-grease",
+              "name": "Bearing Grease",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/bearing-grease.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "high-temperature-grease",
+              "name": "High Temperature Grease",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/high-temperature-grease.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "ep-grease",
+              "name": "EP Grease",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/ep-grease.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "lithium-grease",
+              "name": "Lithium Grease",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/bearing-grease.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "food-grade-lubricants",
+              "name": "Food Grade Lubricants",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/ep-grease.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        },
+        {
+          "slug": "maintenance-oils",
+          "name": "Maintenance Oils",
+          "description": "",
+          "image": "",
+          "menuLabel": "",
+          "items": [
+            {
+              "slug": "rust-preventive-oil",
+              "name": "Rust Preventive Oil",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/cutting-oil.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "penetrating-oil",
+              "name": "Penetrating Oil",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/cutting-oil.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "chain-oil",
+              "name": "Chain Oil",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/cutting-oil.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            },
+            {
+              "slug": "mould-release-oil",
+              "name": "Mould Release Oil",
+              "shortDescription": "",
+              "description": "",
+              "images": [
+                "/images/products/industrial-oils/cutting-oil.jpg"
+              ],
+              "specs": {},
+              "variants": [],
+              "applications": [],
+              "datasheet": "",
+              "featured": false,
+              "tags": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+[
+  {
+    "slug": "water-treatment-plant-upgrade",
+    "title": "Water Treatment Plant Chemical Supply",
+    "client": "Example Municipal Authority",
+    "industry": "Water & Utilities",
+    "year": 2024,
+    "location": "Islamabad, Pakistan",
+    "featured": true,
+    "cover": "/images/projects/water-treatment-plant-upgrade/cover.svg",
+    "summary": "Supplied coagulants, biocides and dosing consumables for a 12-month contract covering a 40 MGD municipal treatment plant.",
+    "challenge": "The plant's previous vendor had inconsistent PAC batch strength, forcing operators to overdose and still miss turbidity targets during monsoon season. Deliveries were ad-hoc and documentation rarely arrived with the tanker.",
+    "solution": "Ferrox ran a jar-test program with the plant's chemists to fix a PAC specification, then set up a scheduled weekly delivery with safety-stock levels held at our warehouse. Every consignment ships with batch certificates and MSDS, and a monthly QA review tracks dosing efficiency.",
+    "results": [
+      "Zero stock-outs across the 12-month contract",
+      "18% reduction in chemical cost per megalitre treated",
+      "Turbidity consistently under 5 NTU through monsoon season"
+    ],
+    "productsSupplied": ["Poly Aluminium Chloride (PAC)", "Sodium Hypochlorite", "Antiscalants", "Flocculants"],
+    "gallery": [
+      { "src": "/images/projects/water-treatment-plant-upgrade/1.svg", "alt": "Chemical dosing skid at the treatment plant" },
+      { "src": "/images/projects/water-treatment-plant-upgrade/2.svg", "alt": "Delivered PAC drums in the plant's storage bay" }
+    ],
+    "tags": ["water-treatment", "chemicals", "annual-contract"],
+    "testimonial": {
+      "quote": "The first vendor in years whose tanker paperwork matched the delivery note. Dosing has been boring — in the best possible way.",
+      "author": "Plant Manager, Example Municipal Authority"
+    },
+    "link": ""
+  },
+  {
+    "slug": "textile-mill-lubrication-program",
+    "title": "Textile Mill Lubrication & Coating Program",
+    "client": "Northern Textile Mills Ltd.",
+    "industry": "Textile",
+    "year": 2023,
+    "location": "Faisalabad, Pakistan",
+    "featured": true,
+    "cover": "/images/projects/textile-mill-lubrication-program/cover.svg",
+    "summary": "Consolidated 11 vendors into one supply program covering hydraulic oils, machine lubricants and machinery coatings for a 40,000-spindle spinning mill.",
+    "challenge": "The mill was buying lubricants from a patchwork of local dealers with no consistency in viscosity grades, while machine frames needed repainting during the annual shutdown with a coating that could handle humid processing halls.",
+    "solution": "We standardized the mill on three viscosity grades of hydraulic and machine oil with scheduled monthly deliveries, and supplied an epoxy-based machinery paint system with primers for the shutdown repaint — including application guidance for their maintenance crew.",
+    "results": [
+      "Procurement paperwork cut from 11 vendors to 1",
+      "Bearing-related stoppages down 23% year over year",
+      "Shutdown repaint completed on schedule with a uniform finish"
+    ],
+    "productsSupplied": ["Hydraulic Oil", "Machine Oil", "Slideway Oil", "Epoxy Paint", "Red Oxide Primer"],
+    "gallery": [
+      { "src": "/images/projects/textile-mill-lubrication-program/1.svg", "alt": "Lubricant storage and dispensing area" },
+      { "src": "/images/projects/textile-mill-lubrication-program/2.svg", "alt": "Repainted machine frames during annual shutdown" }
+    ],
+    "tags": ["textile", "oils", "paints", "annual-contract"],
+    "link": ""
+  },
+  {
+    "slug": "steel-furnace-high-temp-coating",
+    "title": "Steel Furnace High-Temperature Coating",
+    "client": "Islamabad Steel Mills",
+    "industry": "Steel & Metal",
+    "year": 2023,
+    "location": "Rawalpindi, Pakistan",
+    "featured": true,
+    "cover": "/images/projects/steel-furnace-high-temp-coating/cover.svg",
+    "summary": "Supplied and supported a heat-resistant coating system for furnace exteriors, exhaust stacks and material-handling equipment during a reline shutdown.",
+    "challenge": "Conventional paints on the furnace exterior were blistering within weeks, making inspection difficult and corroding the casing underneath. The window during the reline shutdown was only nine days.",
+    "solution": "Ferrox specified a silicone-based heat resistant coating system rated for continuous 400°C+ service, delivered with surface-prep instructions and enough material staged on-site to complete the job in one window. Our technical lead was available by phone throughout.",
+    "results": [
+      "Zero blistering after 14 months of continuous operation",
+      "Inspection rounds simplified by a uniform, intact finish",
+      "Coating applied entirely within the 9-day shutdown window"
+    ],
+    "productsSupplied": ["Heat Resistant Paint", "High Temperature Coating", "Zinc Phosphate Primer"],
+    "gallery": [
+      { "src": "/images/projects/steel-furnace-high-temp-coating/1.svg", "alt": "Furnace exterior after recoating" },
+      { "src": "/images/projects/steel-furnace-high-temp-coating/2.svg", "alt": "Exhaust stack during application" }
+    ],
+    "tags": ["steel", "coatings", "high-temperature"],
+    "link": ""
+  },
+  {
+    "slug": "pharma-lab-instruments-fitout",
+    "title": "Pharma QC Laboratory Instruments Fitout",
+    "client": "PharmaTech Laboratories",
+    "industry": "Pharmaceutical",
+    "year": 2022,
+    "location": "Lahore, Pakistan",
+    "featured": false,
+    "cover": "/images/projects/pharma-lab-instruments-fitout/cover.svg",
+    "summary": "Equipped a new quality-control laboratory with glassware, instruments and industrial electronics — from beakers to pH meters — against a GMP audit deadline.",
+    "challenge": "The lab needed 200+ distinct lines of glassware, instruments and electronic components procured, delivered and documented within eight weeks to meet a GMP audit date. Previous suppliers quoted 12–16 week lead times on import items.",
+    "solution": "We split the list into stocked lines (shipped within the week) and import lines (air-freighted in parallel), and supplied a single consolidated delivery with itemized documentation mapped to the lab's asset register.",
+    "results": [
+      "All 200+ lines delivered within the 8-week window",
+      "Audit passed with zero procurement observations",
+      "Single vendor invoice replaced 14 expected purchase orders"
+    ],
+    "productsSupplied": ["Laboratory Glassware", "pH Meters", "Laboratory Balances", "Magnetic Stirrers", "Hot Plates"],
+    "gallery": [
+      { "src": "/images/projects/pharma-lab-instruments-fitout/1.svg", "alt": "QC laboratory benches after fitout" },
+      { "src": "/images/projects/pharma-lab-instruments-fitout/2.svg", "alt": "Instrument calibration documentation" }
+    ],
+    "tags": ["pharma", "laboratory", "instruments"],
+    "link": ""
+  },
+  {
+    "slug": "solar-farm-fastener-supply",
+    "title": "Solar Farm Structure Fastener Supply",
+    "client": "PowerGen Utilities",
+    "industry": "Power & Energy",
+    "year": 2022,
+    "location": "Bahawalpur, Pakistan",
+    "featured": false,
+    "cover": "/images/projects/solar-farm-fastener-supply/cover.svg",
+    "summary": "Supplied hot-dip galvanized fasteners and anchor hardware for 18,000 mounting structures across a 100 MW solar farm, delivered in installation sequence.",
+    "challenge": "The EPC contractor needed fasteners delivered not in bulk lots but in sequence with installation crews across a desert site — mixed kits per structure, weatherproof packaging, and zero tolerance for mixed grades.",
+    "solution": "Ferrox kitted hardware per 20 structures in labeled, UV-stable packaging with grade-specific QC checks before dispatch, and staged two weeks of inventory at a depot near the site.",
+    "results": [
+      "Zero grade-mixing incidents across 18,000 structures",
+      "Kitting cut installer hardware time by roughly 30%",
+      "Delivered ahead of the installation schedule every month"
+    ],
+    "productsSupplied": ["Hex Bolts", "Hex Nuts", "Flat Washers", "Anchor Bolts", "Threaded Rods"],
+    "gallery": [
+      { "src": "/images/projects/solar-farm-fastener-supply/1.svg", "alt": "Kitted fastener packages ready for dispatch" },
+      { "src": "/images/projects/solar-farm-fastener-supply/2.svg", "alt": "Mounting structure installation in progress" }
+    ],
+    "tags": ["power", "fasteners", "solar", "epc"],
+    "link": ""
+  }
+]

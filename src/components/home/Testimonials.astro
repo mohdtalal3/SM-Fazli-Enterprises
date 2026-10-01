@@ -1,0 +1,35 @@
+---
+import { Icon } from 'astro-icon/components';
+import Container from '../ui/Container.astro';
+import SectionHeading from '../ui/SectionHeading.astro';
+import { getTestimonials, getSite } from '../../lib/data';
+
+const site = getSite();
+const testimonials = getTestimonials();
+---
+
+{
+  site.features.testimonials && testimonials.length > 0 && (
+    <section class="py-16 md:py-24">
+      <Container>
+        <SectionHeading align="center" eyebrow="Testimonials" title="What our clients say" />
+        <div class="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          {testimonials.map((t) => (
+            <figure class="card card-hover flex flex-col p-6" data-reveal>
+              <Icon name="lucide:quote" class="h-7 w-7 text-accent" />
+              <blockquote class="mt-4 flex-1 text-sm leading-relaxed text-ink/90 dark:text-ink">
+                {t.quote}
+              </blockquote>
+              <figcaption class="mt-5 border-t border-line pt-4">
+                <p class="text-sm font-semibold text-ink">{t.author}</p>
+                <p class="text-xs text-muted">
+                  {[t.role, t.company].filter(Boolean).join(', ')}
+                </p>
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      </Container>
+    </section>
+  )
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "founder",
+    "isFounder": true,
+    "name": "Muhammad Ahmed Khan",
+    "role": "Founder & CEO",
+    "photo": "/images/team/founder.svg",
+    "shortBio": "Two decades of experience in industrial supply chains, from plant procurement floors to nationwide distribution.",
+    "bio": [
+      "Ahmed started on the buyer's side of the desk, running procurement for a large engineering group where a single delayed consignment could idle a production line for days. In 2009 he founded Ferrox with one rule that still governs the company: never promise a delivery date you would not bet your own line on.",
+      "Under his leadership Ferrox has grown from a two-person trading desk into a multi-category supplier serving more than 400 clients, with its own warehouse, QA documentation practices and a technical support team. He still personally reviews supplier qualifications for every new chemical and alloy line added to the catalog."
+    ],
+    "quote": "Quality is not an act, it is a habit we supply every day.",
+    "experienceYears": 20,
+    "expertise": ["Industrial Procurement", "Supply Chain", "Chemicals & Coatings", "Vendor Development"],
+    "experience": [
+      {
+        "period": "2009 – Present",
+        "title": "Founder & CEO",
+        "organization": "Ferrox Industrial Supply Co.",
+        "description": "Built a 1,500+ line multi-category catalog and a nationwide client base across textiles, pharma, food, construction and utilities."
+      },
+      {
+        "period": "2003 – 2009",
+        "title": "Senior Procurement Manager",
+        "organization": "Example Industries Ltd.",
+        "description": "Managed annual procurement of chemicals, coatings and MTO items for three manufacturing plants."
+      },
+      {
+        "period": "2001 – 2003",
+        "title": "Procurement Engineer",
+        "organization": "Example Engineering Works",
+        "description": "Sourced mechanical components and fasteners; introduced vendor rating system still used today."
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Mechanical Engineering",
+        "institution": "Example University, Islamabad",
+        "year": "2001"
+      }
+    ],
+    "socials": [{ "platform": "linkedin", "url": "#" }],
+    "order": 1
+  },
+  {
+    "id": "sara-malik",
+    "isFounder": false,
+    "name": "Sara Malik",
+    "role": "Sales Manager",
+    "photo": "/images/team/sara.svg",
+    "shortBio": "Leads key accounts and export sales; the person clients call when they need a bulk quote yesterday.",
+    "bio": [
+      "Sara has spent over a decade in B2B industrial sales and manages Ferrox's key accounts across textiles, food processing and water utilities. She coordinates annual supply contracts, scheduled deliveries and everything in between.",
+      "Known for quotes that arrive within hours — with the documentation attached the first time."
+    ],
+    "quote": "",
+    "experienceYears": 11,
+    "expertise": ["Key Accounts", "Export Sales", "Contract Negotiation"],
+    "experience": [
+      {
+        "period": "2014 – Present",
+        "title": "Sales Manager",
+        "organization": "Ferrox Industrial Supply Co.",
+        "description": "Grew the key-account portfolio from 40 to 180+ clients and launched export sales to the Gulf."
+      }
+    ],
+    "education": [],
+    "socials": [{ "platform": "linkedin", "url": "#" }],
+    "order": 2
+  },
+  {
+    "id": "usman-tariq",
+    "isFounder": false,
+    "name": "Usman Tariq",
+    "role": "Technical Support Lead",
+    "photo": "/images/team/usman.svg",
+    "shortBio": "Chemical engineer who helps clients spec the right grade, coating or component for the job.",
+    "bio": [
+      "Usman heads Ferrox's technical desk, translating plant requirements into exact specifications — from equivalent-grade chemical substitutions to coating systems for high-temperature service.",
+      "If a datasheet, MSDS or compatibility chart can settle an argument, Usman has already sent it to you."
+    ],
+    "quote": "",
+    "experienceYears": 8,
+    "expertise": ["Application Engineering", "Coatings Selection", "Water Treatment"],
+    "experience": [
+      {
+        "period": "2018 – Present",
+        "title": "Technical Support Lead",
+        "organization": "Ferrox Industrial Supply Co.",
+        "description": "Built the technical documentation library and supports 300+ specification queries a year."
+      }
+    ],
+    "education": [],
+    "socials": [],
+    "order": 3
+  }
+]

@@ -1,0 +1,303 @@
+---
+import { Icon } from 'astro-icon/components';
+import Container from '../ui/Container.astro';
+import {
+  getNavigation,
+  getCompany,
+  getSite,
+  getContact,
+  getCategories,
+  countItems,
+} from '../../lib/data';
+
+const navigation = getNavigation();
+const company = getCompany();
+const site = getSite();
+const contact = getContact();
+
+const categories = getCategories().map((c) => ({
+  name: c.menuLabel || c.name,
+  slug: c.slug,
+  icon: c.icon,
+  count: countItems(c),
+}));
+
+const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
+const isActive = (href: string) => (href === '/' ? currentPath === '/' : currentPath === href || currentPath.startsWith(`${href}/`));
+
+const whatsAppHref = site.inquiry.whatsappNumber
+  ? `https://wa.me/${site.inquiry.whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent('Hello Ferrox, I have an inquiry.')}`
+  : '';
+---
+
+<header class="no-print sticky top-0 z-40 border-b border-line bg-card/90 backdrop-blur-md">
+  <Container>
+    <div class="flex h-16 items-center justify-between gap-3 lg:h-[4.5rem]">
+      <!-- Logo -->
+      <a href="/" class="flex shrink-0 items-center gap-2.5" aria-label={`${company.name} — Home`}>
+        {
+          company.logo.icon && (
+            <img src={company.logo.icon} alt="" width="36" height="36" class="h-9 w-9" loading="eager" />
+          )
+        }
+        <span class="font-display text-lg font-bold tracking-tight text-ink">{company.shortName || company.name}</span>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="hidden items-center gap-1 lg:flex" aria-label="Main">
+        {
+          navigation.header.map((link) =>
+            link.megaMenu === 'products' ? (
+              <button
+                type="button"
+                class="nav-link inline-flex cursor-pointer items-center gap-1"
+                aria-expanded="false"
+                aria-controls="mega-menu"
+                data-mega-toggle
+              >
+                {link.label}
+                <Icon name="lucide:chevron-down" class="h-4 w-4 transition-transform duration-200" />
+              </button>
+            ) : (
+              <a href={link.href} class="nav-link" aria-current={isActive(link.href) ? 'true' : undefined}>
+                {link.label}
+              </a>
+            )
+          )
+        }
+      </nav>
+
+      <!-- Right actions -->
+      <div class="flex items-center gap-2">
+        {
+          site.features.search && (
+            <button
+              type="button"
+              class="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-line bg-surface px-3 py-2 text-sm text-muted transition hover:border-accent/60 hover:text-ink"
+              data-search-open
+              aria-label="Search products"
+            >
+              <Icon name="lucide:search" class="h-4 w-4" />
+              <span class="hidden xl:inline">Search…</span>
+              <span class="kbd hidden xl:inline">Ctrl K</span>
+            </button>
+          )
+        }
+
+        {
+          site.theme.allowToggle && (
+            <button
+              type="button"
+              id="theme-toggle"
+              class="grid h-9 w-9 cursor-pointer place-items-center rounded-lg border border-line text-muted transition hover:border-accent hover:text-accent"
+              aria-label="Toggle dark mode"
+            >
+              <Icon name="lucide:sun" class="hidden h-4 w-4 dark:block" />
+              <Icon name="lucide:moon" class="h-4 w-4 dark:hidden" />
+            </button>
+          )
+        }
+
+        <a href={navigation.cta.href} class="btn btn-accent btn-sm hidden md:inline-flex">{navigation.cta.label}</a>
+
+        <button
+          type="button"
+          class="grid h-9 w-9 cursor-pointer place-items-center rounded-lg border border-line text-ink lg:hidden"
+          aria-label="Open menu"
+          aria-controls="mobile-drawer"
+          aria-expanded="false"
+          data-drawer-open
+        >
+          <Icon name="lucide:menu" class="h-5 w-5" />
+        </button>
+      </div>
+    </div>
+  </Container>
+
+  <!-- Mega menu (desktop) -->
+  <div id="mega-menu" hidden class="absolute inset-x-0 top-full border-b border-line bg-card shadow-pop">
+    <Container class="py-6">
+      <div class="grid grid-cols-2 gap-1.5 md:grid-cols-3 xl:grid-cols-4">
+        {
+          categories.map((c) => (
+            <a href={`/products/${c.slug}`} class="group flex items-center gap-3 rounded-lg p-2.5 transition hover:bg-surface">
+              <span class="grid h-10 w-10 shrink-0 place-items-center rounded-lg bg-accent/10 text-accent-600 transition group-hover:bg-accent group-hover:text-primary dark:text-accent">
+                {c.icon && <Icon name={`lucide:${c.icon}`} class="h-5 w-5" />}
+              </span>
+              <span class="min-w-0">
+                <span class="block truncate text-sm font-semibold text-ink">{c.name}</span>
+                <span class="block text-xs text-muted">{c.count} items</span>
+              </span>
+            </a>
+          ))
+        }
+      </div>
+      <div class="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-line pt-4">
+        <a
+          href="/products"
+          class="inline-flex items-center gap-1.5 text-sm font-semibold text-accent-600 transition hover:text-accent dark:text-accent"
+        >
+          View all products
+          <Icon name="lucide:arrow-right" class="h-4 w-4" />
+        </a>
+        {
+          contact.primary.phone && (
+            <a href={`tel:${contact.primary.phone.replace(/\s/g, '')}`} class="inline-flex items-center gap-2 text-sm text-muted transition hover:text-ink">
+              <Icon name="lucide:phone" class="h-4 w-4" />
+              {contact.primary.phone}
+            </a>
+          )
+        }
+      </div>
+    </Container>
+  </div>
+</header>
+
+<!-- Mobile drawer -->
+<div id="mobile-drawer" hidden class="fixed inset-0 z-50 lg:hidden no-print">
+  <div class="absolute inset-0 bg-primary/60 backdrop-blur-sm" data-drawer-close></div>
+  <aside
+    class="absolute inset-y-0 right-0 flex w-[86%] max-w-sm flex-col bg-card shadow-pop"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Menu"
+  >
+    <div class="flex h-16 shrink-0 items-center justify-between border-b border-line px-4">
+      <span class="flex items-center gap-2.5">
+        {
+          company.logo.icon && <img src={company.logo.icon} alt="" width="32" height="32" class="h-8 w-8" loading="eager" />
+        }
+        <span class="font-display text-base font-bold text-ink">{company.shortName || company.name}</span>
+      </span>
+      <button
+        type="button"
+        class="grid h-9 w-9 cursor-pointer place-items-center rounded-lg border border-line text-ink"
+        aria-label="Close menu"
+        data-drawer-close
+      >
+        <Icon name="lucide:x" class="h-5 w-5" />
+      </button>
+    </div>
+
+    <nav class="flex-1 overflow-y-auto px-4 py-3" aria-label="Mobile">
+      <ul class="flex flex-col">
+        {
+          navigation.header.map((link) =>
+            link.megaMenu === 'products' ? (
+              <li class="border-b border-line">
+                <details>
+                  <summary class="flex cursor-pointer list-none items-center justify-between py-3.5 text-base font-medium text-ink [&::-webkit-details-marker]:hidden">
+                    {link.label}
+                    <Icon name="lucide:chevron-down" class="h-4 w-4 text-muted" />
+                  </summary>
+                  <ul class="pb-3">
+                    <li>
+                      <a href="/products" class="block rounded-md px-3 py-2 text-sm font-semibold text-accent-600 dark:text-accent">
+                        All Products
+                      </a>
+                    </li>
+                    {categories.map((c) => (
+                      <li>
+                        <a
+                          href={`/products/${c.slug}`}
+                          class="flex items-center justify-between rounded-md px-3 py-2 text-sm text-muted transition hover:bg-surface hover:text-ink"
+                        >
+                          {c.name}
+                          <span class="text-xs text-muted/70">{c.count}</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              </li>
+            ) : (
+              <li class="border-b border-line">
+                <a href={link.href} class="block py-3.5 text-base font-medium text-ink">
+                  {link.label}
+                </a>
+              </li>
+            )
+          )
+        }
+      </ul>
+    </nav>
+
+    <div class="shrink-0 space-y-3 border-t border-line px-4 py-4">
+      <a href={navigation.cta.href} class="btn btn-accent w-full">{navigation.cta.label}</a>
+      {
+        whatsAppHref && (
+          <a href={whatsAppHref} target="_blank" rel="noopener" class="btn btn-outline w-full">
+            <Icon name="whatsapp" class="h-4 w-4" />
+            WhatsApp Us
+          </a>
+        )
+      }
+      <p class="pt-1 text-center text-xs text-muted">{contact.primary.hours}</p>
+    </div>
+  </aside>
+</div>
+
+<style>
+  header [data-mega-toggle][aria-expanded='true'] :global(svg) {
+    transform: rotate(180deg);
+  }
+</style>
+
+<script>
+  // ── Theme toggle ─────────────────────────────────────────────────
+  document.getElementById('theme-toggle')?.addEventListener('click', () => {
+    const isDark = document.documentElement.classList.toggle('dark');
+    try {
+      localStorage.setItem('ferrox-theme', isDark ? 'dark' : 'light');
+    } catch {
+      /* private mode */
+    }
+  });
+
+  // ── Mega menu ────────────────────────────────────────────────────
+  const megaToggle = document.querySelector<HTMLElement>('[data-mega-toggle]');
+  const megaPanel = document.getElementById('mega-menu');
+
+  const setMega = (open: boolean) => {
+    if (!megaPanel || !megaToggle) return;
+    megaPanel.hidden = !open;
+    megaToggle.setAttribute('aria-expanded', String(open));
+  };
+
+  megaToggle?.addEventListener('click', () => {
+    if (!megaPanel) return;
+    setMega(megaPanel.hidden);
+  });
+
+  // ── Mobile drawer ────────────────────────────────────────────────
+  const drawer = document.getElementById('mobile-drawer');
+
+  const setDrawer = (open: boolean) => {
+    if (!drawer) return;
+    drawer.hidden = !open;
+    document.body.style.overflow = open ? 'hidden' : '';
+    document.querySelector<HTMLElement>('[data-drawer-open]')?.setAttribute('aria-expanded', String(open));
+  };
+
+  document.querySelector('[data-drawer-open]')?.addEventListener('click', () => setDrawer(true));
+  drawer?.addEventListener('click', (e) => {
+    const target = e.target as HTMLElement;
+    if (target.closest('[data-drawer-close]')) setDrawer(false);
+    if (target.closest('a')) setDrawer(false);
+  });
+
+  // ── Global dismissal ─────────────────────────────────────────────
+  document.addEventListener('click', (e) => {
+    const target = e.target as HTMLElement;
+    if (megaPanel && !megaPanel.hidden && !target.closest('[data-mega-toggle]') && !target.closest('#mega-menu')) {
+      setMega(false);
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      setMega(false);
+      setDrawer(false);
+    }
+  });
+</script>

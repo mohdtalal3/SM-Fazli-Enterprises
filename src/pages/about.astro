@@ -1,0 +1,271 @@
+---
+import { Icon } from 'astro-icon/components';
+import PageLayout from '../layouts/PageLayout.astro';
+import Container from '../components/ui/Container.astro';
+import SectionHeading from '../components/ui/SectionHeading.astro';
+import SmartImage from '../components/ui/SmartImage.astro';
+import { getCompany, getFounder, getTeamMembers, getContact } from '../lib/data';
+
+const company = getCompany();
+const founder = getFounder();
+const team = getTeamMembers();
+const contact = getContact();
+---
+
+<PageLayout
+  title={`About Us | ${company.name}`} heading="About Us"
+  description={company.about.slice(0, 155)}
+  breadcrumbs={[{ name: 'About' }]}
+  eyebrow="About Us"
+  lead={company.tagline}
+>
+  <!-- Story + mission/vision -->
+  <Container>
+    <div class="grid gap-10 lg:grid-cols-[1.15fr_0.85fr]">
+      <div data-reveal>
+        <SectionHeading eyebrow="Our Story" title={`Built on deliveries that show up`} />
+        <div class="mt-5 space-y-4 leading-relaxed text-muted">
+          {
+            (company.story.length ? company.story : [company.about]).map((paragraph) => (
+              <p>{paragraph}</p>
+            ))
+          }
+        </div>
+      </div>
+      <div class="space-y-4" data-reveal style="--rd:1">
+        <div class="card border-l-4 border-l-accent p-6">
+          <h3 class="flex items-center gap-2.5 font-display text-base font-bold text-ink">
+            <Icon name="lucide:target" class="h-5 w-5 text-accent" />
+            Our Mission
+          </h3>
+          <p class="mt-2.5 text-sm leading-relaxed text-muted">{company.mission}</p>
+        </div>
+        <div class="card border-l-4 border-l-accent p-6">
+          <h3 class="flex items-center gap-2.5 font-display text-base font-bold text-ink">
+            <Icon name="lucide:eye" class="h-5 w-5 text-accent" />
+            Our Vision
+          </h3>
+          <p class="mt-2.5 text-sm leading-relaxed text-muted">{company.vision}</p>
+        </div>
+        {
+          company.foundedYear && (
+            <div class="card flex items-center gap-4 p-5">
+              <span class="font-display text-3xl font-bold text-accent">{new Date().getFullYear() - company.foundedYear}</span>
+              <span class="text-sm leading-snug text-muted">
+                years of keeping production lines supplied
+                <span class="block text-xs text-muted/80">Since {company.foundedYear}</span>
+              </span>
+            </div>
+          )
+        }
+      </div>
+    </div>
+  </Container>
+
+  <!-- Values -->
+  {
+    company.values.length > 0 && (
+      <Container class="mt-20">
+        <SectionHeading align="center" eyebrow="Our Values" title="How we work" />
+        <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {company.values.map((value) => (
+            <div class="card card-hover p-6 text-center" data-reveal>
+              {value.icon && (
+                <span class="mx-auto grid h-12 w-12 place-items-center rounded-xl bg-accent/10 text-accent-600 dark:text-accent">
+                  <Icon name={`lucide:${value.icon}`} class="h-6 w-6" />
+                </span>
+              )}
+              <h3 class="mt-4 text-base font-bold text-ink">{value.title}</h3>
+              <p class="mt-2 text-sm leading-relaxed text-muted">{value.description}</p>
+            </div>
+          ))}
+        </div>
+      </Container>
+    )
+  }
+
+  <!-- Founder -->
+  {
+    founder && (
+      <Container class="mt-20">
+        <div class="relative overflow-hidden rounded-2xl bg-primary text-white" data-reveal>
+          <div class="hex-bg absolute inset-0 opacity-60" aria-hidden="true" />
+          <div class="absolute -top-24 -right-16 h-80 w-80 rounded-full bg-accent/15 blur-[100px]" aria-hidden="true" />
+          <div class="relative grid gap-8 p-6 sm:p-10 lg:grid-cols-[auto_1fr]">
+            <div class="mx-auto lg:mx-0">
+              <SmartImage
+                src={founder.photo}
+                alt={founder.name}
+                icon="user"
+                class="h-52 w-52 rounded-2xl object-cover ring-2 ring-accent/70 sm:h-64 sm:w-64"
+              />
+              {founder.socials.length > 0 && (
+                <div class="mt-4 flex justify-center gap-2.5 lg:justify-start">
+                  {founder.socials.map((s) => (
+                    <a
+                      href={s.url}
+                      target={s.url.startsWith('http') ? '_blank' : undefined}
+                      rel={s.url.startsWith('http') ? 'noopener' : undefined}
+                      aria-label={`${founder.name} on ${s.platform}`}
+                      class="grid h-9 w-9 place-items-center rounded-full border border-white/15 text-steel-300 transition hover:border-accent hover:bg-accent hover:text-primary"
+                    >
+                      <Icon name={`lucide:${s.platform}`} class="h-4 w-4" />
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <div>
+              <p class="eyebrow text-accent">{founder.role}</p>
+              <h2 class="mt-3 font-display text-2xl font-bold sm:text-3xl">{founder.name}</h2>
+              {founder.quote && (
+                <blockquote class="mt-4 border-l-2 border-accent pl-4 font-display text-lg leading-snug text-steel-300 italic sm:text-xl">
+                  “{founder.quote}”
+                </blockquote>
+              )}
+              <div class="mt-5 space-y-3.5 text-sm leading-relaxed text-steel-300 sm:text-[15px]">
+                {founder.bio.map((paragraph) => (
+                  <p>{paragraph}</p>
+                ))}
+              </div>
+
+              {founder.expertise.length > 0 && (
+                <div class="mt-6 flex flex-wrap gap-2">
+                  {founder.expertise.map((tag) => (
+                    <span class="rounded-full border border-white/15 bg-white/5 px-3 py-1.5 text-xs font-medium text-steel-300">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+
+        {/* Experience timeline + education */}
+        <div class="mt-10 grid gap-10 lg:grid-cols-[1.4fr_0.6fr]">
+          <div data-reveal>
+            <h3 class="font-display text-xl font-bold text-ink">Experience</h3>
+            <ol class="relative mt-6 space-y-8 border-l-2 border-line pl-6">
+              {founder.experience.map((job) => (
+                <li class="relative">
+                  <span class="absolute top-1 -left-[31px] h-2.5 w-2.5 rounded-full border-2 border-accent bg-card" />
+                  <p class="text-xs font-bold tracking-wide text-accent-600 uppercase dark:text-accent">{job.period}</p>
+                  <h4 class="mt-1 text-base font-bold text-ink">{job.title}</h4>
+                  {job.organization && <p class="text-sm font-medium text-muted">{job.organization}</p>}
+                  {job.description && <p class="mt-1.5 text-sm leading-relaxed text-muted">{job.description}</p>}
+                </li>
+              ))}
+            </ol>
+          </div>
+
+          <div class="space-y-6" data-reveal style="--rd:1">
+            {founder.education.length > 0 && (
+              <div>
+                <h3 class="font-display text-xl font-bold text-ink">Education</h3>
+                <ul class="mt-4 space-y-3">
+                  {founder.education.map((edu) => (
+                    <li class="card p-4">
+                      <p class="text-sm font-semibold text-ink">{edu.degree}</p>
+                      <p class="mt-0.5 text-xs text-muted">
+                        {edu.institution}
+                        {edu.year && ` · ${edu.year}`}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {founder.experienceYears && (
+              <div class="card flex items-center gap-4 p-5">
+                <span class="font-display text-3xl font-bold text-accent">{founder.experienceYears}+</span>
+                <span class="text-sm leading-snug text-muted">years in industrial supply & procurement</span>
+              </div>
+            )}
+          </div>
+        </div>
+      </Container>
+    )
+  }
+
+  {/* Team */}
+  {
+    team.length > 0 && (
+      <Container class="mt-20">
+        <SectionHeading eyebrow="Our Team" title="The people behind the promises" description="Small team, short lines of communication — you always talk to someone who can actually help." />
+        <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {team.map((member) => (
+            <article class="card card-hover overflow-hidden" data-reveal>
+              <SmartImage src={member.photo} alt={member.name} icon="user" class="aspect-[4/3] w-full object-cover" />
+              <div class="p-5">
+                <h3 class="text-base font-bold text-ink">{member.name}</h3>
+                <p class="text-sm font-medium text-accent-600 dark:text-accent">{member.role}</p>
+                <p class="mt-2.5 text-sm leading-relaxed text-muted">{member.shortBio}</p>
+                {member.expertise.length > 0 && (
+                  <div class="mt-3.5 flex flex-wrap gap-1.5">
+                    {member.expertise.map((tag) => (
+                      <span class="rounded-full bg-surface px-2.5 py-1 text-[11px] font-medium text-muted">{tag}</span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </article>
+          ))}
+        </div>
+      </Container>
+    )
+  }
+
+  {/* Milestones */}
+  {
+    company.milestones.length > 0 && (
+      <Container class="mt-20">
+        <SectionHeading eyebrow="Milestones" title="Fifteen years, one direction" />
+        <ol class="relative mt-10 max-w-2xl space-y-10 border-l-2 border-line pl-8">
+          {company.milestones.map((milestone) => (
+            <li class="relative" data-reveal>
+              <span class="absolute top-1 -left-[41px] grid h-5 w-5 place-items-center rounded-full border-2 border-accent bg-card">
+                <span class="h-1.5 w-1.5 rounded-full bg-accent" />
+              </span>
+              <p class="font-display text-2xl font-bold text-primary dark:text-white">{milestone.year}</p>
+              <h3 class="mt-1 text-base font-bold text-ink">{milestone.title}</h3>
+              {milestone.description && <p class="mt-1 text-sm leading-relaxed text-muted">{milestone.description}</p>}
+            </li>
+          ))}
+        </ol>
+      </Container>
+    )
+  }
+
+  {/* Certifications */}
+  {
+    company.certifications.length > 0 && (
+      <Container class="mt-20">
+        <SectionHeading eyebrow="Certifications" title="Certified quality systems" />
+        <div class="mt-10 flex flex-wrap gap-4">
+          {company.certifications.map((cert) => (
+            <div class="card flex items-center gap-4 p-5 pr-8" data-reveal>
+              <SmartImage
+                src={cert.image}
+                alt={cert.name}
+                icon="award"
+                class="h-16 w-16 rounded-xl object-contain"
+              />
+              <div>
+                <p class="font-display font-bold text-ink">{cert.name}</p>
+                <p class="text-xs text-muted">Certified quality management</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <p class="mt-6 text-sm text-muted">
+          Questions about documentation or compliance? Write to
+          <a href={`mailto:${contact.primary.email}`} class="font-semibold text-accent-600 hover:underline dark:text-accent">
+            {contact.primary.email}
+          </a>.
+        </p>
+      </Container>
+    )
+  }
+</PageLayout>

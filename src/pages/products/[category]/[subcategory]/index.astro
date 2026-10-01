@@ -1,0 +1,122 @@
+---
+import { Icon } from 'astro-icon/components';
+import PageLayout from '../../../../layouts/PageLayout.astro';
+import Container from '../../../../components/ui/Container.astro';
+import ProductCard from '../../../../components/products/ProductCard.astro';
+import { getCompany, getCategories } from '../../../../lib/data';
+import type { Category, Subcategory } from '../../../../lib/schemas';
+
+interface Props {
+  category: Category;
+  subcategory: Subcategory;
+}
+
+const company = getCompany();
+
+export function getStaticPaths() {
+  return getCategories().flatMap((category) =>
+    category.subcategories.map((subcategory) => ({
+      params: { category: category.slug, subcategory: subcategory.slug },
+      props: { category, subcategory },
+    }))
+  );
+}
+
+const { category, subcategory } = Astro.props as Props;
+const siblingBase = `/products/${category.slug}`;
+---
+
+<PageLayout
+  title={`${subcategory.name} — ${category.name} | ${company.name}`} heading={subcategory.name}
+  description={
+    subcategory.description ||
+    `Browse ${subcategory.name.toLowerCase()} in the ${category.name} category, supplied by ${company.name}.`
+  }
+  breadcrumbs={[
+    { name: 'Products', url: '/products' },
+    { name: category.name, url: siblingBase },
+    { name: subcategory.name },
+  ]}
+  eyebrow={category.name}
+  lead={
+    subcategory.description ||
+    `${subcategory.items.length} ${subcategory.items.length === 1 ? 'item' : 'items'} available. Add items to your inquiry list and request one consolidated quote.`
+  }
+>
+  <Container slot="header-extra">
+    <div class="mt-6 flex flex-wrap gap-2" data-reveal>
+      {
+        category.subcategories.map((sub) => (
+          <a
+            href={`${siblingBase}/${sub.slug}`}
+            class:list={['chip', { 'is-active': sub.slug === subcategory.slug }]}
+            aria-current={sub.slug === subcategory.slug ? 'page' : undefined}
+          >
+            {sub.name}
+          </a>
+        ))
+      }
+    </div>
+  </Container>
+
+  <Container>
+    <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between" data-reveal>
+      <p class="text-sm text-muted" id="item-count">
+        {subcategory.items.length} {subcategory.items.length === 1 ? 'item' : 'items'}
+      </p>
+      <div class="relative w-full sm:max-w-xs">
+        <Icon name="lucide:search" class="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-muted" />
+        <input
+          id="item-search"
+          type="search"
+          placeholder={`Search ${subcategory.name.toLowerCase()}…`}
+          class="input pl-9"
+          aria-label={`Search ${subcategory.name}`}
+        />
+      </div>
+    </div>
+
+    <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      {
+        subcategory.items.map((item) => (
+          <ProductCard item={item} category={category} subcategory={subcategory} showSub={false} />
+        ))
+      }
+    </div>
+
+    <p id="item-empty" hidden class="mt-12 text-center text-sm text-muted">
+      No items match your search.
+    </p>
+
+    <!-- Subcategory CTA -->
+    <div class="mt-16 flex flex-col items-center justify-between gap-4 rounded-2xl border border-line bg-card p-6 sm:flex-row sm:p-8" data-reveal>
+      <div>
+        <h2 class="font-display text-xl font-bold text-ink">Buying {subcategory.name.toLowerCase()} in bulk?</h2>
+        <p class="mt-1 text-sm text-muted">Volume pricing and scheduled deliveries available across Pakistan.</p>
+      </div>
+      <a href={`/quote?category=${category.slug}`} class="btn btn-accent shrink-0">
+        Request a Quote
+        <Icon name="lucide:arrow-right" class="h-4 w-4" />
+      </a>
+    </div>
+  </Container>
+</PageLayout>
+
+<script>
+  const input = document.getElementById('item-search') as HTMLInputElement | null;
+  const cards = Array.from(document.querySelectorAll<HTMLElement>('[data-product-name]'));
+  const emptyMsg = document.getElementById('item-empty');
+  const countEl = document.getElementById('item-count');
+
+  input?.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    let visible = 0;
+    for (const card of cards) {
+      const match = !q || (card.dataset.productName ?? '').includes(q);
+      card.classList.toggle('hidden', !match);
+      if (match) visible++;
+    }
+    if (emptyMsg) emptyMsg.hidden = visible > 0;
+    if (countEl) countEl.textContent = `${visible} found`;
+  });
+</script>

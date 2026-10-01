@@ -1,0 +1,28 @@
+{
+  "siteName": "Ferrox Industrial Supply Co.",
+  "siteUrl": "https://www.example.com",
+  "defaultTitle": "Ferrox Industrial Supply Co. | Industrial Materials & Components",
+  "defaultDescription": "Supplier of industrial chemicals, paints, fasteners, stainless steel, PTFE, rubber, oils and more. 1,500+ products, one trusted partner. Request a bulk quote today.",
+  "ogImage": "/images/og-default.svg",
+  "language": "en",
+  "theme": {
+    "defaultMode": "light",
+    "allowToggle": true
+  },
+  "inquiry": {
+    "method": ["whatsapp", "email"],
+    "whatsappNumber": "923000000000",
+    "email": "sales@ferroxindustrial.example",
+    "formEndpoint": ""
+  },
+  "features": {
+    "search": true,
+    "inquiryList": true,
+    "floatingWhatsapp": true,
+    "testimonials": true
+  },
+  "credit": {
+    "text": "Made by Elyptra",
+    "url": "https://www.elyptra.com"
+  }
+}
